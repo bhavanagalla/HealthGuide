@@ -1,0 +1,236 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsM"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="649*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="24" Height="2989" Width="1230">
+        		<Run Text="Migraine Headache Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. Treat Symptoms"/>
+        		<LineBreak/>
+        		<Run Text="Have the person rest in a cool, dark room."/>
+        		<LineBreak/>
+        		<Run Text="Apply a cool compress or ice pack to the painful area."/>
+        		<LineBreak/>
+        		<Run Text="Massage the scalp."/>
+        		<LineBreak/>
+        		<Run Text="Give acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) for pain. Discuss with a doctor which medications would be best if the person has liver or kidney disease or heart failure."/>
+        		<LineBreak/>
+        		<Run Text="2. When to Seek Medical Help"/>
+        		<LineBreak/>
+        		<Run Text="See a health care provider if the headache persists or recurs."/>
+        		<LineBreak/>
+        		<Run Text="See a health care provider immediately or go to a hospital emergency room for a headache with stiff neck, fever, vomiting, or numbness or weakness in limbs or if the person has trouble speaking."/>
+        		<LineBreak/>
+        		<Run Text="3. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="If you seek medical help:"/>
+        		<LineBreak/>
+        		<Run Text="The health care provider will do an exam and may recommend treatment or lifestyle changes to prevent migraines."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Treating Migraine Headaches in Children"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if:"/>
+        		<LineBreak/>
+        		<Run Text="You can't wake up the child."/>
+        		<LineBreak/>
+        		<Run Text="The child has slurred speech, confusion, weakness in limbs, or trouble walking."/>
+        		<LineBreak/>
+        		<Run Text="The headache is the worst the child's ever had."/>
+        		<LineBreak/>
+        		<Run Text="1. Treat Symptoms"/>
+        		<LineBreak/>
+        		<Run Text="If migraines have already been diagnosed by your child's pediatrician, treat as follows. Any other headaches need to be evaluated by the doctor."/>
+        		<LineBreak/>
+        		<Run Text="Give ibuprofen (Advil, Motrin) or acetaminophen (Tylenol) for pain."/>
+        		<LineBreak/>
+        		<Run Text="Apply cool compress to forehead."/>
+        		<LineBreak/>
+        		<Run Text="Have the child take deep, calming breaths."/>
+        		<LineBreak/>
+        		<Run Text="Have the child lie down in a cool, dark room."/>
+        		<LineBreak/>
+        		<Run Text="2. When to Seek Medical Help"/>
+        		<LineBreak/>
+        		<Run Text="See a doctor if headache comes back, gets worse, or lasts more than 12 hours."/>
+        		<LineBreak/>
+        		<Run Text="See a doctor immediately for severe headache with fever, vomiting, or stiff neck."/>
+        		<LineBreak/>
+        		<Run Text="If your child's head was injured prior to the headache, see a doctor."/>
+        		<LineBreak/>
+        		<Run Text="If you feel that your child is not looking well or are concerned, see your child's doctor."/>
+        		<LineBreak/>
+        		<Run Text="3. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="If you seek medical help:"/>
+        		<LineBreak/>
+        		<Run Text="The doctor will do an exam and may recommend medications, stress reduction techniques, or lifestyle changes to help prevent future migraines."/>
+        		<LineBreak/>
+        		<Run Text="For severe headache with stiff neck and other symptoms, the doctor will examine the child for meningitis or other serious illnesses."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Miscarriage Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance or go to the emergency room if a pregnant woman has:"/>
+        		<LineBreak/>
+        		<Run Text="Heavy bleeding"/>
+        		<LineBreak/>
+        		<Run Text="Severe pain"/>
+        		<LineBreak/>
+        		<Run Text="Call a doctor if a pregnant woman has:"/>
+        		<LineBreak/>
+        		<Run Text="Abdominal pain"/>
+        		<LineBreak/>
+        		<Run Text="Back pain"/>
+        		<LineBreak/>
+        		<Run Text="Bleeding that progresses from light to heavy"/>
+        		<LineBreak/>
+        		<Run Text="Cramps"/>
+        		<LineBreak/>
+        		<Run Text="Fever"/>
+        		<LineBreak/>
+        		<Run Text="Vomiting"/>
+        		<LineBreak/>
+        		<Run Text="Weakness"/>
+        		<LineBreak/>
+        		<Run Text="The doctor will tell you whether to come to the office or seek emergency help."/>
+        		<LineBreak/>
+        		<Run Text="Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="The doctor will do a pelvic exam and ultrasound to confirm miscarriage. The next steps depend on the individual case:"/>
+        		<LineBreak/>
+        		<Run Text="If miscarriage is complete and uterus is clear or if it is very early in the pregnancy, there is usually no further treatment."/>
+        		<LineBreak/>
+        		<Run Text="If some fetal or placental tissue remains in the uterus, the doctor will recommend treatment with drugs or surgery."/>
+        		<LineBreak/>
+        		<Run Text="If it is later in the pregnancy and the fetus has died in the womb, the doctor may induce labor and delivery."/>
+        		<LineBreak/>
+        		<Run Text="If the pregnancy is healthy despite bleeding, the doctor will monitor the woman closely."/>
+        		<LineBreak/>
+        		<Run Text="Mild discomfort and spotting are common after miscarriage."/>
+        		<LineBreak/>
+        		<Run Text="Call the doctor immediately for signs of infection after a miscarriage: heavy bleeding, fever, chills, or pain."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Muscle Strain Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if:"/>
+        		<LineBreak/>
+        		<Run Text="There's significant swelling, pain, fever, bleeding, or open cuts."/>
+        		<LineBreak/>
+        		<Run Text="The person heard a popping-sound or can't walk, and there is no other way that they can safely and quickly be transported to a medical facility."/>
+        		<LineBreak/>
+        		<Run Text="1. Control Swelling and Prevent Further Injury With PRICE"/>
+        		<LineBreak/>
+        		<Run Text="Protect by applying an elastic bandage, sling, or splint."/>
+        		<LineBreak/>
+        		<Run Text="Rest the muscle for at least a day."/>
+        		<LineBreak/>
+        		<Run Text="Ice immediately, and continue to ice for 10 to 15 minutes every hour, for 2-3 days."/>
+        		<LineBreak/>
+        		<Run Text="Compress by gently wrapping with an Ace or other elastic bandage. (Don't wrap tightly.)"/>
+        		<LineBreak/>
+        		<Run Text="Elevate injured area above the person's heart level, if possible, for at least 24 hours."/>
+        		<LineBreak/>
+        		<Run Text="2. Manage Pain and Inflammation"/>
+        		<LineBreak/>
+        		<Run Text="Take an over-the-counter pain medication like aspirin or ibuprofen (Advil, Motrin). Do not give aspirin to anyone under age 18."/>
+        		<LineBreak/>
+        		<Run Text="3. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="Elevate and ice the area every 3 to 4 hours after the first day."/>
+        		<LineBreak/>
+        		<Run Text="4. When to Call a Doctor"/>
+        		<LineBreak/>
+        		<Run Text="Call a health care provider if:"/>
+        		<LineBreak/>
+        		<Run Text="After a day or two the person can't move or put weight on the affected area."/>
+        		<LineBreak/>
+        		<Run Text="The injured area is cool, pale, or changes color."/>
+        		<LineBreak/>
+        		<Run Text="There is tingling or numbness."/>
+        		<LineBreak/>
+        		<Run Text="There is new or severe pain."/>
+        		<LineBreak/>
+        		<Run Text="The person needs advice on how (and how soon) to resume normal exercise and activity."/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

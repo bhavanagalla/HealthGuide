@@ -1,0 +1,130 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.Dietchartforbabies3"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="324*"/>
+            <ColumnDefinition Width="324*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="4">
+            <Grid.Background>
+                <ImageBrush ImageSource="Assets/black.png"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Diet Chart for Babies" Style="{StaticResource PageHeaderTextStyle}"/>
+            <Button Content="Home" Grid.Column="1" HorizontalAlignment="Left" Margin="1076,78,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        </Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="578" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="638" Opacity="0.3" Grid.Column="1" Margin="0,10,0,0"/>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="578" Margin="10,10,0,0" Grid.Row="1" Stroke="Black" VerticalAlignment="Top" Width="628" Opacity="0.3"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="10,28,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="560" Width="611" FontFamily="Segoe UI Light" FontSize="24">
+        	<Run FontSize="36" Text="Eight to Ten(8-10)Months Old"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Cereals and Grains: Flax - Graham crackers - Kamut - Quinoa - Millet - Multi-grain crackers - Cheerio's - Wheat and Eheat germ - Toast"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Fruits: Blueberries - Cantaloupe and Melons - Cherries - Cranberries - Dates - Figs - Grapes(peeled and mashed into other foods only). - Kiwi - Papaya"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Vegetables: Asparagus - Broccoli - Cauliflower Eggplant - White Potatoes - Onions, Peppers, Leeks, Mushrooms, Parsnips"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Protein: Egg Yolks - Beans/Legumes - Beef - Pork - Ham (natural Ham only!)"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Dairy: Cream Cheese - Cottage Cheese - Colby -Jack - Cheddars (no soft cheeses such as Brie!)"/>
+        </TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="1" TextWrapping="Wrap" Margin="30,28,28,60" FontFamily="Segoe UI Light" FontSize="24">
+        	<Run FontSize="36" Text="Ten to Twelve(10 -12) Months Old"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Cereals and Grains: Pastas - Wheat Cereals - Bagels"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Fruits: Berries - Cherries - Citrus - Dates - Grapes*(cut in 1/4 or in a Baby Safe Feeder)"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Vegetables: Artichokes - Beets - Corn - Cucumbers - Spinach - Tomatoes(acidic, not an allergen!)"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Protein : Whole Eggs(12 months) - Fish (white Fish such as Cod, Haddock)"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="Dairy: Whole Eggs (12 months) - Stronger Cheddars - Gouda - Monterey Jack - Muenster - Provolone - Swiss (soft cheeses after 12 months!)"/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

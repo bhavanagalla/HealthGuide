@@ -1,0 +1,580 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsS2"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="645*"/>
+            <ColumnDefinition Width="19*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Height="10300" Width="1222" FontFamily="Segoe UI Light" FontSize="24">
+        		<Run Text="Snakebite Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if: "/>
+        		<LineBreak/>
+        		<Run Text="There is any chance that the snake is venomous"/>
+        		<LineBreak/>
+        		<Run Text="1. Note the Snake's Appearance"/>
+        		<LineBreak/>
+        		<Run Text="Be ready to describe the snake to emergency staff."/>
+        		<LineBreak/>
+        		<Run Text="2. Protect the Person"/>
+        		<LineBreak/>
+        		<Run Text="While waiting for medical help:"/>
+        		<LineBreak/>
+        		<Run Text="Move the person beyond striking distance of the snake."/>
+        		<LineBreak/>
+        		<Run Text="Have the person lie down with wound below the heart."/>
+        		<LineBreak/>
+        		<Run Text="Keep the person still to keep venom from spreading."/>
+        		<LineBreak/>
+        		<Run Text="Cover the wound with loose, sterile bandage."/>
+        		<LineBreak/>
+        		<Run Text="Do not:"/>
+        		<LineBreak/>
+        		<Run Text="Cut a bite wound"/>
+        		<LineBreak/>
+        		<Run Text="Attempt to suck out venom"/>
+        		<LineBreak/>
+        		<Run Text="Apply tourniquet, ice, or water"/>
+        		<LineBreak/>
+        		<Run Text="Give the person alcohol or caffeinated drinks"/>
+        		<LineBreak/>
+        		<Run Text="3. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="If you treat the bite at home:"/>
+        		<LineBreak/>
+        		<Run Text="Contact a health care provider. The person may need a tetanus shot. Tetanus boosters should be given every 10 years."/>
+        		<LineBreak/>
+        		<Run Text="At the hospital, treatment will depend on the type of snake."/>
+        		<LineBreak/>
+        		<Run Text="If the snake was venomous, the person will be given anti-venom treatment."/>
+        		<LineBreak/>
+        		<Run Text="A tetanus shot may be given, depending on date of last injection."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Splinters Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. Clean Wound"/>
+        		<LineBreak/>
+        		<Run Text="Clean the area with mild soap and water."/>
+        		<LineBreak/>
+        		<Run Text="2. Care for a Tiny Splinter"/>
+        		<LineBreak/>
+        		<Run Text="If it doesn't hurt, let the splinter work its way out over a few days."/>
+        		<LineBreak/>
+        		<Run Text="If it does hurt, touch the area gently with sticky tape and pull away carefully. If this doesn't work, try hair removal wax."/>
+        		<LineBreak/>
+        		<Run Text="3. Remove Larger Splinter"/>
+        		<LineBreak/>
+        		<Run Text="Clean a small needle and tweezers with alcohol."/>
+        		<LineBreak/>
+        		<Run Text="If you can see the end of the splinter, grip it with the tweezers and gently pull out the entire splinter."/>
+        		<LineBreak/>
+        		<Run Text="If none of the splinter is sticking out, follow the path of the splinter with the needle. Open the skin and expose enough of the splinter to remove it with tweezers."/>
+        		<LineBreak/>
+        		<Run Text="If you have trouble seeing the splinter, use stronger lighting and a magnifying glass."/>
+        		<LineBreak/>
+        		<Run Text="Clean wound area again. Apply a bandage and antibiotic ointment."/>
+        		<LineBreak/>
+        		<Run Text="4. When to Call a Health Care Provider"/>
+        		<LineBreak/>
+        		<Run Text="Most splinters do not need the care of a health care provider."/>
+        		<LineBreak/>
+        		<Run Text="See a health care provider if:"/>
+        		<LineBreak/>
+        		<Run Text="You can't remove the entire splinter."/>
+        		<LineBreak/>
+        		<Run Text="The splinter is deep in the skin or the wound is bleeding heavily."/>
+        		<LineBreak/>
+        		<Run Text="The splinter is under a fingernail or toenail. The health care provider may need to cut a notch in the nail to remove the splinter."/>
+        		<LineBreak/>
+        		<Run Text="5. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="Ask the health care provider if a tetanus booster is needed."/>
+        		<LineBreak/>
+        		<Run Text="Watch for any signs of infection: redness, increasing pain, swelling, or pus at the site. Call a health care provider if you see any of these signs."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Sprains and Strains Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. Control Swelling With RICE Therapy"/>
+        		<LineBreak/>
+        		<Run Text="RICE stands for:"/>
+        		<LineBreak/>
+        		<Run Text="Rest the sprained or strained area. If necessary, use a sling for an arm injury or crutches for a leg or foot injury. Splint an injured finger or toe by taping it to an adjacent finger or toe."/>
+        		<LineBreak/>
+        		<Run Text="Ice for 20 minutes every hour. Never put ice directly against the skin or it may damage the skin. Use a thin cloth for protection."/>
+        		<LineBreak/>
+        		<Run Text="Compress by wrapping an elastic (Ace) bandage or sleeve lightly (not tightly) around the joint or limb. Specialized braces, such as for the ankle, can work better than an elastic bandage for removing the swelling."/>
+        		<LineBreak/>
+        		<Run Text="Elevate the area above heart level."/>
+        		<LineBreak/>
+        		<Run Text="2. Manage Pain and Inflammation"/>
+        		<LineBreak/>
+        		<Run Text="Give an over-the-counter NSAID (non-steroidal anti-inflammatory drug) like ibuprofen (Advil, Motrin), acetaminophen (Tylenol), or aspirin. Do not give aspirin to anyone under age 18."/>
+        		<LineBreak/>
+        		<Run Text="3. See a Doctor"/>
+        		<LineBreak/>
+        		<Run Text="All but the most minor strains and sprains should be evaluated by a doctor. Consult a doctor as soon as possible if there are symptoms of a possible broken bone:"/>
+        		<LineBreak/>
+        		<Run Text="There is a &quot;popping&quot; sound with the injury."/>
+        		<LineBreak/>
+        		<Run Text="The person can't move the injured joint or limb."/>
+        		<LineBreak/>
+        		<Run Text="The limb buckles when the injured joint is used."/>
+        		<LineBreak/>
+        		<Run Text="There is numbness."/>
+        		<LineBreak/>
+        		<Run Text="There is significant swelling, pain, fever, or open cuts."/>
+        		<LineBreak/>
+        		<Run Text="4. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="Continue RICE for 24 to 48 hours, or until the person sees a doctor."/>
+        		<LineBreak/>
+        		<Run Text="The doctor may want to do X-rays or an MRI to diagnose a severe sprain or strain or rule out a broken bone."/>
+        		<LineBreak/>
+        		<Run Text="The doctor may need to immobilize the limb or joint with a splint, cast, or other device until healing is complete. Physical therapy can often be helpful to bring an injured joint back to normal."/>
+        		<LineBreak/>
+        		<Run Text="In severe cases, surgery may be needed."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Stingray Injury Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if the person has symptoms of a severe allergic reaction, such as:"/>
+        		<LineBreak/>
+        		<Run Text="Difficulty breathing"/>
+        		<LineBreak/>
+        		<Run Text="Tightness in throat"/>
+        		<LineBreak/>
+        		<Run Text="Itching"/>
+        		<LineBreak/>
+        		<Run Text="Nausea"/>
+        		<LineBreak/>
+        		<Run Text="Fast pulse"/>
+        		<LineBreak/>
+        		<Run Text="Dizziness"/>
+        		<LineBreak/>
+        		<Run Text="Loss of consciousness"/>
+        		<LineBreak/>
+        		<Run Text="1. Bathe Wound in Seawater"/>
+        		<LineBreak/>
+        		<Run Text="While still in water, irrigate wound to remove fragments of spine and tissue."/>
+        		<LineBreak/>
+        		<Run Text="Get the person out of the water."/>
+        		<LineBreak/>
+        		<Run Text="2. Stop Bleeding"/>
+        		<LineBreak/>
+        		<Run Text="Apply pressure above the wound if it is bleeding."/>
+        		<LineBreak/>
+        		<Run Text="3. Soak Wound in Hot Water Until Bleeding Stops"/>
+        		<LineBreak/>
+        		<Run Text="Hot water inactivates any remaining venom and may relieve pain."/>
+        		<LineBreak/>
+        		<Run Text="Apply a hot pack if the wound is still bleeding."/>
+        		<LineBreak/>
+        		<Run Text="Gently remove obvious pieces of spine. Do not remove pieces of spine from the neck, chest, or abdomen."/>
+        		<LineBreak/>
+        		<Run Text="4. Scrub Wound"/>
+        		<LineBreak/>
+        		<Run Text="Clean with soap and water."/>
+        		<LineBreak/>
+        		<Run Text="Apply dressing. Do not tape it closed."/>
+        		<LineBreak/>
+        		<Run Text="5. Go to a Hospital Emergency Room"/>
+        		<LineBreak/>
+        		<Run Text="6. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="At the hospital, the barb and remnants of stingray spine will be removed."/>
+        		<LineBreak/>
+        		<Run Text="X-rays may be done."/>
+        		<LineBreak/>
+        		<Run Text="A tetanus shot may be administered, if necessary."/>
+        		<LineBreak/>
+        		<Run Text="An antibiotic and pain reliever may be prescribed."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Stomachache and Nausea (Children)"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if:"/>
+        		<LineBreak/>
+        		<Run Text="The child isn't moving."/>
+        		<LineBreak/>
+        		<Run Text="The child is too weak to stand up."/>
+        		<LineBreak/>
+        		<Run Text="Knowing that a child has a stomachache or nausea can be hard, but pain lessens within two hours in most cases."/>
+        		<LineBreak/>
+        		<Run Text="Call Doctor If:"/>
+        		<LineBreak/>
+        		<Run Text="The child has a stomachache and any of the following:"/>
+        		<LineBreak/>
+        		<Run Text="Pain that happens more often or gets worse"/>
+        		<LineBreak/>
+        		<Run Text="Pain that moves from the belly button to the lower right of the abdomen"/>
+        		<LineBreak/>
+        		<Run Text="Trouble walking because of pain"/>
+        		<LineBreak/>
+        		<Run Text="No appetite for a day or longer"/>
+        		<LineBreak/>
+        		<Run Text="Green or yellow vomit"/>
+        		<LineBreak/>
+        		<Run Text="Symptoms of dehydration such as darker urine and fewer wet diapers"/>
+        		<LineBreak/>
+        		<Run Text="Black or bloody stool"/>
+        		<LineBreak/>
+        		<Run Text="Problems passing stool"/>
+        		<LineBreak/>
+        		<Run Text="A rash that looks like bruises on the legs and buttocks"/>
+        		<LineBreak/>
+        		<Run Text="Headache and sore throat along with stomach pain"/>
+        		<LineBreak/>
+        		<Run Text="Pain when urinating"/>
+        		<LineBreak/>
+        		<Run Text="Treating Symptoms of Your Child's Stomachache"/>
+        		<LineBreak/>
+        		<Run Text="Have the child lie down and rest."/>
+        		<LineBreak/>
+        		<Run Text="Give clear fluids such as water or flat soda."/>
+        		<LineBreak/>
+        		<Run Text="Keep a container nearby in case the child vomits."/>
+        		<LineBreak/>
+        		<Run Text="If the child vomits more than once, watch for signs of dehydration, such as decreased urination or dry diapers, dry lips, and crying without tears."/>
+        		<LineBreak/>
+        		<Run Text="If you think the child could be constipated, put him on the toilet. Passing a stool may ease the pain."/>
+        		<LineBreak/>
+        		<Run Text="Sit the child in warm water to help release a stool if you think the child is constipated."/>
+        		<LineBreak/>
+        		<Run Text="Avoid giving ibuprofen (Advil, Motrin), pain medicine, or laxatives."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Stroke Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if the person has:"/>
+        		<LineBreak/>
+        		<Run Text="Numbness or weakness of the face, arm, or legs -- especially on just one side of the body"/>
+        		<LineBreak/>
+        		<Run Text="Slurred or unusual speech"/>
+        		<LineBreak/>
+        		<Run Text="Trouble seeing in one or both eyes"/>
+        		<LineBreak/>
+        		<Run Text="Trouble walking, dizziness, or balance problems"/>
+        		<LineBreak/>
+        		<Run Text="Sudden confusion"/>
+        		<LineBreak/>
+        		<Run Text="Severe headache"/>
+        		<LineBreak/>
+        		<Run Text="Numbness or weakness of the face, arm, or legs -- especially on just one side of the body"/>
+        		<LineBreak/>
+        		<Run Text="Slurred or unusual speech"/>
+        		<LineBreak/>
+        		<Run Text="Trouble seeing in one or both eyes"/>
+        		<LineBreak/>
+        		<Run Text="Trouble walking, dizziness, or balance problems"/>
+        		<LineBreak/>
+        		<Run Text="Sudden confusion"/>
+        		<LineBreak/>
+        		<Run Text="Severe headache"/>
+        		<LineBreak/>
+        		<Run Text="1. Note Time When Symptoms First Appeared"/>
+        		<LineBreak/>
+        		<Run Text="Tell emergency personnel the exact time when you first noticed symptoms."/>
+        		<LineBreak/>
+        		<Run Text="Depending on the type of stroke, there is a medicine that may reduce long-term effects if given within four and a half hours of the first symptom appearing. Sooner is better."/>
+        		<LineBreak/>
+        		<Run Text="If the person is diabetic, check the blood glucose (sugar) level. Treat low glucose with a glucose tablet, glass of orange juice or other sugary drink or food, or a glucagon injection (if the person is not able to swallow)."/>
+        		<LineBreak/>
+        		<Run Text="2. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="At the hospital, a doctor will examine the person and run tests to see if the stroke was caused by clots or from bleeding in the brain. Tests may include an MRI or a CT scan."/>
+        		<LineBreak/>
+        		<Run Text="Treatment may include medication, lifestyle changes, and possibly surgery."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Transient Ischemic Attack Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if the person has any of the following symptoms :"/>
+        		<LineBreak/>
+        		<Run Text="Numbness or weakness of the face, arm, or legs -- especially on just one side of the body"/>
+        		<LineBreak/>
+        		<Run Text="Slurred or unusual speech"/>
+        		<LineBreak/>
+        		<Run Text="Trouble seeing in one or both eyes"/>
+        		<LineBreak/>
+        		<Run Text="Trouble walking, dizziness, or balance problems"/>
+        		<LineBreak/>
+        		<Run Text="Sudden confusion"/>
+        		<LineBreak/>
+        		<Run Text="Severe headache"/>
+        		<LineBreak/>
+        		<Run Text="1. Note Time When Symptoms First Appeared"/>
+        		<LineBreak/>
+        		<Run Text="Tell emergency personnel the exact time when you first noticed symptoms."/>
+        		<LineBreak/>
+        		<Run Text="If the person is having a stroke instead of a transient ischemic attack (TIA), there is a medicine that may reduce long-term effects if given within four and a half hours of the first symptom appearing. Sooner is better."/>
+        		<LineBreak/>
+        		<Run Text="If the person is diabetic, check the blood glucose (sugar) level. Treat low glucose with a glucose tablet, glass of orange juice or other sugary drink or food, or a glucagon injection if the person is not able to swallow."/>
+        		<LineBreak/>
+        		<Run Text="2. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="A doctor will examine the person and run tests to confirm TIA. Tests may include an MRI or a CT scan."/>
+        		<LineBreak/>
+        		<Run Text="Treatment may include medication, lifestyle changes, and possibly surgery to reduce the risk of stroke."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Stye Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. Treat Symptoms"/>
+        		<LineBreak/>
+        		<Run Text="Most styes go away on their own in about a week."/>
+        		<LineBreak/>
+        		<Run Text="Apply a warm compress for 5 to 10 minutes several times a day. Use a clean washcloth or towel soaked in warm water. Keep eyes closed."/>
+        		<LineBreak/>
+        		<Run Text="2. Protect Against Infection"/>
+        		<LineBreak/>
+        		<Run Text="Keep the area clean and avoid touching or rubbing the eyes."/>
+        		<LineBreak/>
+        		<Run Text="Don't squeeze the sty."/>
+        		<LineBreak/>
+        		<Run Text="Don't use eye make-up or wear contact lenses."/>
+        		<LineBreak/>
+        		<Run Text="3. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="In most cases, styes don't require medical care. Call your health care provider if:"/>
+        		<LineBreak/>
+        		<Run Text="The stye doesn't heal in a week or 10 days."/>
+        		<LineBreak/>
+        		<Run Text="The stye becomes more painful or swollen after several days of home treatment."/>
+        		<LineBreak/>
+        		<Run Text="The person also has fever or chills."/>
+        		<LineBreak/>
+        		<Run Text="The person develops vision problems."/>
+        		<LineBreak/>
+        		<Run Text="The person has recurring styes."/>
+        		<LineBreak/>
+        		<Run Text="The person has an abnormal immune system (for example, people with diabetes or HIV, patients receiving treatment for cancer, organ transplant recipients)"/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Suicidal Thoughts: Helping a Friend"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance"/>
+        		<LineBreak/>
+        		<Run Text="If you think that a friend or loved one might be suicidal, you need to take action. Always take suicidal threats seriously."/>
+        		<LineBreak/>
+        		<Run Text="Signs that a person is at risk of committing suicide include:"/>
+        		<LineBreak/>
+        		<Run Text="Extreme hopelessness"/>
+        		<LineBreak/>
+        		<Run Text="Withdrawal from friends and family"/>
+        		<LineBreak/>
+        		<Run Text="Talking a lot about death or suicide"/>
+        		<LineBreak/>
+        		<Run Text="Trying to get access to pills, firearms, or other possible means of suicide"/>
+        		<LineBreak/>
+        		<Run Text="Reckless behavior"/>
+        		<LineBreak/>
+        		<Run Text="Giving away belongings or saying goodbye"/>
+        		<LineBreak/>
+        		<Run Text="If you think your friend is at risk, here's what you can do."/>
+        		<LineBreak/>
+        		<Run Text="1. Talk to Your Friend"/>
+        		<LineBreak/>
+        		<Run Text="Ask your friend if he or she is thinking about suicide. Be direct. Contrary to what you might assume, you can't make someone suicidal by asking about it."/>
+        		<LineBreak/>
+        		<Run Text="Try to stay supportive and not judgmental."/>
+        		<LineBreak/>
+        		<Run Text="Ask your friend if he or she has a specific plan in mind. When people have settled on a specific means of committing suicide, they're at higher risk."/>
+        		<LineBreak/>
+        		<Run Text="2. Get Help"/>
+        		<LineBreak/>
+        		<Run Text="If you think your friend is in danger, stay with him or her if you can. Don't leave a suicidal person alone."/>
+        		<LineBreak/>
+        		<Run Text="Call 911, take the person to an emergency room, or contact a crisis hotline ."/>
+        		<LineBreak/>
+        		<Run Text="Get support from other friends and family members, even if your friend asks you not to. It's too serious to keep secret -- and you can't keep your friend safe all on your own."/>
+        		<LineBreak/>
+        		<Run Text="If your friend has been seeing a mental health professional (therapist, counselor, psychologist, social worker, or psychiatrist), call them and make them aware of the situation."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Sunburn Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if the person:"/>
+        		<LineBreak/>
+        		<Run Text="Does not seem to be responding appropriately"/>
+        		<LineBreak/>
+        		<Run Text="Has a seizure, visual changes, or any other neurologic symptoms; these could be symptoms of severe heat illness."/>
+        		<LineBreak/>
+        		<Run Text="Call a health care provider if:"/>
+        		<LineBreak/>
+        		<Run Text="The burn has blisters or the skin is white-appearing or numb. These are symptoms of a more-serious sunburn."/>
+        		<LineBreak/>
+        		<Run Text="The sunburned person is a child under one year old."/>
+        		<LineBreak/>
+        		<Run Text="1. Rehydrate"/>
+        		<LineBreak/>
+        		<Run Text="Replace body fluids with water, juice, or sports drinks."/>
+        		<LineBreak/>
+        		<Run Text="2. Treat Symptoms"/>
+        		<LineBreak/>
+        		<Run Text="Apply aloe or over-the-counter moisturizing lotion to skin as directed."/>
+        		<LineBreak/>
+        		<Run Text="To soothe and cool skin, bathe in lukewarm water or apply cool compresses to the area."/>
+        		<LineBreak/>
+        		<Run Text="For pain, take ibuprofen (Advil, Motrin) or acetaminophen (Tylenol)."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Swallowed Object Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if:"/>
+        		<LineBreak/>
+        		<Run Text="The airway is blocked or partially blocked"/>
+        		<LineBreak/>
+        		<Run Text="The person cannot breathe or talk"/>
+        		<LineBreak/>
+        		<Run Text="1. If Airway Is Blocked"/>
+        		<LineBreak/>
+        		<Run Text="For an adult or child over 12 months, see Choking Treatment."/>
+        		<LineBreak/>
+        		<Run Text="2. If Airway Is Partially Blocked"/>
+        		<LineBreak/>
+        		<Run Text="Encourage the person to cough to dislodge swallowed object."/>
+        		<LineBreak/>
+        		<Run Text="Do not perform Heimlich maneuver, thump the back, or attempt to remove object."/>
+        		<LineBreak/>
+        		<Run Text="3. When to See a Doctor"/>
+        		<LineBreak/>
+        		<Run Text="See a doctor immediately if:"/>
+        		<LineBreak/>
+        		<Run Text="The person has swallowed a battery. See Battery Ingestion Treatment."/>
+        		<LineBreak/>
+        		<Run Text="The person may have swallowed something poisonous. See Poisoning Treatment."/>
+        		<LineBreak/>
+        		<Run Text="The person swallowed a sharp object or something metal."/>
+        		<LineBreak/>
+        		<Run Text="The object may be stuck in the esophagus."/>
+        		<LineBreak/>
+        		<Run Text="The person is coughing, wheezing, or vomiting."/>
+        		<LineBreak/>
+        		<Run Text="4. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="If you see a doctor, follow-up will depend on the type and location of the swallowed object and severity of symptoms."/>
+        		<LineBreak/>
+        		<Run Text="The doctor may order X-rays to locate the object in the body."/>
+        		<LineBreak/>
+        		<Run Text="The doctor may try to remove it."/>
+        		<LineBreak/>
+        		<Run Text="In most cases, swallowed objects pass through the system without causing injury or requiring surgery."/>
+        		<LineBreak/>
+        		<Run Text="If you do not see a doctor after an object is swallowed or if your doctor asks you to:"/>
+        		<LineBreak/>
+        		<Run Text="Check stools for the object."/>
+        		<LineBreak/>
+        		<Run Text="Call doctor if the object doesn't show up in stools within seven days."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Orchitis (Swollen Testicles)Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. Get Medical Help Immediately"/>
+        		<LineBreak/>
+        		<Run Text="See a doctor or go to a hospital emergency room."/>
+        		<LineBreak/>
+        		<Run Text="Sudden, severe pain can be a sign of testicular torsion, a medical emergency."/>
+        		<LineBreak/>
+        		<Run Text="2. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="The doctor will do a physical exam and may do tests such as a urinalysis and ultrasound."/>
+        		<LineBreak/>
+        		<Run Text="If there is a bacterial infection, antibiotics will be prescribed."/>
+        		<LineBreak/>
+        		<Run Text="To relieve pain and swelling, apply hot or cold packs or take acetaminophen (Tylenol), ibuprofen (Advil, Motrin), or naproxen (Aleve, Naprosyn). Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure"/>
+        		<LineBreak/>
+        		<Run Text="Elevating the scrotum in snug briefs or an athletic supporter may ease discomfort."/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

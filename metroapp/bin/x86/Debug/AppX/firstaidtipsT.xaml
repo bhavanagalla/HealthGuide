@@ -1,0 +1,357 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsT"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="646*"/>
+            <ColumnDefinition Width="18*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Height="5863" Width="1222" FontFamily="Segoe UI Light" FontSize="24">
+            	<Run Text="Tailbone Injury Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="There are signs of spinal cord injury along with tailbone injury caused by a fall."/>
+            	<LineBreak/>
+            	<Run Text="Symptoms of spinal cord injury include:"/>
+            	<LineBreak/>
+            	<Run Text="Severe neck or back pain"/>
+            	<LineBreak/>
+            	<Run Text="Paralysis in part of the body"/>
+            	<LineBreak/>
+            	<Run Text="Loss of bowel or bladder control"/>
+            	<LineBreak/>
+            	<Run Text="Weakness in the legs or arms"/>
+            	<LineBreak/>
+            	<Run Text="Numbness"/>
+            	<LineBreak/>
+            	<Run Text="If any of these symptoms are present, avoid moving the person."/>
+            	<LineBreak/>
+            	<Run Text="1. Reduce Pain and Pressure"/>
+            	<LineBreak/>
+            	<Run Text="Ice tailbone every 3 to 4 hours for 2 to 3 days or until pain goes away."/>
+            	<LineBreak/>
+            	<Run Text="Give an over-the-counter pain reliever like ibuprofen (Advil, Motrin) or acetaminophen (Tylenol) for pain."/>
+            	<LineBreak/>
+            	<Run Text="Have the person use a &quot;doughnut cushion&quot; (from a medical supply store) or small inflatable inner tube when sitting."/>
+            	<LineBreak/>
+            	<Run Text="Avoid constipation. Give plenty of fluids and fiber in diet. The short-term use of a laxative might be necessary."/>
+            	<LineBreak/>
+            	<Run Text="2. See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The health care provider will do an X-ray and possibly an MRI, CT scan, or bone scan to check for fracture."/>
+            	<LineBreak/>
+            	<Run Text="Usually, continued home treatment is recommended."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Teething Pain"/>
+            	<LineBreak/>
+            	<Run Text="Teething pain can be hard for babies and parents alike. Treatment at home can help."/>
+            	<LineBreak/>
+            	<Run Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="Your child has a fever of 101° F or more, has diarrhea, or seems especially cranky; these are not typical symptoms of teething."/>
+            	<LineBreak/>
+            	<Run Text=" 1. Offer Something to Chew on"/>
+            	<LineBreak/>
+            	<Run Text="Use a firm rubber teether."/>
+            	<LineBreak/>
+            	<Run Text="Avoid teethers filled with liquid, which can leak, or freezable teethers, which may be too cold or hard."/>
+            	<LineBreak/>
+            	<Run Text="Never tie a teether around a baby's neck -- it's a choking hazard."/>
+            	<LineBreak/>
+            	<Run Text="2. Soothe the Gums"/>
+            	<LineBreak/>
+            	<Run Text="Gently massage the gums with a cool wet washcloth or a clean finger."/>
+            	<LineBreak/>
+            	<Run Text="If your child is eating solid foods, offer cold applesauce or yogurt."/>
+            	<LineBreak/>
+            	<Run Text="Give your baby a bottle filled with cool water. If your baby is younger than 1, don't give too much water, because his kidneys are not fully developed."/>
+            	<LineBreak/>
+            	<Run Text="3. Use Medication if a Pediatrician Recommends It"/>
+            	<LineBreak/>
+            	<Run Text="Use baby acetaminophen (Tylenol) to dull pain."/>
+            	<LineBreak/>
+            	<Run Text="Do not use topical pain relievers applied to the gums. They could cause dangerous side effects."/>
+            	<LineBreak/>
+            	<Run Text="4. Prevent Rash"/>
+            	<LineBreak/>
+            	<Run Text="Keep a cloth with you to wipe away drool from baby's chin."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Testicular Pain Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. When to Seek Immediate Medical Help"/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider or go to a hospital emergency room if:"/>
+            	<LineBreak/>
+            	<Run Text="Pain is severe or sudden or radiates into the abdomen."/>
+            	<LineBreak/>
+            	<Run Text="Pain is accompanied by nausea and vomiting, urinary frequency or urgency, or painful urination."/>
+            	<LineBreak/>
+            	<Run Text="There is swelling or bruising of the scrotum, or the scrotum or testicle is punctured."/>
+            	<LineBreak/>
+            	<Run Text="2. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="For pain, take over-the-counter medication such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin)."/>
+            	<LineBreak/>
+            	<Run Text="For swelling, apply an ice pack to the scrotum."/>
+            	<LineBreak/>
+            	<Run Text="3. Provide Rest and Support"/>
+            	<LineBreak/>
+            	<Run Text="The person should wear supportive underwear."/>
+            	<LineBreak/>
+            	<Run Text="The person should avoid strenuous activity."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider as soon as possible for mild pain."/>
+            	<LineBreak/>
+            	<Run Text="The health care provider will examine the scrotum and testicles and may order blood and urine tests to check for infection."/>
+            	<LineBreak/>
+            	<Run Text="Treatment will depend on what's causing the problem."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Tetanus Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Get Medical Help Immediately"/>
+            	<LineBreak/>
+            	<Run Text="Go to a medical clinic or hospital emergency room for tetanus symptoms: rigid muscles and painful spasms, often starting in jaw and neck."/>
+            	<LineBreak/>
+            	<Run Text="2. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The person will immediately receive an injection of immune globulin and a tetanus shot."/>
+            	<LineBreak/>
+            	<Run Text="Muscle relaxants and sedatives may be required."/>
+            	<LineBreak/>
+            	<Run Text="The person will most likely be hospitalized."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Ticks Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Remove Tick"/>
+            	<LineBreak/>
+            	<Run Text="If the tick is attached to the person's skin, remove it immediately:"/>
+            	<LineBreak/>
+            	<Run Text="Wearing gloves, grasp the tick with clean tweezers as close to the skin as possible to remove the head and mouthparts."/>
+            	<LineBreak/>
+            	<Run Text="Pull the tick straight out gently and steadily. Do not twist."/>
+            	<LineBreak/>
+            	<Run Text="Do not try to remove tick with a hot match or petroleum jelly. This could cause the tick to regurgitate infected fluids into the wound."/>
+            	<LineBreak/>
+            	<Run Text="Save the tick in a container of alcohol to show the doctor."/>
+            	<LineBreak/>
+            	<Run Text="2. Cleanse and Protect the Area"/>
+            	<LineBreak/>
+            	<Run Text="Wash hands and clean the bite area with warm water and gentle soap."/>
+            	<LineBreak/>
+            	<Run Text="Apply alcohol to the bite wound to prevent infection."/>
+            	<LineBreak/>
+            	<Run Text="3. See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider immediately if the tick has burrowed into skin or if the head, mouthparts, or other tick remains cannot be removed."/>
+            	<LineBreak/>
+            	<Run Text="Otherwise, see a health care provider if:"/>
+            	<LineBreak/>
+            	<Run Text="The person develops flu-like symptoms, fever, headache, nausea, vomiting, muscle aches, or a rash within one month after the bite. Take the tick to the health care provider's office or the hospital if possible."/>
+            	<LineBreak/>
+            	<Run Text="The bite area develops a lesion within 30 days."/>
+            	<LineBreak/>
+            	<Run Text="There are signs of infection such as redness, warmth, or inflammation."/>
+            	<LineBreak/>
+            	<Run Text="You think it might be a deer tick. Your doctor may prescribe a single dose of an antibiotic to help prevent Lyme disease."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The health care provider may prescribe antibiotics if the person has symptoms of Lyme disease, Rocky Mountain spotted fever, or another tick-borne disease."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Toothache Treatment"/>
+            	<LineBreak/>
+            	<Run Text=". Clean Mouth"/>
+            	<LineBreak/>
+            	<Run Text="Have the person rinse mouth with warm water."/>
+            	<LineBreak/>
+            	<Run Text="The person should gently floss teeth to remove food particles from area."/>
+            	<LineBreak/>
+            	<Run Text="2. Control Swelling and Pain"/>
+            	<LineBreak/>
+            	<Run Text="Apply a cool compress to outside of mouth or cheek."/>
+            	<LineBreak/>
+            	<Run Text="Give acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) for pain. Do not give aspirin to anyone under age 18."/>
+            	<LineBreak/>
+            	<Run Text="Do not put aspirin against gums near aching tooth. It can burn gum tissue."/>
+            	<LineBreak/>
+            	<Run Text="3. When to See a Dentist"/>
+            	<LineBreak/>
+            	<Run Text="See a dentist if:"/>
+            	<LineBreak/>
+            	<Run Text="Pain persists."/>
+            	<LineBreak/>
+            	<Run Text="The person has jaw pain accompanied by a popping or clicking noise; this could signal temporomandibular joint disorder (TMJ)."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="If you seek dental care:"/>
+            	<LineBreak/>
+            	<Run Text="The dentist will examine the person's teeth and may take an X-ray."/>
+            	<LineBreak/>
+            	<Run Text="If there are signs of infection, the dentist will prescribe an antibiotic."/>
+            	<LineBreak/>
+            	<Run Text="Treatment for TMJ may include a mouth guard to prevent tooth grinding, stress reduction techniques, or surgery."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Toxic Shock Syndrome Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="The person shows signs of shock."/>
+            	<LineBreak/>
+            	<Run Text="See Shock Treatment."/>
+            	<LineBreak/>
+            	<Run Text="1. Seek Medical Help Immediately"/>
+            	<LineBreak/>
+            	<Run Text="Go to a hospital emergency room or see a doctor for these symptoms, especially if the person has been using tampons, a diaphragm, or contraceptive sponge or has a skin wound or infection:"/>
+            	<LineBreak/>
+            	<Run Text="High fever that appears suddenly"/>
+            	<LineBreak/>
+            	<Run Text="Faintness"/>
+            	<LineBreak/>
+            	<Run Text="Headache"/>
+            	<LineBreak/>
+            	<Run Text="Muscle aches"/>
+            	<LineBreak/>
+            	<Run Text="Vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Diarrhea"/>
+            	<LineBreak/>
+            	<Run Text="Sunburn-like rash"/>
+            	<LineBreak/>
+            	<Run Text="Confusion"/>
+            	<LineBreak/>
+            	<Run Text="2. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The doctor will do an exam and blood tests."/>
+            	<LineBreak/>
+            	<Run Text="If toxic shock syndrome is diagnosed, the person will likely be hospitalized and treated with intravenous antibiotics."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Traveler's Diarrhea Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Rehydrate"/>
+            	<LineBreak/>
+            	<Run Text="Drink plenty of fluids even if you don't feel thirsty. Children are especially prone to dehydration."/>
+            	<LineBreak/>
+            	<Run Text="If you do not feel like eating solid foods, drink bottled or canned water or soft drinks, and eat clear broths for the first 24 hours."/>
+            	<LineBreak/>
+            	<Run Text="Avoid caffeinated, sugary, and alcoholic drinks, which can worsen diarrhea."/>
+            	<LineBreak/>
+            	<Run Text="For dehydration, drink an oral rehydration solution, available at drug stores."/>
+            	<LineBreak/>
+            	<Run Text="2. Resume Foods Carefully"/>
+            	<LineBreak/>
+            	<Run Text="If you do not feel like eating solid foods at first, you may start the BRAT diet -- bananas, rice, applesauce, and toast -- or salted soda crackers, boiled potatoes, eggs, and cereals after 24 hours."/>
+            	<LineBreak/>
+            	<Run Text="Avoiding dairy products for the first 24 hours may help."/>
+            	<LineBreak/>
+            	<Run Text="Slowly advance to regular foods."/>
+            	<LineBreak/>
+            	<Run Text="3. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="Over-the-counter medications may reduce cramping and control traveler's diarrhea, but antimotilty drugs like loperamide (Imodium) or diphenoxylate (Lomotil) should not be used if you have bloody diarrhea, fever, or pain.."/>
+            	<LineBreak/>
+            	<Run Text="4. When to See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="If diarrhea is bloody, or if you have a fever or abdominal pain, see a health care provider immediately. Do not take over-the-counter drugs."/>
+            	<LineBreak/>
+            	<Run Text="If diarrhea continues after several days despite home treatment, see your health care provider. He or she may prescribe an antibiotic. If diarrhea still persists, the health care provider may check for resistant bacteria or parasites."/>
+            	<LineBreak/>
+            	<Run Text="Take a child to a doctor if symptoms include bloody diarrhea, dehydration, persistent vomiting, or fever higher than 102."/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider if nausea or vomiting is severe enough to prevent rehydration or if you feel woozy or have a rapid heart beat."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

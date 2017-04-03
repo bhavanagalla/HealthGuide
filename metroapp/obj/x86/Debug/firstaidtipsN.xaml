@@ -1,0 +1,283 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsN"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="651*"/>
+            <ColumnDefinition Width="16*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Height="4906" Width="1224" FontFamily="Segoe UI Light" FontSize="24">
+        		<Run Text="Nail Injuries Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if:"/>
+        		<LineBreak/>
+        		<Run Text="The fingertip or toe has been partially or completely amputated."/>
+        		<LineBreak/>
+        		<Run Text="Major bleeding doesn't stop after 10 minutes of pressure."/>
+        		<LineBreak/>
+        		<Run Text="1. When to See a Health Care Provider"/>
+        		<LineBreak/>
+        		<Run Text="Go to an emergency room or call a health care provider quickly if:"/>
+        		<LineBreak/>
+        		<Run Text="The finger or toe is deformed, which may indicate fracture or dislocation."/>
+        		<LineBreak/>
+        		<Run Text="The wound looks deep or long enough to need stitches."/>
+        		<LineBreak/>
+        		<Run Text="Discoloration or a bruise under the nail covers more than a quarter of the nail or there is continuing, intense pain."/>
+        		<LineBreak/>
+        		<Run Text="The nail is completely torn off or partially cut off from a crush injury or cut."/>
+        		<LineBreak/>
+        		<Run Text="2. Stop Bleeding"/>
+        		<LineBreak/>
+        		<Run Text="Apply direct pressure with a clean cloth."/>
+        		<LineBreak/>
+        		<Run Text="3. Clean and Protect the Wound"/>
+        		<LineBreak/>
+        		<Run Text="If the nail is torn, use sterile scissors to cut off rough edges to prevent further injury."/>
+        		<LineBreak/>
+        		<Run Text="Clean the wound and torn nail area with soap and warm water."/>
+        		<LineBreak/>
+        		<Run Text="Apply antibiotic ointment and bandage."/>
+        		<LineBreak/>
+        		<Run Text="4. Treat Symptoms"/>
+        		<LineBreak/>
+        		<Run Text="For swelling, ice the area."/>
+        		<LineBreak/>
+        		<Run Text="For pain, give acetaminophen (Tylenol) or ibuprofen (Advil, Aleve)."/>
+        		<LineBreak/>
+        		<Run Text="5. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="Continue to use ice and over-the-counter pain medication as needed. Pain and swelling should clear up within a week. It can take several months for a nail that has separated from the nailbed to grow back."/>
+        		<LineBreak/>
+        		<Run Text="Change the bandage daily. If signs of infection develop -- such as pus, redness, or heat around the nail or a red streak extending from the wound -- call a health care provider promptly."/>
+        		<LineBreak/>
+        		<Run Text="The person may need a tetanus shot or booster, depending on the date of last booster shot."/>
+        		<LineBreak/>
+        		<Run Text="If the person sees a health care provider, the health care provider will determine if there is a fracture or if tissue under the nail needs repair and may remove the nail to make the repair. The health care provider may make a hole in the nail to drain blood and give a tetanus shot if needed."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Neck Strain Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. When to Seek Medical Care Immediately"/>
+        		<LineBreak/>
+        		<Run Text="See a doctor or go to a hospital emergency room if:"/>
+        		<LineBreak/>
+        		<Run Text="An accident caused neck strain."/>
+        		<LineBreak/>
+        		<Run Text="Neck pain radiates down arms and legs."/>
+        		<LineBreak/>
+        		<Run Text="Headaches, numbness, tingling, or weakness occur with the pain."/>
+        		<LineBreak/>
+        		<Run Text="2. Ease Muscle Spasms"/>
+        		<LineBreak/>
+        		<Run Text="Apply dry or moist heat to the area."/>
+        		<LineBreak/>
+        		<Run Text="3. Treat Pain"/>
+        		<LineBreak/>
+        		<Run Text="Give pain medication, such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin)."/>
+        		<LineBreak/>
+        		<Run Text="4. Avoid Unnecessary Neck Strain"/>
+        		<LineBreak/>
+        		<Run Text="When the person is lying down, place a small pillow under the nape of the neck to align the head and neck."/>
+        		<LineBreak/>
+        		<Run Text="5. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="See a doctor if pain doesn't get better or worsens."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Nose Foreign Body Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Call ambulance if the person:"/>
+        		<LineBreak/>
+        		<Run Text="Is choking"/>
+        		<LineBreak/>
+        		<Run Text="Has moderate to severe difficulty breathing"/>
+        		<LineBreak/>
+        		<Run Text="1. Remove Object, if Possible"/>
+        		<LineBreak/>
+        		<Run Text="Have the person breathe through his or her mouth."/>
+        		<LineBreak/>
+        		<Run Text="For an object partially out of the nose, try to remove it with fingers or tweezers. Do not push it further into the nose."/>
+        		<LineBreak/>
+        		<Run Text="For an object deeper in the nose, pinch the clear side of the nose closed. Have the person blow his or her nose hard several times. This may dislodge the object."/>
+        		<LineBreak/>
+        		<Run Text="For a child, you can try gently closing the unaffected nostril. Blow a puff of air into the child's mouth. Repeat as necessary."/>
+        		<LineBreak/>
+        		<Run Text="If minor bleeding occurs after object removal, firmly pinch the nose shut for 10 minutes."/>
+        		<LineBreak/>
+        		<Run Text="2. When to See a Health Care Provider"/>
+        		<LineBreak/>
+        		<Run Text="See a health care provider or go to a hospital emergency room if:"/>
+        		<LineBreak/>
+        		<Run Text="You can't remove the object or can only remove part of it."/>
+        		<LineBreak/>
+        		<Run Text="The object poses immediate danger."/>
+        		<LineBreak/>
+        		<Run Text="You're not comfortable removing a sharp object, such as a nose ring or stud or broken glass."/>
+        		<LineBreak/>
+        		<Run Text="The person has a bloody nose that can't be stopped."/>
+        		<LineBreak/>
+        		<Run Text="3. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="Call your health care provider if signs of infection appear."/>
+        		<LineBreak/>
+        		<Run Text="If the nose is tender or stuffy:"/>
+        		<LineBreak/>
+        		<Run Text="Give extra fluids for 2 to 3 days."/>
+        		<LineBreak/>
+        		<Run Text="Have the person breathe moist air from a humidifier or hot shower."/>
+        		<LineBreak/>
+        		<Run Text="Have the person sleep with head elevated."/>
+        		<LineBreak/>
+        		<Run Text="Ask your health care provider about using an oral decongestant or decongestant nasal spray."/>
+        		<LineBreak/>
+        		<Run Text="If you seek medical help to remove the object:"/>
+        		<LineBreak/>
+        		<Run Text="The health care provider will use suction or another method to remove it. The person may need to be sedated."/>
+        		<LineBreak/>
+        		<Run Text="The health care provider may prescribe nose drops or an antibiotic ointment."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Nosebleeds Treatment"/>
+        		<LineBreak/>
+        		<Run Text="1. Stop the Bleeding"/>
+        		<LineBreak/>
+        		<Run Text="Have the person sit up straight and lean forward slightly. Don't have the person lie down or tilt the head backward."/>
+        		<LineBreak/>
+        		<Run Text="With thumb and index finger, firmly pinch the nose just below the bone up against the face."/>
+        		<LineBreak/>
+        		<Run Text="Apply pressure for 5 minutes. Time yourself with a clock."/>
+        		<LineBreak/>
+        		<Run Text="If bleeding continues after 5 minutes, repeat the process."/>
+        		<LineBreak/>
+        		<Run Text="2. Call a Health Care Provider"/>
+        		<LineBreak/>
+        		<Run Text="See a health care provider immediately if:"/>
+        		<LineBreak/>
+        		<Run Text="Nosebleed doesn't stop after 10 minutes of home treatment"/>
+        		<LineBreak/>
+        		<Run Text="The person is taking blood thinners, such as warfarin (Coumadin) or aspirin, or has a bleeding disorder"/>
+        		<LineBreak/>
+        		<Run Text="Nosebleed happens after a severe head injury or a blow to the face"/>
+        		<LineBreak/>
+        		<Run Text=" 3. Medical Treatment"/>
+        		<LineBreak/>
+        		<Run Text="The health care provider may use specialized cotton material, insert a balloon in the nose, or use a special electrical tool to cauterize the blood vessels."/>
+        		<LineBreak/>
+        		<Run Text="4. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="Broken noses often are not fixed immediately. The health care provider will refer the person to a specialist for a consultation once the swelling goes down."/>
+        		<LineBreak/>
+        		<Run Text="The person should avoid strenuous activity; bending over; and blowing, rubbing or picking the nose until it heals."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Nursemaid's Elbow Treatment"/>
+        		<LineBreak/>
+        		<Run Text="Nursemaid's Elbow, or &quot;pulled elbow,&quot; occurs in small children as a result of being lifted, yanked, swung by the hand or wrist, or falling on an outstretched arm. One of the arm bones slips out of place slightly."/>
+        		<LineBreak/>
+        		<Run Text="The child may:"/>
+        		<LineBreak/>
+        		<Run Text="Complain that the elbow hurts"/>
+        		<LineBreak/>
+        		<Run Text="Cry when the arm is moved or touched"/>
+        		<LineBreak/>
+        		<Run Text="Hold the arm close to his or her side or support it with the other arm."/>
+        		<LineBreak/>
+        		<Run Text="Not use the arm"/>
+        		<LineBreak/>
+        		<Run Text="1. Contact a Health Care Provider"/>
+        		<LineBreak/>
+        		<Run Text="The health care provider may see the child or refer you to a hospital emergency room."/>
+        		<LineBreak/>
+        		<Run Text="Do not try to put the bone back in place."/>
+        		<LineBreak/>
+        		<Run Text="If several hours or days pass before treatment, a sling, splint, or cast may be applied.ee a health care provider even if the bone seems to move back into place on its own."/>
+        		<LineBreak/>
+        		<Run Text="2. Follow Up"/>
+        		<LineBreak/>
+        		<Run Text="The health care provider will examine the elbow and may take an X-ray."/>
+        		<LineBreak/>
+        		<Run Text="The health care provider may do a gentle movement that lets the bone move back into place."/>
+        		<LineBreak/>
+        		<Run Text="If your doctor is unable to put the elbow bone back into place, the arm may be put in a sling and your child referred to an orthopedist specialist."/>
+        		<LineBreak/>
+        		<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

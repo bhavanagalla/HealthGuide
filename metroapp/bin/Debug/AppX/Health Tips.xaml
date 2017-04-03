@@ -1,0 +1,102 @@
+﻿<Page
+    x:Class="metroapp.Health_Tips"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="34*"/>
+            <ColumnDefinition Width="311*"/>
+            <ColumnDefinition Width="311*"/>
+            <ColumnDefinition Width="27*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="348*"/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/images.png"/>
+        </Grid.Background>
+        <TextBlock x:Name="Tb7" HorizontalAlignment="Left" Margin="524,21,0,0" TextWrapping="Wrap" Text="Health Tips" VerticalAlignment="Top" FontSize="36" Style="{StaticResource GroupHeaderTextStyle}" Foreground="#DEFFFFFF" FontFamily="Global User Interface" Height="41" FontWeight="Normal" Width="192" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:ConnectionId='1' x:Name="b5" Content="Button" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top" Style="{StaticResource PortraitBackButtonStyle}" BorderBrush="Black" Background="#FF070211"                  Grid.Row="1" Grid.Column="1"/>
+        <Rectangle Grid.Column="1" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="130" Margin="1,10,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="611" Opacity="0.3"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="130" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="150" Source="Assets/tulasi.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="154,6,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="128" Width="448" FontSize="20" Foreground="#FFEEE3E3" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Foreground="Black" FontSize="22" Text="Take Tulsi "/>
+        	<LineBreak/>
+        	<Run Text="Research suggests that this Ayurvedic herb, also called holy basil, may help manage levels of the stress hormone cortisol, helping to boost your mood. Look for teas and supplements in health-food stores and follow package directions."/>
+        </TextBlock>
+        <Rectangle Grid.Column="1" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="152" Margin="1,163,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="612" Opacity="0.3"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="152" Margin="1,163,0,0" Grid.Row="2" VerticalAlignment="Top" Width="150" Source="Assets/bottle.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="161,160,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="154" Width="445" FontSize="20" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Foreground="#DE000000" FontSize="24" Text="Hydrate"/>
+        	<Run Text="  "/>
+        	<LineBreak/>
+        	<Run Text="To treat an acute migraine, drink a full glass of water dehydration can trigger headaches. Even if you need to take a medication for the pain, try wrapping your head with an Ace bandage so that it covers your eyes, then lie down and breathe deeply. This often helps the pain pass more quickly."/>
+        </TextBlock>
+        <Rectangle Grid.Column="1" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="146" Margin="2,338,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="611" Opacity="0.3"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="146" Margin="2,338,0,0" Grid.Row="2" VerticalAlignment="Top" Width="150" Source="Assets/stomach.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="156,336,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="142" Width="452" FontSize="20" TextAlignment="Justify" Style="{StaticResource BodyTextStyle}">
+        	<Run Foreground="#DE111010" FontSize="24" Text="Try "/>
+        	<Run Foreground="#DE000000" FontSize="24" Text="Acupressure                              "/>
+        	<LineBreak/>
+        	<Run Text="Calm a queasy stomach with this quick acupressure trick: Use your index and middle fingers to press down on the groove between the tendons that run from the base of your palm to your wrist. Wristbands that apply pressure to this spot are available at drugstores and online."/>
+        </TextBlock>
+        <Rectangle Grid.Column="1" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="140" Margin="2,508,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="611" Opacity="0.3"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="140" Margin="2,508,0,0" Grid.Row="2" VerticalAlignment="Top" Width="148" Source="Assets/pepper.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="150,508,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="110" Width="456" TextAlignment="Justify" Style="{StaticResource BodyTextStyle}">
+        	<Run Foreground="#FF020000" FontSize="22" Text="Cayenne Pepper"/>
+        	<LineBreak/>
+        	<Run FontSize="20" Text=" To warm up cold feet, sprinkle a bit of cayenne pepper into "/>
+        	<Run FontSize="20" Text="your "/>
+        	<Run FontSize="20" Text="socks. This folk remedy may help warm your toes by increasing circulation and improving blood "/>
+        	<Run FontSize="20" Text="flow"/>
+        	<Run FontSize="20" Text="."/>
+        </TextBlock>
+        <ScrollBar Grid.Column="3" HorizontalAlignment="Left" Margin="35,0,0,0" Grid.Row="2" VerticalAlignment="Top" Height="686" Width="19"/>
+        <Image HorizontalAlignment="Left" Height="152" Margin="10,163,0,0" VerticalAlignment="Top" Width="158" Source="Assets/honey.png" Stretch="Fill" Grid.Column="2" Grid.Row="2"/>
+        <Rectangle Fill="WhiteSmoke" HorizontalAlignment="Left" Height="152" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="602" Grid.Column="2" Margin="10,163,0,0" Grid.Row="2" Opacity="0.3"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="171,164,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="430" FontSize="22" Foreground="Black" TextAlignment="Justify" Style="{StaticResource BodyTextStyle}">
+        	<Run Text="Have Some Honey"/>
+        	<LineBreak/>
+        	<Run Foreground="#FFFDF8F8" Text="Research suggests that honey may be more effective than over-the-counter cough syrup at quelling nighttime coughing. Use a medicinal-grade variety such as manuka honey and take up to 2 teaspoonfuls at bedtime."/>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="130" Margin="10,10,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="602" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="130" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="158" Source="Assets/Green_Tea.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="173,10,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="124" Width="439" FontSize="22" Foreground="Black" Style="{StaticResource BodyTextStyle}">
+        	<Run Text="Drink Green Tea"/>
+        	<LineBreak/>
+        	<Run Foreground="#FFFBFBFB" Text="Hot or iced, green tea can help rev up your workout. Its catechins, antioxidants, and caffeine help increase the metabolic generation of heat. Drink a cup about 10 "/>
+        	<Run Foreground="#FFFBFAFA" Text="minutes before exercising"/>
+        	<Run Text="."/>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="146" Margin="10,338,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="602" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="146" Margin="10,338,0,0" Grid.Row="2" VerticalAlignment="Top" Width="158" Source="Assets/fennel.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="168,338,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="146" Width="444" Foreground="Black" FontSize="22" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Text="Chew Some Fennel Seed"/>
+        	<LineBreak/>
+        	<Run Foreground="White" FontSize="20" Text="Fennel seeds are considered a carminative, a substance that helps relieve gas. Chew and then swallow about half a teaspoon of the seeds after meals."/>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="140" Margin="10,508,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="602" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="140" Margin="10,508,0,0" Grid.Row="2" VerticalAlignment="Top" Width="158" Source="Assets/washon.PNG" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="168,508,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="140" Width="444" Foreground="Black" FontSize="22" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Text="Wash Up"/>
+        	<LineBreak/>
+        	<Run Foreground="Snow" FontSize="20" FontFamily="Segoe UI, Tahoma, Arial, Arial Unicode MS, Microsoft Sans Serif, Lucida Sans Unicode" Text="To fend off colds, washing your hands well and often is the best step you can take. Use plain soap and water and scrub for as long as it takes to sing &quot;Happy Birthday to You&quot; twice."/>
+        </TextBlock>
+        <Button x:ConnectionId='2' x:Name="b14" Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="531.987,10.001,0,0" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}" RenderTransformOrigin="0.5,0.5" Height="61.998" Grid.RowSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto"                    >
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="179.258"/>
+            </Button.RenderTransform>
+        </Button>
+
+
+    </Grid>
+</Page>
+

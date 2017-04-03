@@ -1,0 +1,184 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsJ"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="323*"/>
+            <ColumnDefinition Width="323*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="24" Height="739" Width="580">
+            	<Run Text="Jaundice (Newborns)"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if your baby:"/>
+            	<LineBreak/>
+            	<Run Text="* Is not feeding well"/>
+            	<LineBreak/>
+            	<Run Text="* Is listless"/>
+            	<LineBreak/>
+            	<Run Text="* Has a fever"/>
+            	<LineBreak/>
+            	<Run Text="Jaundice is common in newborns and not harmful in most cases, but it can be dangerous in some newborns and cause brain damage even in babies with no risk factors."/>
+            	<LineBreak/>
+            	<Run Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="If your newborn shows signs of jaundice after leaving the hospital, or if the jaundice gets worse, see your pediatrician right away."/>
+            	<LineBreak/>
+            	<Run Text="Any baby with signs of jaundice -- yellow skin and eyes -- should be seen by a doctor. Jaundice is often noticed in the hospital during your baby's first few days."/>
+            	<LineBreak/>
+            	<Run Text="Treat Symptoms as Recommended"/>
+            	<LineBreak/>
+            	<Run Text="For mild jaundice, your doctor may recommend feeding the baby often with breast milk or formula. The excess bilirubin in the blood, which causes jaundice, will pass through stool."/>
+            	<LineBreak/>
+            	<Run Text="Your doctor also may recommend limited exposure to sunlight. Be sure you understand and follow the doctor's instructions about how to expose your baby to sunlight, when to do it, and how long the exposure should last."/>
+            	<LineBreak/>
+            	<Run Text="Mild jaundice frequently goes away on its own."/>
+            	<LineBreak/>
+            	<Run Text="For more serious jaundice, your doctor may recommend phototherapy, a treatment with a special light."/>
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="2" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="24" Width="574">
+            	<Run Text="Jellyfish Sting Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="The person displays signs of a severe allergic reaction."/>
+            	<LineBreak/>
+            	<Run Text="The sting is from a box jellyfish."/>
+            	<LineBreak/>
+            	<Run Text="The sting covers more than half an arm or leg."/>
+            	<LineBreak/>
+            	<Run Text="1. Get the Person Out of the Water"/>
+            	<LineBreak/>
+            	<Run Text="2. Stop Stinging"/>
+            	<LineBreak/>
+            	<Run Text="For a jellyfish sting in non-tropical waters:"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Wash the area with seawater to deactivate stinging cells."/>
+            	<LineBreak/>
+            	<Run Text="For a sting in tropical waters -- especially from box jellyfish:"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Rinse immediately with vinegar. Do not use fresh or tap water, which can reactivate stinging cells."/>
+            	<LineBreak/>
+            	<Run Text="Continue until you can get medical help."/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="3. Decontaminate and Remove Tentacles"/>
+            	<LineBreak/>
+            	<Run Text="For jellyfish stings, the American Heart Association and the American Red Cross have recommended the following:"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Rinse the area with vinegar for at least 30 seconds. If vinegar is not available, a solution of baking soda can be used. This will deactivate the stinging cells."/>
+            	<LineBreak/>
+            	<Run Text="Next, soak the area in hot water for at least 20 minutes if possible. Cold packs can be used instead if the area can't be soaked in hot water.."/>
+            	<LineBreak/>
+            	<Run Text="These treatments are based on research done in the Indo-Pacific areas, however, and may not be effective in the oceans of the North Atlantic . In fact, in this area, vinegar may actually make the symptoms worse, depending on the type of jellyfish. Some experts therefore recommend a hot water rinse and lidocaine applied to the area if available.  If this is not possible, then removing the stinging cells and rinsing in seawater would also be an option."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="4. Treat Discomfort"/>
+            	<LineBreak/>
+            	<Run Text="Use mild hydrocortisone cream or oral antihistamine to relieve itching and swelling."/>
+            	<LineBreak/>
+            	<Run Text="5. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="For less severe sting:"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Use ice packs or over-the-counter pain relievers for welts."/>
+            	<LineBreak/>
+            	<Run Text="Clean open sores 3 times a day and apply antibiotic ointment. Bandage if needed."/>
+            	<LineBreak/>
+            	<Run Text="For a severe reaction:"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="The person may be hospitalized for several days."/>
+            	<LineBreak/>
+            	<Run Text="Anti-venom will be administered for box jellyfish stings."/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

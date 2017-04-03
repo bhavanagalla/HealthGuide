@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="metroapp.Dite_Chat"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Opacity="0.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="51*"/>
+            <ColumnDefinition Width="58*"/>
+            <ColumnDefinition Width="576*"/>
+            <ColumnDefinition Width="576*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="22*"/>
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="695*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/black.png"/>
+        </Grid.Background>
+        <TextBlock x:Name="Tb8" HorizontalAlignment="Left" Margin="34,17,0,0" TextWrapping="Wrap" Text="Diet Chart" VerticalAlignment="Top" FontSize="36" FontFamily="Global User Interface" Style="{StaticResource SubtitleTextStyle}" Foreground="#DEFBF6F6" FontWeight="Bold" Grid.Row="1" Height="20" Width="213" Grid.Column="2"/>
+        <Button x:Name="b6" Content="Button" HorizontalAlignment="Left" Margin="0,3,0,0" VerticalAlignment="Top" Style="{StaticResource PortraitBackButtonStyle}" Click="b6_Click" Grid.Row="1" Grid.Column="1">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF050000" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="153" Margin="2,29,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="564" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="153" Margin="2,29,0,0" Grid.Row="2" VerticalAlignment="Top" Width="176" Source="Assets/kidsssss.png" Stretch="Fill"/>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="160" Margin="2,208,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="566" Opacity="0.3"/>
+        <Image Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="100" Grid.RowSpan="3" VerticalAlignment="Top" Width="100"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="160" Margin="2,208,0,0" Grid.Row="2" VerticalAlignment="Top" Width="176" Source="Assets/get-kids-tol.png" Stretch="Fill"/>
+        <Rectangle Grid.Column="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="153" Margin="10,29,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="556" Opacity="0.3"/>
+        <Image Grid.Column="3" HorizontalAlignment="Left" Height="153" Margin="10,29,0,0" Grid.Row="2" VerticalAlignment="Top" Width="169" Source="Assets/pregnant.png" Stretch="UniformToFill"/>
+        <Rectangle Grid.Column="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="160" Margin="10,208,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="556" Opacity="0.3"/>
+        <Image Grid.Column="3" HorizontalAlignment="Left" Height="160" Margin="10,208,0,0" Grid.Row="2" VerticalAlignment="Top" Width="169" Source="Assets/diabetes_diet.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="183,207,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="158" Width="382" FontSize="36" Style="{StaticResource PageHeaderTextStyle}"/>
+        <Button Content="Diet Chart for Babies" Grid.Column="2" HorizontalAlignment="Left" Margin="183,29,0,0" Grid.Row="2" VerticalAlignment="Top" Style="{StaticResource TextButtonStyle}" Height="153" Width="383" FontSize="36" FontFamily="Segoe WP SemiLight" FontWeight="Normal" Click="Button_Click"/>
+        <Button Content="Diet Chart for Kids &#xD;&#xA;and Teens" Grid.Column="2" HorizontalAlignment="Left" Margin="183,208,0,0" Grid.Row="2" VerticalAlignment="Top" Height="160" Width="383" Style="{StaticResource TextButtonStyle}" FontSize="36" FontFamily="Segoe WP SemiLight" FontWeight="Normal" Click="Button_Click_1"/>
+        <Button Content="Diet Chart for &#xD;&#xA;Pregnant Ladies" Grid.Column="3" HorizontalAlignment="Left" Margin="179,29,0,0" Grid.Row="2" VerticalAlignment="Top" Height="153" Width="387" FontFamily="Segoe UI Semilight" FontSize="36" FontWeight="Normal" Style="{StaticResource TextButtonStyle}" Click="Button_Click_2"/>
+        <Button Content="Diet Chat for Different &#xD;&#xA;Syndromes" Grid.Column="3" HorizontalAlignment="Left" Margin="179,208,0,0" Grid.Row="2" VerticalAlignment="Top" Height="160" Width="387" FontSize="36" FontFamily="Segoe WP SemiLight" Style="{StaticResource TextButtonStyle}" FontWeight="Normal" BorderThickness="0" Click="Button_Click_5"/>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="165" Margin="2,397,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="564" Opacity="0.3"/>
+        <Rectangle Grid.Column="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="165" Margin="10,397,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="556" Opacity="0.3"/>
+        <Button Content="Diet Chart for Weight&#xA;Loss" Grid.Column="2" HorizontalAlignment="Left" Margin="183,397,0,0" Grid.Row="2" VerticalAlignment="Top" Width="383" Height="165" FontSize="36" FontFamily="Segoe UI Light" FontWeight="Normal" BorderThickness="0" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="165" Margin="0,397,0,0" Grid.Row="2" VerticalAlignment="Top" Width="178" Source="Assets/Weight-Loss-11.png" Stretch="Fill"/>
+        <Image Grid.Column="3" HorizontalAlignment="Left" Height="165" Margin="10,397,0,0" Grid.Row="2" VerticalAlignment="Top" Width="169" Source="Assets/height.jpg" Stretch="Fill"/>
+        <Button Content="Diet Chart for Height&#xA;and Strong Bones" Grid.Column="3" HorizontalAlignment="Left" Margin="179,397,0,0" Grid.Row="2" VerticalAlignment="Top" Height="165" Width="387" BorderThickness="0" FontSize="36" FontFamily="Segoe UI Semilight" FontWeight="Normal" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_4"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="a53f33ba-52a9-4c0d-b2e4-63918316f0c7" Publisher="CN=DELL" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>metroapp</DisplayName>
+    <PublisherDisplayName>DELL</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="metroapp.App">
+      <VisualElements DisplayName="metroapp" Logo="Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.png" SmallLogo="Assets\SmallLogo.png" Description="metroapp" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" />
+        <SplashScreen Image="Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+          <Rotation Preference="portraitFlipped" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,1176 @@
+﻿<Page
+    x:Class="metroapp.First_Aid_Tips_4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="14*"/>
+            <ColumnDefinition Width="655*"/>
+            <ColumnDefinition Width="14*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="357*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="694" Margin="10,0,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="1290" Opacity="0.3"/>
+        <Button x:ConnectionId='1' Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,9,0,0" VerticalAlignment="Top" Height="45" Grid.RowSpan="2" Style="{StaticResource BackButtonStyle}"                     />
+        <ScrollViewer Grid.Column="1" HorizontalAlignment="Left" Height="684" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="1290" Style="{StaticResource VerticalScrollViewerStyle}">
+            <TextBlock TextWrapping="Wrap" FontSize="20" Height="12776" Width="1182" FontFamily="Segoe UI Semilight" TextAlignment="Justify">
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Finger Treatment"/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text=":"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Immobilize the Finger"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Tape the broken finger to an adjacent non-broken finger."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Cool the finger by applying ice that is wrapped in a towel -"/>
+            	<LineBreak/>
+            	<Run Text="- don't apply ice directly to the skin; it can cause a burn."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Get Help"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Call a health care provider or go to a hospital emergency room immediately so the broken finger can be X-rayed and properly set. Without treatment, it may not heal properly and could lead to a permanent deformity."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Treat Symptoms"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Use an over-the-counter pain medicine such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin)."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Treating a Child's Broken Finger:"/>
+            	<LineBreak/>
+            	<Run Text="•The bone has broken through the skin.&#xA;•The finger is bleeding heavily.&#xA;•The finger is numb, white, or blue.&#xA;•The finger has been amputated or the nail bed is affected."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="With the right treatment, broken fingers usually heal well. So it's important to see a doctor right away."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call Doctor If:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="You think your child has broken a finger."/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" Text=" 1. Examine the Injury"/>
+            	<LineBreak/>
+            	<Run Text="•Do not try to straighten the finger.&#xA;•If the bone has broken through the skin, do not touch it. Drape gauze or a clean diaper over the injury, control the bleeding, and get emergency help."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Make a Splint"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Wrap the finger with a soft cloth.&#xA;•Splint the wrapped finger by taping it to an adjacent non-broken finger.&#xA;•Make sure the splint and wrapping aren't cutting off circulation. Watch for signs such as numbness, warmth, or changes in skin color."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Reduce Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Ice the finger for a few minutes at a time. Wrap ice in a towel or cloth to avoid injuring the skin.&#xA;•If possible, keep your child's hand elevated."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Get Help"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Go to the pediatrician's office or the emergency room."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Foot Treatment:"/>
+            	<LineBreak/>
+            	<Run Text="•The person is seriously injured.&#xA;•Bone is sticking out of skin.&#xA;•Bleeding doesn't stop after several minutes of firm pressure.&#xA;•Blood spurts from the wound."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Stop Bleeding if Necessary"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply pressure to wound area with a clean cloth until bleeding stops."/>
+            	<Run Text="•&#x9;If the bone is pushing through the skin, do not touch it or try to put it back in place."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply ice."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Elevate the foot and have the person stay off it as much as possible."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Get Medical Help Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•See a health care provider. Foot injuries can develop into long-lasting problems if they go untreated."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The health care provider will X-ray the foot and may order a CT scan or MRI."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The health care provider may recommend special shoes or apply a cast or cast boot to stabilize and protect the foot."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Surgery may be needed for more complicated fractures."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Hand Treatment"/>
+            	<LineBreak/>
+            	<Run Text="•The person is seriously injured or unconscious.&#xA;•Hand is numb or cold.&#xA;•Skin under the fingernail is blue.&#xA;•Bone is sticking out of the skin.&#xA;•Bleeding doesn't stop after several minutes of firm pressure.&#xA;•Blood spurts from the wound."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Stop Bleeding if Necessary"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply firm pressure with a clean cloth until bleeding stops."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If the bone is pushing through the skin, do not touch it or try to put it back in place."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply an ice pack (do not put ice directly against the skin)."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If possible, remove any jewelry immediately."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Immobilize the Hand"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If the person's hand is numb or cold or the skin under the fingernails is blue, do not move the hand or arm. Otherwise:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Have the person bend the arm at the elbow.&#xA;•Do not try to straighten the hand if it bent or deformed.&#xA;•Tie a splint on the lower arm with fabric or elastic bandages. Cardboard, rolled-up newspaper, or other stiff material can be used as a splint.&#xA;•Make a sling and place the person's arm in it. Tie the sling around his or her neck."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. See a Health Care Provider Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="5. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The health care provider will likely take X-rays and check for feeling and range of motion in the hand to determine whether there has been nerve or tendon damage."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The health care provider may apply a splint or cast."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Surgery may be needed for more complicated fractures."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Hip Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Do CPR, if Necessary"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If the person is not breathing or you can't find a pulse, start CPR."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Protect From Further Injury"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Keep the person lying on his or her back."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Tie legs together at ankle and knee. Legs may be straight or bent."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Immobilize Leg"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If you have been trained in how to apply a splint, do it."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Secure leg with stiff padding, such as wadded-up blankets or towels, held in place with heavy objects. "/>
+            	<LineBreak/>
+            	<Run Text="Padding should extend above the hip and below the knee."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If no materials are available, place one hand behind the person's knee and"/>
+            	<LineBreak/>
+            	<Run Text=" your other arm along the top of the thigh, so your hand is just below the pelvic area."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Look for Signs of Shock"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Treat for"/>
+            	</Span>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<Span Foreground="#FF222222">
+            		<Run Text="shock"/>
+            	</Span>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<Span Foreground="#FF222222">
+            		<Run Text="if the person has:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Pale, clammy skin"/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Glazed eyes"/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Sweating"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Rapid and shallow breathing"/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Dizziness"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Vomiting"/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="5. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The doctor will do an X-ray and may do an MRI, CT scan, or bone scan."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If the person is healthy, surgery will be necessary."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•A person who is not healthy will be put into traction until the hip heals."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Jaw Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If the person has: "/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Uncontrolled bleeding&#xA;•Difficulty breathing&#xA;•A possible spine injury (do not move the person)"/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Or if the person is:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•In shock (faint, pale, rapid shallow breathing)"/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Get Medical Help Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Go to a hospital emergency room."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Prevent Choking"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Allow any blood in the mouth to dribble out or have the person spit it into a handkerchief."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Without touching the roots, gently remove any broken or lost teeth from the mouth and "/>
+            	<LineBreak/>
+            	<Run Text="place them in cold milk, salt water, or saliva. Take the broken teeth in their solution to the health care provider"/>
+            	<LineBreak/>
+            	<Run Text=" or emergency room with you."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Immobilize Jaw"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Do not attempt to align the jaws."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Make a bandage out of a handkerchief, scarf, or necktie, and tie it around the jaw and "/>
+            	<LineBreak/>
+            	<Run Text="over the top of the head to keep the jaw from moving. "/>
+            	<LineBreak/>
+            	<Run Text="The bandage should be easily removable in case the person starts to vomit."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply cold compresses."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="5. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Medical treatment depends on the location and severity of the break."/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•A surgeon may be able to set the bone without surgery although wires may need to be placed to stabilize the jaw."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Surgery may be needed to repair the break. "/>
+            	<LineBreak/>
+            	<Run Text="The surgeon will place plates or screws to hold the broken pieces of bone together while they heal."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Leg Treatment:"/>
+            	<LineBreak/>
+            	<Run Text="•You think a thighbone is broken.&#xA;•A bone has punctured the skin."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="For other breaks:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Reduce Swelling and Avoid Further Injury"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Keep the injured leg as still as possible. Do not let the person bear any weight on the leg."/>
+            	<Run Text="•&#x9;Apply ice."/>
+            	<Run Text="•&#x9;Keep the leg raised with pillows or cushions."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Seek Medical Care Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Take the person to see a health care provider. If you think a thighbone is broken or you are unable to move the person, call 911 and have the person taken to the hospital."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Treatment will depend on the nature of the injury."/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•A health care provider will examine the person's leg and likely do an X-ray."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•The bone may be realigned and a splint, cast, or brace put on."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Surgery may be needed."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Nose Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. When to See a Health Care Provider"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Go to a hospital emergency room or see a health care provider immediately if:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•You cannot stop the nose from bleeding."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•The nostril or nasal septum is crooked or out of place."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The person has clear drainage from one or both nostrils or a grapelike swelling inside the nose on the septum."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Treat Symptoms"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply ice for pain and swelling."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Have the person rest and keep the head elevated even when sleeping."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•The person should avoid blowing his or her nose."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Give acetaminophen for pain. Do not give NSAIDs such as ibuprofen or aspirin."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If the nose is not out of position, rest and home treatment may be all that's needed."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If the nose is crooked or it is difficult for the person to breathe through the nose, see a health care provider."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If you see a health care provider, the next steps depend on the particular case:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•To stop bleeding, the health care provider may pack the nostrils with gauze."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•For a simple fracture, the health care provider may straighten the nose."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Surgery may be needed to move bone or cartilage back in place for a more complicated fracture."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Treatment for Broken or Knocked-Out Teeth:"/>
+            	<LineBreak/>
+            	<Run Text="•Has a serious injury&#xA;•Is unconscious"/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="Call ambulance if:"/>
+            	</Span>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<Run Foreground="#FFF5F4F4" Text="The person has a serious injury or is unconscious."/>
+            	<LineBreak/>
+            	<Run Foreground="#FFF5F4F4" Text="A knocked-out permanent tooth is a dental emergency. Knocked-out teeth can be re-implanted in many cases. "/>
+            	<LineBreak/>
+            	<Run Foreground="#FFF5F4F4" Text="A permanent tooth that is re-implanted within 30 minutes has the highest chance of success"/>
+            	<Run Foreground="#FF222222" Text="."/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Collect Teeth or Teeth Fragments"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Handle teeth carefully because damage may prevent re-implantation."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Touch only the crown, the top part of the tooth. Do not touch the root of the tooth."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Rinse tooth gently only if necessary. Do not scrub, scrape, or use alcohol to remove dirt."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Re-Insert or Store Teeth"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Rinse mouth with warm water."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If possible, reinsert permanent teeth into the correct sockets and "/>
+            	<LineBreak/>
+            	<Run Text="have the person bite on a gauze pad to hold teeth in place."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If you can't reinsert permanent teeth, or for baby teeth or teeth fragments, store them in whole milk or"/>
+            	<LineBreak/>
+            	<Run Text=" between your cheek and gum to prevent drying."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Treat Symptoms"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Control bleeding with sterile gauze or cloth."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•For pain and swelling, apply a cool compress. Encourage a child to suck on a frozen pop."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•For pain, take ibuprofen or acetaminophen."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Get Help"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•For teeth that have been knocked out, see a dentist or go to an emergency room immediately. "/>
+            	<LineBreak/>
+            	<Run Text="Take the teeth or teeth fragments with you. Even if the teeth have been successfully reinserted, "/>
+            	<LineBreak/>
+            	<Run Text="you should see a dentist."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•For chipped or broken teeth, call a dentist."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Shoulder Blade Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=". Get Medical Help Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Get the person to a health care provider or hospital emergency department."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Control Bleeding"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If there is bleeding, apply steady, direct pressure with a clean cloth or bandage for 15 minutes. "/>
+            	<LineBreak/>
+            	<Run Text="If blood soaks through, apply another cloth over the first."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Make a Sling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Supporting the injured arm, place a triangular bandage or cloth under it and over the uninjured shoulder."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•&#x9;Tie the sling at the side of the neck."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Treat Symptoms"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply ice for pain and swelling."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Give over-the-counter acetaminophen (Tylenol) for pain."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="5. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The health care provider will examine the shoulder and may do an X-ray or other tests. In most cases, surgery is not needed."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The health care provider may put the arm in a sling."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Broken Toe Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Symptoms of a broken toe include: pain, swelling, bruising, and difficulty walking."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Prevent Swelling and Further Injury"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Stay off the foot as much as possible.&#xA;•Avoid movement or pressure that causes pain.&#xA;•Apply ice up to 20 minutes at a time. Wrap it in a towel; do not apply directly to skin.&#xA;•Keep the foot elevated as often as possible, especially the first 2 days after injury, to help control pain and swelling.&#xA;•For pain, take acetaminophen (Tylenol) or ibuprofen (Advil, Motrin)."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Get Help"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If you have severe pain, can't walk, the toe looks bent or deformed, or the pain lasts for a long time, see a doctor."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Stay off your foot and avoid activity that causes pain for 3-4 weeks.&#xA;•Wear a solid shoe with a stiff sole to protect the injured toe and keep it stable. Avoid shoes that put pressure on the toe."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Brown Recluse Spider Bite Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Clean and Protect"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Clean area with gentle soap and water."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Apply antibiotic ointment to prevent infection."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Ice the area."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Elevate area if it is on an arm or leg."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Save the Spider, if Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Kill and save the spider for identification purposes."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Call a Health Care Provider"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Prompt treatment is important, especially for children. "/>
+            	<LineBreak/>
+            	<Run Text="Venom from a brown recluse spider bite can cause tissue damage that can lead to scarring, "/>
+            	<LineBreak/>
+            	<Run Text="as well as more serious complications."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Bring the spider to the health care provider's office if you can."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Calling Poison Control also can be helpful."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Foreground="#FF222222" Text="5. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The health care provider will treat the wound area and may prescribe an antibiotic to prevent infection."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The health care provider may recommend ibuprofen (Advil, Motrin),"/>
+            	<LineBreak/>
+            	<Run Text=" acetaminophen (Tylenol), or naproxen (Aleve, Naprosyn) for pain. Do not give aspirin to anyone under age 18."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Occasionally, surgery or hospitalization is necessary."/>
+            	<LineBreak/>
+            	<Run Text="•It may take 6 to 8 weeks for the bite to heal."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Treatment for Bruises:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Treating a Bruise at Home"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Reduce Bruising and Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Ice the area on and off for the first 24-48 hours.&#xA;•Apply ice for about 15 minutes at a time, and always put something like a towel or wash cloth between the ice and your skin.&#xA;•Rest the affected area.&#xA;•If possible, elevate the affected area."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Treat Symptoms"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•For pain, take acetaminophen (Tylenol). Avoid aspirin or ibuprofen (Advil, Motrin), which can prolong bleeding."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. When to Call a Doctor"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If bruise is accompanied by extreme pain and swelling, especially if the person is taking a blood-thinning medication&#xA;•If bruises appear on skin for no apparent reason&#xA;•The bruise in on the face or head&#xA;•You can't move a joint&#xA;•You may have a broken bone"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="4. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Two days after a bruise develops, apply a heat pack or wash cloth soaked in warm water to the area several times a day to promote healing.&#xA;•Pain and tenderness should get better within a few days and the bruise should go away within a couple of weeks."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Treating Bruises in Children:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Bruises are not very common in infants. They're more common on the lower legs and foreheads of toddlers just learning to walk."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call Doctor If:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The bruised area seems very painful, swollen, or infected.&#xA;•Your child has a bruise after a serious accident or head or abdominal injury.&#xA;•Your child has a large number of bruises or unexplained bruises.&#xA;•Your child has a fever."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Apply Ice"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Wrap a cold pack in a towel or washcloth and hold it against the bruise for 10 to 15 minutes.&#xA;•Repeat, but no more than once an hour.&#xA;•Do not hold ice or anything frozen directly against a child's skin."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Elevate the Area"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If possible, raise the bruised area above the heart to reduce swelling."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Reduce Pain"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Use infant or child-formula acetaminophen (Tylenol). Don't use ibuprofen (Advil, Motrin) because it may prolong bleeding.&#xA;•Follow the dosing instructions on the label.&#xA;•If your child has never taken this medication before, call your pediatrician first.&#xA;•Don't give aspirin to a child under 16."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Thermal Burns Treatment:"/>
+            	<LineBreak/>
+            	<Run Text="•Burn penetrates all layers of skin&#xA;•Skin is leathery or charred looking, with white, brown, or black patches&#xA;•Burn blister is larger than two inches or oozes&#xA;•Hands, feet, face, or genitals are burned&#xA;•The person is an infant or a senior"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="For All Burns"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Stop Burning Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Put out fire or stop the person's contact with hot liquid, steam, or other material."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Help the person &quot;stop, drop, and roll&quot; to smother flames."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Remove smoldering material from the person."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Remove hot or burned clothing. If clothing sticks to skin, cut or tear around it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Remove Constrictive Clothing Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Take off jewelry, belts, and tight clothing. Burns can swell quickly."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Then take the following steps:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="For First-Degree Burns (Affecting Top Layer of Skin)"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Cool Burn"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Hold burned skin under cool (not cold) running water or immerse in cool water until pain subsides."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Use compresses if running water isn't available."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Protect Burn"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Cover with sterile, non-adhesive bandage or clean cloth."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Do not apply butter or ointments, which can cause infection."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. Treat Pain"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Give over-the-counter pain reliever such as ibuprofen (Advil, Motrin), acetaminophen (Tylenol), or naproxen (Aleve)."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="4. When to See a Doctor"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Seek medical help if:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•You see signs of infection, like increased pain, redness, swelling, fever, or oozing."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The person needs tetanus or booster shot, depending on date of last injection. "/>
+            	<LineBreak/>
+            	<Run Text="Tetanus booster should be given every 10 years."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Redness and pain last more than a few hours."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Pain worsens."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="5. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The doctor will examine the burn and may prescribe antibiotics and pain medication."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="For Second-Degree Burns (Affecting Top 2 Layers of Skin)"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Cool Burn"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Immerse in cool water for 10 or 15 minutes."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Use compresses if running water isn't available."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Don't apply ice. It can lower body temperature and cause further damage."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Don't break blisters or apply butter or ointments, which can cause infection."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Protect Burn"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Cover loosely with sterile, nonstick bandage and secure in place with gauze or tape."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. Prevent Shock"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Unless the person has a head, neck, or leg injury, or it would cause discomfort:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Lay the person flat."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Elevate feet about 12 inches."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Elevate burn area above heart level, if possible."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Cover the person with coat or blanket."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="4. See a Doctor"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The doctor can test burn severity, prescribe antibiotics and pain medications, and administer a tetanus shot, if needed."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="For Third-Degree Burns"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Protect Burn Area"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Cover loosely with sterile, nonstick bandage or, for large areas, a sheet or other material that that won't leave lint in wound."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Separate burned toes and fingers with dry, sterile dressings."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Do not soak burn in water or apply ointments or butter, which can cause infection."/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. Prevent Shock"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Unless the person has a head, neck, or leg injury or it would cause discomfort:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Lay the person flat."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Elevate feet about 12 inches."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Elevate burn area above heart level, if possible."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Cover the person with coat or blanket."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•For an airway burn, do not place pillow under the person's head when the person is lying down. This can close the airway."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Have a person with a facial burn sit up."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Check pulse and breathing to monitor for shock until emergency help arrives."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="4. See a Doctor"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Doctors will give oxygen and fluid, if needed, and treat the burn."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="36" Text="Treating Burns and Scalds in Children:"/>
+            	<LineBreak/>
+            	<Run Text="•The burned area is charred or white.&#xA;•Electric shock or chemicals caused the burn.&#xA;•The burn is on the face, hands, feet, genitals, or a joint.&#xA;•The burn covers 10% or more of the body."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="You can treat mild 1st degree burns -- those that look like sunburns"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" -- at home. Second- or 3rd degree burns need immediate medical attention."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call Doctor If:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The burn is oozing or seems infected (red, swollen, tender)."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Soak the Burn"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Immediately put the burned area in cool -- not cold -- water or under a faucet.&#xA;•Keep the injury in water for at least five to 15 minutes.&#xA;•Do not use ice."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Remove Burned Clothing"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If the clothing is stuck to the skin, do not peel it away. Leave it in place and cut away the clothing around it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Cover the Burn"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Use nonstick gauze or a clean cloth.&#xA;•If the burn is mild, you may put on antibiotic ointment.&#xA;•Don't put butter, grease, or anything else on the burn, and do not pop any blisters."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Reduce Pain"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Use an infant or child-strength over-the-counter pain reliever such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin).&#xA;•Follow the dosing instructions on the bottle.&#xA;•Call a pediatrician first if your child has never taken this medication before."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Broken Foot Treatment:"/>
+            	<LineBreak/>
+            	<Run Text="•The person is seriously injured.&#xA;•Bone is sticking out of skin.&#xA;•Bleeding doesn't stop after several minutes of firm pressure.&#xA;•Blood spurts from the wound."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Stop Bleeding if Necessary"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply pressure to wound area with a clean cloth until bleeding stops"/>
+            	<LineBreak/>
+            	<Run Text="•If the bone is pushing through the skin, do not touch it or try to put it back in place."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply ice."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Elevate the foot and have the person stay off it as much as possible."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Get Medical Help Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•See a health care provider. Foot injuries can develop into long-lasting problems if they go untreated."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The health care provider will X-ray the foot and may order a CT scan or MRI."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The health care provider may recommend special shoes or apply a cast or cast boot to stabilize and protect the foot."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Surgery may be needed for more complicated fractures."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            </TextBlock>
+        </ScrollViewer>
+        <Button x:ConnectionId='2' Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="1217,0,0,0" VerticalAlignment="Bottom" Height="54" BorderThickness="0" Width="83" Grid.RowSpan="2"                       >
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/home.png"/>
+            </Button.Background>
+            <Button.Foreground>
+                <ImageBrush ImageSource="Assets/home.png"/>
+            </Button.Foreground>
+        </Button>
+
+    </Grid>
+</Page>
+

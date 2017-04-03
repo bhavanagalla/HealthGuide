@@ -1,0 +1,808 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsH"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="644*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="24" Width="1220" Height="12965">
+            	<Run Text="Hand Injury Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="The person is seriously injured."/>
+            	<LineBreak/>
+            	<Run Text="Injury includes amputation."/>
+            	<LineBreak/>
+            	<Run Text="Bone is protruding through skin."/>
+            	<LineBreak/>
+            	<Run Text="Bleeding cannot be stopped after several minutes of firm pressure."/>
+            	<LineBreak/>
+            	<Run Text="Blood spurts from the wound."/>
+            	<LineBreak/>
+            	<Run Text="1. For Cuts"/>
+            	<LineBreak/>
+            	<Run Text="Apply direct pressure until bleeding stops."/>
+            	<LineBreak/>
+            	<Run Text="Remove rings and bracelets that may impede blood flow or compress nerves if swelling occurs later."/>
+            	<LineBreak/>
+            	<Run Text="Clean area with warm water and soap."/>
+            	<LineBreak/>
+            	<Run Text="Apply antibiotic ointment and a sterile bandage."/>
+            	<LineBreak/>
+            	<Run Text="Apply ice and elevate hand to reduce swelling."/>
+            	<LineBreak/>
+            	<Run Text="If a finger or part of a finger has been cut off, collect all parts and tissue and place in a plastic bag on ice for transport to the hospital with the person."/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider immediately for a deep cut, puncture wound, animal bite, human bite, or a scrape that you cannot get clean or if the cut shows signs of infection."/>
+            	<LineBreak/>
+            	<Run Text="2. For Sprains, Finger Dislocations or Fractures"/>
+            	<LineBreak/>
+            	<Run Text="Apply ice to reduce swelling."/>
+            	<LineBreak/>
+            	<Run Text="Keep finger elevated above the heart"/>
+            	<LineBreak/>
+            	<Run Text="If finger is bent or deformed, don't try to straighten it."/>
+            	<LineBreak/>
+            	<Run Text="See a doctor immediately."/>
+            	<LineBreak/>
+            	<Run Text="3. For Infection"/>
+            	<LineBreak/>
+            	<Run Text="See your health care provider if a hand injury shows signs of infection, including redness, swelling, warmth, or discharge."/>
+            	<LineBreak/>
+            	<Run Text="4. Other Times to Get Medical Help"/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider immediately for any hand injury if: "/>
+            	<LineBreak/>
+            	<Run Text="The person cannot move the hand or fingers"/>
+            	<LineBreak/>
+            	<Run Text="There are persistent new symptoms"/>
+            	<LineBreak/>
+            	<Run Text=" 5. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="If the person sees a health care provider, the next steps depend on the nature and severity of the hand injury."/>
+            	<LineBreak/>
+            	<Run Text="For bites, puncture wounds, burns, and some other hand injuries, the health care provider will give a tetanus shot or booster if the person hasn't had one recently. The health care provider will also clean the wound and remove embedded dirt and debris."/>
+            	<LineBreak/>
+            	<Run Text="For a fracture or dislocation, a doctor will X-ray the hand and may apply a splint or cast."/>
+            	<LineBreak/>
+            	<Run Text="To prevent or treat an infection, the health care provider may prescribe antibiotics."/>
+            	<LineBreak/>
+            	<Run Text="Surgery may be required for some hand injuries."/>
+            	<LineBreak/>
+            	<Run Text="Physical therapy or occupational therapy may be prescribed to assist the person in regaining full function."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Head Injury Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has any of the following symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="Blood or clear fluids coming from the ears or nose"/>
+            	<LineBreak/>
+            	<Run Text="Slurred speech"/>
+            	<LineBreak/>
+            	<Run Text="Unconsciousness, confusion, dizziness, or drowsiness"/>
+            	<LineBreak/>
+            	<Run Text="Unequal pupil size or blurred or double vision"/>
+            	<LineBreak/>
+            	<Run Text="Unless the airway is blocked, do not move the person until a medical team arrives and checks for a spinal cord injury."/>
+            	<LineBreak/>
+            	<Run Text="1. Do Hands-Only CPR, if Necessary"/>
+            	<LineBreak/>
+            	<Run Text="If the person is unconscious or not breathing, do ONLY chest compressions."/>
+            	<LineBreak/>
+            	<Run Text="For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run Text="For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run Text="2. For Mild or Moderate Head Injuries"/>
+            	<LineBreak/>
+            	<Run Text="To control bleeding, apply clean dressings directly to scalp or facial cuts."/>
+            	<LineBreak/>
+            	<Run Text="To control swelling, apply ice for 20 to 30 minutes every 2 to 4 hours."/>
+            	<LineBreak/>
+            	<Run Text="For headache, give over-the-counter acetaminophen. Do not use aspirin, ibuprofen, or other anti-inflammatory drugs, which can increase the risk of bleeding."/>
+            	<LineBreak/>
+            	<Run Text="3. When to See a Doctor"/>
+            	<LineBreak/>
+            	<Run Text="See a doctor immediately if the person experiences:"/>
+            	<LineBreak/>
+            	<Run Text="Increased drowsiness"/>
+            	<LineBreak/>
+            	<Run Text="Irritability or restlessness"/>
+            	<LineBreak/>
+            	<Run Text="Loss of strength in the hands or feet"/>
+            	<LineBreak/>
+            	<Run Text="Persistent vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Worsening headache"/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="Do not leave the person alone for 24 hours."/>
+            	<LineBreak/>
+            	<Run Text="Check the person every 2 hours for alertness."/>
+            	<LineBreak/>
+            	<Run Text="Look for new symptoms, such as confusion, vomiting, unequal pupils, or unusual behavior."/>
+            	<LineBreak/>
+            	<Run Text="If symptoms persist or get worse, see a doctor. The doctor will do an exam and may do blood tests, an X-ray, a CT or CAT scan, or an EEG."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Treating Minor Head Injuries in Children"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if your child:"/>
+            	<LineBreak/>
+            	<Run Text="Is not breathing"/>
+            	<LineBreak/>
+            	<Run Text="Lost consciousness"/>
+            	<LineBreak/>
+            	<Run Text="Had a seizure"/>
+            	<LineBreak/>
+            	<Run Text="Is hard to wake up"/>
+            	<LineBreak/>
+            	<Run Text="Is slurring speech or acting confused"/>
+            	<LineBreak/>
+            	<Run Text="Wobbles when walking"/>
+            	<LineBreak/>
+            	<Run Text="Has weak arms or legs"/>
+            	<LineBreak/>
+            	<Run Text="Can't move his neck as usual"/>
+            	<LineBreak/>
+            	<Run Text="Keeps bleeding"/>
+            	<LineBreak/>
+            	<Run Text="Minor head injuries in young children are scary. And although the wounds are usually small, some head injuries need immediate medical care."/>
+            	<LineBreak/>
+            	<Run Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="You think the injury is serious or if your child:"/>
+            	<LineBreak/>
+            	<Run Text="Is younger than 1"/>
+            	<LineBreak/>
+            	<Run Text="Has neck pain"/>
+            	<LineBreak/>
+            	<Run Text="Keeps crying"/>
+            	<LineBreak/>
+            	<Run Text="Needs stitches for a wide open wound"/>
+            	<LineBreak/>
+            	<Run Text="Has a big dent in the skull or a lot of swelling"/>
+            	<LineBreak/>
+            	<Run Text="Vomited several times"/>
+            	<LineBreak/>
+            	<Run Text="Isn't crying but has clear fluid coming from the ear or nose"/>
+            	<LineBreak/>
+            	<Run Text="Has blurry vision"/>
+            	<LineBreak/>
+            	<Run Text="Has a bad headache"/>
+            	<LineBreak/>
+            	<Run Text="Has memory loss"/>
+            	<LineBreak/>
+            	<Run Text="Fell from a height greater than three feet"/>
+            	<LineBreak/>
+            	<Run Text="Was struck in the head by an object travelling at a high speed"/>
+            	<LineBreak/>
+            	<Run Text=" 1. Care for a Minor Scalp Wound"/>
+            	<LineBreak/>
+            	<Run Text="Wash the area with mild soap and water."/>
+            	<LineBreak/>
+            	<Run Text="To stop bleeding, use a sterile cloth and apply pressure for 10 minutes."/>
+            	<LineBreak/>
+            	<Run Text="Ice the area for 20 minutes using ice wrapped in a towel or cloth. Ice the area again after an hour to reduce swelling and pain."/>
+            	<LineBreak/>
+            	<Run Text="2. Watch the Child"/>
+            	<LineBreak/>
+            	<Run Text="Keep an eye on your child for 2 hours. Pay attention to how he walks and talks. Look for changes from his normal behavior. Watch for any signs listed above that indicate you should call the doctor."/>
+            	<LineBreak/>
+            	<Run Text="Wake the child up and see how he is walking and talking."/>
+            	<LineBreak/>
+            	<Run Text="Give the child only clear liquids."/>
+            	<LineBreak/>
+            	<Run Text="3. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="If your child is acting normally after 2 hours, give children's-formula ibuprofen (Advil, Motrin) or acetaminophen (Tylenol) to relieve pain, if needed."/>
+            	<LineBreak/>
+            	<Run Text="Continue to watch your child for signs of a more serious injury for 24 hours. It's OK to let your child go to sleep, but you may want to check on him every few hours to make sure he's breathing normally."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Mild Headache Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Take Pain Medication"/>
+            	<LineBreak/>
+            	<Run Text="Give ibuprofen (Advil, Motrin), aspirin, or acetaminophen (Tylenol) for pain. Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure. Do not give aspirin to a child under 18."/>
+            	<LineBreak/>
+            	<Run Text="2. Try Self-Care Strategies"/>
+            	<LineBreak/>
+            	<Run Text="The person should drink plenty of liquids. Dehydration can cause or worsen a headache."/>
+            	<LineBreak/>
+            	<Run Text="Apply a cool cloth or ice pack to the forehead, temples, or back of the neck."/>
+            	<LineBreak/>
+            	<Run Text="Massage the person's neck and back to relieve muscle tension."/>
+            	<LineBreak/>
+            	<Run Text="Apply gentle, rotating pressure to the painful area of the head."/>
+            	<LineBreak/>
+            	<Run Text="Have the person rest or take a warm bath or shower."/>
+            	<LineBreak/>
+            	<Run Text="3. When to Call a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="Seek medical care immediately for:"/>
+            	<LineBreak/>
+            	<Run Text="A headache that occurs after a head injury"/>
+            	<LineBreak/>
+            	<Run Text="A headache that is accompanied by dizziness, speech impairment, confusion, or other neurological symptoms"/>
+            	<LineBreak/>
+            	<Run Text="A severe headache that comes on suddenly "/>
+            	<LineBreak/>
+            	<Run Text="A headache that gets worse even after taking pain medications"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Heart Attack Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance"/>
+            	<LineBreak/>
+            	<Run Text="1. Know Heart Attack Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="Chest discomfort that may last more than a few minutes or go away and come back. It may feel like squeezing, fullness, pressure, or pain."/>
+            	<LineBreak/>
+            	<Run Text="Pain or discomfort in the upper body, including arm, left shoulder, back, neck, jaw, or below the breastbone."/>
+            	<LineBreak/>
+            	<Run Text="Difficulty breathing or shortness of breath (with or without chest pain)."/>
+            	<LineBreak/>
+            	<Run Text="Sweating or &quot;cold sweat.&quot;"/>
+            	<LineBreak/>
+            	<Run Text="Indigestion, heartburn, nausea, or vomiting."/>
+            	<LineBreak/>
+            	<Run Text="Light-headedness, dizziness, or extreme weakness."/>
+            	<LineBreak/>
+            	<Run Text="Anxiety or rapid or irregular heartbeats."/>
+            	<LineBreak/>
+            	<Run Text="2. Wait for Emergency Help to Arrive"/>
+            	<LineBreak/>
+            	<Run Text="Do not drive to the hospital unless you have no other option. Ambulance personnel can start care as soon as they arrive."/>
+            	<LineBreak/>
+            	<Run Text="If there is no history of aspirin allergy or bleeding, emergency response may ask the person to chew one 325 mg aspirin slowly."/>
+            	<LineBreak/>
+            	<Run Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="At the hospital, an emergency department doctor will examine the person and run tests to see if chest pain stems from a heart attack or another cause. Tests may include an electrocardiogram (ECG), chest X-ray, and blood tests."/>
+            	<LineBreak/>
+            	<Run Text="Inform the person's doctor about the chest pain and ER visit."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Heart Palpitations Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if palpitations occur with:"/>
+            	<LineBreak/>
+            	<Run Text="Dizziness"/>
+            	<LineBreak/>
+            	<Run Text="Confusion"/>
+            	<LineBreak/>
+            	<Run Text="Light-headedness"/>
+            	<LineBreak/>
+            	<Run Text="Passing out"/>
+            	<LineBreak/>
+            	<Run Text="Shortness of breath"/>
+            	<LineBreak/>
+            	<Run Text="Pain, pressure, or tightness in the chest, neck, jaw, arms, or upper back"/>
+            	<LineBreak/>
+            	<Run Text="1. Take Steps to Reduce Heart Palpitations"/>
+            	<LineBreak/>
+            	<Run Text="Leave a stressful situation and try to be calm. Anxiety, stress, fear, or panic can cause palpitations. "/>
+            	<LineBreak/>
+            	<Run Text="Cut back on coffee, tea, chocolate, and colas if caffeine seems to cause palpitations."/>
+            	<LineBreak/>
+            	<Run Text="Don't smoke or use tobacco products. Nicotine can cause palpitations."/>
+            	<LineBreak/>
+            	<Run Text="Don't drink alcohol."/>
+            	<LineBreak/>
+            	<Run Text="Avoid illegal drugs, such as cocaine and amphetamines."/>
+            	<LineBreak/>
+            	<Run Text="Avoid medications that act like stimulants, such as cough and cold medicines or decongestants."/>
+            	<LineBreak/>
+            	<Run Text="2. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="Call your doctor for an appointment. Often, palpitations aren't serious, but they can be related to abnormal heart valves, heart rhythm problems, or panic attacks."/>
+            	<LineBreak/>
+            	<Run Text="Always call a doctor if palpitations change in nature or increase suddenly."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Heat Exhaustion Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person:"/>
+            	<LineBreak/>
+            	<Run Text="Has a very high, weak pulse rate and rapid shallow breathing, especially when combined with high or low blood pressure"/>
+            	<LineBreak/>
+            	<Run Text="Is unconscious, disoriented, or has a high body temperature"/>
+            	<LineBreak/>
+            	<Run Text="Has warm, dry skin, elevated or lowered blood pressure, and is hyperventilating"/>
+            	<LineBreak/>
+            	<Run Text="1. Lower Body Temperature"/>
+            	<LineBreak/>
+            	<Run Text="Get the person out of the heat and into a cool environment."/>
+            	<LineBreak/>
+            	<Run Text="If air-conditioning is not available, fan the person."/>
+            	<LineBreak/>
+            	<Run Text="Spray the person with a garden hose, get him or her into a cool shower or bath, apply cool compresses, or give the person a cool sponge bath"/>
+            	<LineBreak/>
+            	<Run Text="2. Rehydrate"/>
+            	<LineBreak/>
+            	<Run Text="Give cool, nonalcoholic and non caffeinated beverages as long as the person is alert."/>
+            	<LineBreak/>
+            	<Run Text="3. Rest"/>
+            	<LineBreak/>
+            	<Run Text="Have the person avoid physical activity for the rest of the day."/>
+            	<LineBreak/>
+            	<Run Text="Give over the counter acetaminophen if the person has a mild headache."/>
+            	<LineBreak/>
+            	<Run Text="4. See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="Untreated heat exhaustion can progress to heat stroke. See a doctor that day if:"/>
+            	<LineBreak/>
+            	<Run Text="Symptoms get worse or last more than an hour"/>
+            	<LineBreak/>
+            	<Run Text="The person is nauseated or vomiting"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Heat Rash (Children)"/>
+            	<LineBreak/>
+            	<Run Text="Heat rash in young children can look uncomfortable, but it's usually not serious."/>
+            	<LineBreak/>
+            	<Run Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="The heat rash is still visible after 3 or 4 days."/>
+            	<LineBreak/>
+            	<Run Text="The rash gets worse."/>
+            	<LineBreak/>
+            	<Run Text="The rash causes serious itching."/>
+            	<LineBreak/>
+            	<Run Text="The rash oozes pus or swells."/>
+            	<LineBreak/>
+            	<Run Text="The rash is red or tender."/>
+            	<LineBreak/>
+            	<Run Text="1. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="Give your child a cool bath."/>
+            	<LineBreak/>
+            	<Run Text="Put your child in an air conditioned room, or position a fan so that a gentle breeze blows over her."/>
+            	<LineBreak/>
+            	<Run Text="Avoid creams or ointments that may irritate the skin."/>
+            	<LineBreak/>
+            	<Run Text="2. Dress for the Heat"/>
+            	<LineBreak/>
+            	<Run Text="Dress your child in soft, lightweight, cotton clothing to help absorb moisture."/>
+            	<LineBreak/>
+            	<Run Text="3. Keep Your Child Hydrated"/>
+            	<LineBreak/>
+            	<Run Text="Make sure your child is getting enough fluids when the weather is hot."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Heat Stroke Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has the following symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="Body temperature above 103° F"/>
+            	<LineBreak/>
+            	<Run Text="Rapid pulse"/>
+            	<LineBreak/>
+            	<Run Text="Reduced sweating"/>
+            	<LineBreak/>
+            	<Run Text="Disorientation"/>
+            	<LineBreak/>
+            	<Run Text="Unconsciousness"/>
+            	<LineBreak/>
+            	<Run Text="Seizures"/>
+            	<LineBreak/>
+            	<Run Text="Warm, red, dry skin"/>
+            	<LineBreak/>
+            	<Run Text="1. Call ambulance"/>
+            	<LineBreak/>
+            	<Run Text="Heat stroke is a medical emergency. Seek immediate emergency care if you think someone might have heat stroke."/>
+            	<LineBreak/>
+            	<Run Text="2. Lower Body Temperature Quickly While Waiting for Emergency Services to Arrive."/>
+            	<LineBreak/>
+            	<Run Text="Get the person into air conditioning if possible or out of the sun and into the shade."/>
+            	<LineBreak/>
+            	<Run Text="Spray the person with cool water, or apply cold wet cloths or ice packs to the armpits, neck, and groin. Fan air across the person to increase cooling. These methods help cool the person quickly."/>
+            	<LineBreak/>
+            	<Run Text="Do not give the person anything to drink if the person is not alert or is vomitting."/>
+            	<LineBreak/>
+            	<Run Text="3. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="If the person experiences seizures, keep him or her safe from injury."/>
+            	<LineBreak/>
+            	<Run Text="If the person vomits, turn the person on his or her side to keep the airway open."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="At the hospital, health care providers will rehydrate the person and continue cooling as needed."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Hiccups Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Try Home Remedies"/>
+            	<LineBreak/>
+            	<Run Text="Hold your breath."/>
+            	<LineBreak/>
+            	<Run Text="Drink a glass of water quickly."/>
+            	<LineBreak/>
+            	<Run Text="Put a teaspoon of sugar on the tongue and let it slowly dissolve. For a young child, use corn syrup."/>
+            	<LineBreak/>
+            	<Run Text="Pull on the tongue."/>
+            	<LineBreak/>
+            	<Run Text="Gargle water."/>
+            	<LineBreak/>
+            	<Run Text="Use smelling salts."/>
+            	<LineBreak/>
+            	<Run Text="2. When to See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider if the hiccups last more than 3 hours and are severe enough to interfere with eating, breathing, or sleeping."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="See a doctor quickly if severe stomach pain, fever, shortness of breath, vomiting, throat tightness, weight loss, or coughing up blood accompany hiccups."/>
+            	<LineBreak/>
+            	<Run Text="A health care provider may try medication to control more severe, chronic hiccups."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Hives (Children)"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if your child:"/>
+            	<LineBreak/>
+            	<Run Text="Has sudden hives with swelling in the face, difficulty breathing or coughing, dizziness, or fainting"/>
+            	<LineBreak/>
+            	<Run Text="Has hives after being exposed to a substance that caused a serious allergic reaction before"/>
+            	<LineBreak/>
+            	<Run Text="Develops hives after a bee sting, new medication, or exposure to a highly allergenic food, such as peanuts"/>
+            	<LineBreak/>
+            	<Run Text="Call Your Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="You have any concerns"/>
+            	<LineBreak/>
+            	<Run Text="The hives seem severe"/>
+            	<LineBreak/>
+            	<Run Text="Home treatment isn't helping"/>
+            	<LineBreak/>
+            	<Run Text="1. Use an Antihistamine, If Your Pediatrician Approves"/>
+            	<LineBreak/>
+            	<Run Text="An antihistamine formulated for children may help with swelling and itching. Call a pediatrician before using an antihistamine in infants or toddlers."/>
+            	<LineBreak/>
+            	<Run Text="2. Remove Allergens"/>
+            	<LineBreak/>
+            	<Run Text="If the hives are on one part of your child's body, they may have been triggered by something that got on her skin. Wash off your child's body with soap and water."/>
+            	<LineBreak/>
+            	<Run Text="Change your child's clothes."/>
+            	<LineBreak/>
+            	<Run Text="3. Treat the Itch"/>
+            	<LineBreak/>
+            	<Run Text="Apply calamine lotion or a mixture of baking soda and water for itch."/>
+            	<LineBreak/>
+            	<Run Text="Put your child in a cool bath for 10 minutes."/>
+            	<LineBreak/>
+            	<Run Text="Put a cold compress or cold pack on itchy areas."/>
+            	<LineBreak/>
+            	<Run Text="4. Observe Your Child"/>
+            	<LineBreak/>
+            	<Run Text="If your child's symptoms seem to be getting worse, call a doctor."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Hives and Angioedema Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has:"/>
+            	<LineBreak/>
+            	<Run Text="* Symptoms of a severe allergic reaction (anaphylaxis) including: "/>
+            	<LineBreak/>
+            	<Run Text="Difficulty breathing or wheezing Tightness in the throat or a feeling that the airways are closing Hoarseness or trouble speaking Swollen lips, tongue, or throat Nausea, abdominal pain, or vomiting Fast heartbeat or pulse Anxiety or dizziness Loss of consciousness"/>
+            	<LineBreak/>
+            	<Run Text="* Had severe reactions in the past"/>
+            	<LineBreak/>
+            	<Run Text="1. Avoid the Trigger"/>
+            	<LineBreak/>
+            	<Run Text="Hives and angioedema that happen suddenly are usually triggered by an allergic reaction to a food, drug, infection, or insect bite or sting."/>
+            	<LineBreak/>
+            	<Run Text="If you know what the trigger is, keep the person away from it."/>
+            	<LineBreak/>
+            	<Run Text="2. Control Itching and Swelling"/>
+            	<LineBreak/>
+            	<Run Text="Give an adult an over-the-counter antihistamine. Check with a doctor before giving an antihistamine to a child."/>
+            	<LineBreak/>
+            	<Run Text="Put a cool compress on the area or have the person take a cool shower."/>
+            	<LineBreak/>
+            	<Run Text="Avoid strong soaps, detergents, and other chemicals that can make itching worse."/>
+            	<LineBreak/>
+            	<Run Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="It may take several days for the trigger substance to leave the body. Continue treatment until symptoms subside."/>
+            	<LineBreak/>
+            	<Run Text="If symptoms persist, or to help identify the allergen that caused the hives, see a doctor."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="How to Operate an Automated External Defibrillator"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="* The person may be having sudden cardiac arrest."/>
+            	<LineBreak/>
+            	<Run Text="1. Check Responsiveness"/>
+            	<LineBreak/>
+            	<Run Text="For an adult or older child, shout and shake the person to confirm consciousness. Do not use AED on a conscious person."/>
+            	<LineBreak/>
+            	<Run Text="For an infant or young child, pinch skin. Never shake a young child."/>
+            	<LineBreak/>
+            	<Run Text="Check breathing and pulse. If absent or irregular, prepare to use AED as soon as possible."/>
+            	<LineBreak/>
+            	<Run Text="2. Prepare to Use AED"/>
+            	<LineBreak/>
+            	<Run Text="Make sure the person is in a dry area and away from puddles or water."/>
+            	<LineBreak/>
+            	<Run Text="Check for body piercings or outline of an implanted medical device, such as a pacemaker or implantable defibrillator."/>
+            	<LineBreak/>
+            	<Run Text="AED pads must be placed at least 1 inch away from piercings or implanted devices."/>
+            	<LineBreak/>
+            	<Run Text="3. Use AED"/>
+            	<LineBreak/>
+            	<Run Text="For newborns, infants, and children up to age 8, use a pediatric AED, if possible. If not, use an adult AED."/>
+            	<LineBreak/>
+            	<Run Text="Turn on the AED."/>
+            	<LineBreak/>
+            	<Run Text="Wipe chest dry."/>
+            	<LineBreak/>
+            	<Run Text="Attach pads."/>
+            	<LineBreak/>
+            	<Run Text="Plug in connector, if necessary."/>
+            	<LineBreak/>
+            	<Run Text="Make sure no one is touching the person."/>
+            	<LineBreak/>
+            	<Run Text="If a shock is advised, check again to make sure no one is touching the person. "/>
+            	<LineBreak/>
+            	<Run Text="Start or resume chest compressions."/>
+            	<LineBreak/>
+            	<Run Text="For an adult, see The Importance of CPR for information about giving CPR."/>
+            	<LineBreak/>
+            	<Run Text="For a child, see CPR for Children."/>
+            	<LineBreak/>
+            	<Run Text="Follow AED prompts."/>
+            	<LineBreak/>
+            	<Run Text="4. Continue CPR After Using AED"/>
+            	<LineBreak/>
+            	<Run Text="After 2 minutes of CPR, check the person's heart rhythm. If it's still absent or irregular, give another shock."/>
+            	<LineBreak/>
+            	<Run Text="If a shock isn't needed, continue CPR until emergency help arrives or the person begins to move."/>
+            	<LineBreak/>
+            	<Run Text="Stay with the person until help arrives."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Human Bites Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="* A human bite causes serious injury."/>
+            	<LineBreak/>
+            	<Run Text="* The wound will not stop bleeding after 10 minutes of firm pressure."/>
+            	<LineBreak/>
+            	<Run Text="* Blood spurts from the wound."/>
+            	<LineBreak/>
+            	<Run Text="1. Stop Bleeding"/>
+            	<LineBreak/>
+            	<Run Text="Apply firm, direct pressure with sterile gauze or clean cloth until bleeding stops."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="2. Clean and Protect"/>
+            	<LineBreak/>
+            	<Run Text="Clean the wound with mild soap and water. Rinse for several minutes under running water."/>
+            	<LineBreak/>
+            	<Run Text="Apply antibiotic ointment to prevent infection."/>
+            	<LineBreak/>
+            	<Run Text="Watch for signs of infection: redness, pain, swelling, or pus. If you see them, get medical help."/>
+            	<LineBreak/>
+            	<Run Text="3. Get Medical Help"/>
+            	<LineBreak/>
+            	<Run Text="See a health care provider about any human bite because there is a high risk of infection. Even minor bites can easily become infected."/>
+            	<LineBreak/>
+            	<Run Text="Tell the health care provider if the person has stiffness, lack of mobility, or numbness in the area. There may be damage to tendons or nerves."/>
+            	<LineBreak/>
+            	<Run Text="Deeper bite wounds may require stitches."/>
+            	<LineBreak/>
+            	<Run Text="The health care provider may give a tetanus shot or booster."/>
+            	<LineBreak/>
+            	<Run Text="The health care provider may prescribe antibiotics."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Hyperventilation Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has:"/>
+            	<LineBreak/>
+            	<Run Text="Chest pain, including pain that is crushing, squeezing (feels like a heavy weight on the chest), or is sharp and stabbing, especially if it is worse with deep breaths"/>
+            	<LineBreak/>
+            	<Run Text="Difficulty breathing"/>
+            	<LineBreak/>
+            	<Run Text="Racing heartbeat"/>
+            	<LineBreak/>
+            	<Run Text="Fevers or chills"/>
+            	<LineBreak/>
+            	<Run Text="1. Reassure the Person"/>
+            	<LineBreak/>
+            	<Run Text="Calm the person to help reduce anxiety."/>
+            	<LineBreak/>
+            	<Run Text="2. Help the Person Relax Breathing"/>
+            	<LineBreak/>
+            	<Run Text="Have the person sit down and try these strategies:"/>
+            	<LineBreak/>
+            	<Run Text="Breathe through pursed lips as if blowing out a candle"/>
+            	<LineBreak/>
+            	<Run Text="Cover the mouth and one nostril and breathe only through the other nostril"/>
+            	<LineBreak/>
+            	<Run Text="Breathe slowly, taking 1 breath every 5 seconds"/>
+            	<LineBreak/>
+            	<Run Text="Take deep, slow breaths from the abdomen (&quot;belly breathing&quot;)"/>
+            	<LineBreak/>
+            	<Run Text="3. When to Get Medical Help"/>
+            	<LineBreak/>
+            	<Run Text="Go to a hospital emergency room if:"/>
+            	<LineBreak/>
+            	<Run Text="The person's symptoms don't get better after several minutes."/>
+            	<LineBreak/>
+            	<Run Text="Symptoms get worse or the person is in pain."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Hypothermia Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Call ambulance if you suspect hypothermia"/>
+            	<LineBreak/>
+            	<Run Text="Symptoms of hypothermia in adults and children include:"/>
+            	<LineBreak/>
+            	<Run Text="Confusion, memory loss, or slurred speech"/>
+            	<LineBreak/>
+            	<Run Text="Drop in body temperature below 95 Farenheit"/>
+            	<LineBreak/>
+            	<Run Text="Exhaustion or drowsiness"/>
+            	<LineBreak/>
+            	<Run Text="Loss of consciousness"/>
+            	<LineBreak/>
+            	<Run Text="Numb hands or feet"/>
+            	<LineBreak/>
+            	<Run Text="Shallow breathing"/>
+            	<LineBreak/>
+            	<Run Text="Shivering"/>
+            	<LineBreak/>
+            	<Run Text="In infants, symptoms include:"/>
+            	<LineBreak/>
+            	<Run Text="Bright red, cold skin"/>
+            	<LineBreak/>
+            	<Run Text="Very low energy level"/>
+            	<LineBreak/>
+            	<Run Text="2. Restore Warmth Slowly"/>
+            	<LineBreak/>
+            	<Run Text="Get the person indoors."/>
+            	<LineBreak/>
+            	<Run Text="Remove wet clothing and dry the person off, if needed."/>
+            	<LineBreak/>
+            	<Run Text="Warm the person's trunk first, not hands and feet. Warming extremities first can cause shock."/>
+            	<LineBreak/>
+            	<Run Text="Warm the person by wrapping him or her in blankets or putting dry clothing on the person."/>
+            	<LineBreak/>
+            	<Run Text="Do not immerse the person in warm water. Rapid warming can cause heart arrhythmia."/>
+            	<LineBreak/>
+            	<Run Text="If using hot water bottles or chemical hot packs, wrap them in cloth; don't apply them directly to the skin."/>
+            	<LineBreak/>
+            	<Run Text="3. Begin CPR, if Necessary, While Warming Person"/>
+            	<LineBreak/>
+            	<Run Text="If the person is not breathing normally:"/>
+            	<LineBreak/>
+            	<Run Text="For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run Text="For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run Text="Continue CPR until the person begins breathing or emergency help arrives."/>
+            	<LineBreak/>
+            	<Run Text="4. Give Warm Fluids"/>
+            	<LineBreak/>
+            	<Run Text="Give the person a warm drink, if conscious. Avoid caffeine or alcohol."/>
+            	<LineBreak/>
+            	<Run Text="5. Keep Body Temperature Up"/>
+            	<LineBreak/>
+            	<Run Text="Once the body temperature begins to rise, keep the person dry and wrapped in a warm blanket. Wrap the person's head and neck, as well."/>
+            	<LineBreak/>
+            	<Run Text="6. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="At the hospital, health care providers will continue warming efforts, including providing intravenous fluids and warm, moist oxygen."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

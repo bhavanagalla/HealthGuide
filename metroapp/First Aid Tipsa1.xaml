@@ -1,0 +1,605 @@
+﻿<Page
+    x:Class="metroapp.First_Aid_Tipsa1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Opacity="0.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition Width="662*"/>
+            <ColumnDefinition Width="12*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="181*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <ScrollViewer Grid.Column="1" HorizontalAlignment="Left" Height="440" Margin="28,274,0,0" Grid.Row="2" VerticalAlignment="Top" Width="1270">
+            <TextBlock TextWrapping="Wrap" FontSize="20" Style="{StaticResource BodyTextStyle}" Width="1132" FontFamily="Segoe UI Semilight" TextAlignment="Justify" Height="6038">
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" Text="Treatment for Abdominal Pain in Adults:"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="20" Text="•You have pain and tenderness to the touch in the lower right abdomen with fever and/or vomiting. These may be signs of appendicitis."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="20" Text="•You are pregnant and have abdominal pain or vaginal bleeding. This may be a sign of an ectopic pregnancy or miscarriage."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="20" Text="1. "/>
+            	<Run Foreground="#FF222222" FontSize="20" Text="Treat Symptoms"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="20" Text="•For heartburn from gastroesophageal reflux disease (GERD), take an over-the-counter antacid or acid reducer.&#xA;•For constipation, take a mild stool softener or laxative.&#xA;•For pain, take acetaminophen (Aspirin Free Anacin, Liquiprin, Panadol, Tylenol). "/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="20" Text="Avoid NSAIDs such as aspirin, ibuprofen (Advil, Midol, Motrin), or naproxen (Naprosyn, Aleve, Anaprox, Naprelan)"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="20" Text=" because they can cause stomach irritation or bleeding."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="20" Text="2. "/>
+            	<Run Foreground="#FF222222" FontSize="20" Text="When to Call a Doctor"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="20" Text="Seek medical help if the person:"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="20" Text="•Has severe abdominal pain or pain that lasts several days&#xA;•Has nausea, fever, or inability to keep food down for several days&#xA;•Has bloody stools&#xA;•Vomits blood&#xA;•Has painful urination&#xA;•Has blood in the urine&#xA;•Cannot pass stools, especially if also vomiting&#xA;•Has difficulty breathing&#xA;•Had an injury to the abdomen in the days before the pain started&#xA;•Has heartburn that isn't relieved by over-the-counter drugs or last longer than two weeks."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Abdominal Pain in Children Treatment:"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="Call Ambulance now if: "/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•The child is not moving or is too weak to stand."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="1. "/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="Have Your Child Rest"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Avoid activity, especially after eating."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="2. "/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="Treat Symptoms"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Provide clear fluids to sip, such as water, broth, or fruit juice diluted with water.&#xA;•Serve bland foods, such as saltine crackers, plain bread, dry toast, rice, gelatin, or applesauce.&#xA;•Avoid spicy or greasy foods and caffeinated or carbonated drinks until 48 hours after all symptoms have gone away.&#xA;•Encourage the child to have a bowel movement.&#xA;•Ask your child's doctor before giving any medicine for abdominal pain. Drugs can mask or worsen the pain."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="3. "/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="When to Call a Doctor"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="Call your child's doctor immediately if your child has any of the following:"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Persistent pain on the right side of the abdomen, which could be an appendicitis&#xA;•Pain confined to one part of the abdomen&#xA;•Severe or rapidly worsening abdominal pain or pain that doesn't go away within 24 hours&#xA;•Pain or tenderness when you press on the belly&#xA;•A swollen abdomen or an abdomen that is rigid to the touch&#xA;•Pain in the groin, or pain or swelling in a testicle&#xA;•Unexplained fever&#xA;•Lots of vomiting or diarrhea&#xA;•Bleeding from the rectum&#xA;•Blood in the stool or vomit&#xA;•A recent abdominal injury"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Acetaminophen (Tylenol) "/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Poisoning Treatment:"/>
+            	<LineBreak/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="Call ambulance now if the person is: "/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Unconscious&#xA;•Not breathing"/>
+            	<LineBreak/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="1. Get Help Immediately"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Call Poison Control for instructions, even if there are no symptoms of poisoning.&#xA;•If possible, provide this information: all medications the person may have taken, how much he or she may have taken, and when.&#xA;•If you are told to seek emergency care, collect and bring any pills or pill bottles with you."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="2. Follow Up"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•For small amounts, you may be told to watch the person carefully at home.&#xA;•For a larger amount, you may need to take the person to a hospital emergency department.&#xA;•In high doses, acetaminophen can cause damage to the liver."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text=" At the hospital, doctors will check the level of acetaminophen in the blood and may give activated charcoal or antidote medication to prevent the toxic effect on the body."/>
+            	<LineBreak/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22"/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Alcohol Intoxication Treatment:"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Mental confusion or unconsciousness&#xA;•Repeated vomiting&#xA;•Seizures&#xA;•Slow or irregular breathing&#xA;•Low body temperature&#xA;•Pale, clammy, or bluish skin"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="1. Stop Further Drinking"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Leave the place where the alcohol is, or put the alcohol away.&#xA;•Coffee, cold showers, and other traditional remedies don't work."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#FF222222" FontSize="22" Text="2. Keep the Person Safe"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" FontSize="22" Text="•Never allow someone to drive when they are drunk.&#xA;•Keep the person away from machinery, bicycles, skateboards, swimming pools, and other hazards.&#xA;•Watch for signs of alcohol poisoning."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Allergic Reaction Treatment:"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call ambulance now if the person has had severe reactions in the past or has any of these symptoms:"/>
+            	</Span>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" Text="•Difficulty breathing or wheezing&#xA;•Tightness in the throat or a feeling that the airways are closing&#xA;•Hoarseness or trouble speaking&#xA;•Swollen lips, tongue, or throat&#xA;•Nausea, abdominal pain, or vomiting&#xA;•Fast heartbeat or pulse&#xA;•Anxiety or dizziness&#xA;•Loss of consciousness&#xA;•Other symptoms of a severe allergic reaction (anaphylaxis)"/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Treat Symptoms"/>
+            	</Span>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" Text="•For mild allergy symptoms, such as hay fever or hives, give an over-the-counter (OTC) antihistamine."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" Text="•For stuffy nose, give an OTC decongestant."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" Text="•For itchy, watery eyes, use OTC allergy eye drops."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" Text="•For itchy allergic rash, apply cold compresses and an OTC hydrocortisone cream."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Follow Up"/>
+            	</Span>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<Run Foreground="#DEFFFFFF" Text="•Watch for worsening symptoms, including signs of anaphylaxis."/>
+            	<LineBreak Foreground="#DEFFFFFF"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Ankle Fracture Treatment:"/>
+            	<LineBreak/>
+            	<Run Text="•Is bleeding uncontrollably&#xA;•Has a numb, cold, pale, or blue ankle&#xA;•Is unable to move the foot&#xA;•Is in shock (faint, pale, with rapid shallow breathing)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Leave Protruding Bone Alone"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If a bone has broken through the skin, don't push it back into place. "/>
+            	<LineBreak/>
+            	<Run Text="Cover the area with a clean bandage and seek immediate medical attention."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Stop Bleeding"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Apply steady, direct pressure with a cloth for 15 minutes and elevate the wound."/>
+            	<LineBreak/>
+            	<Run Text=" If blood soaks through, apply another cloth over the first and seek immediate medical attention."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Remove ankle bracelets or toe rings."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If medical attention is not immediately available, apply RICE therapy"/>
+            	</Span>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text=":"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Rest ankle by having the person stay off of it. Use crutches if necessary."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Ice area. Use an ice pack or wrap the ice in a clean cloth. Do not place ice directly against the skin."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Compress by wrapping ankle lightly (not tightly) with an &quot;ace&quot; bandage or elastic ankle brace. Do not try to align the bones."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Elevate ankle above heart level."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="4. Manage Pain and Inflammation"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Give an over-the-counter pain medication such as ibuprofen or aspirin. "/>
+            	<LineBreak/>
+            	<Run Text="Avoid ibuprofen and other NSAID's if the person has heart failure or kidney failure. Do NOT give aspirin to anyone under the age of 18."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="5. See a Doctor as Soon as Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="6. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The doctor will examine and X-ray the ankle, leg, and foot. "/>
+            	<LineBreak/>
+            	<Run Text="The doctor also may do a CT or CAT scan, or an MRI to determine if surgery is needed."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If needed, the doctor will set the broken bone back in place and immobilize the ankle with a splint, cast, or other device."/>
+            	<LineBreak/>
+            	<Run Text=" Surgery may be necessary to repair the break."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Ankle Sprain Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="Go to the emergency room if:"/>
+            	</Span>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<Run Foreground="#FFF7EDED"/>
+            	<LineBreak/>
+            	<Run Foreground="#FFF7EDED" Text="Pain, bruising, or swelling is severe, the ankle looks deformed or seems dislocated, or the person can't put any weight on the ankle."/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Control Swelling"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Remove ankle bracelets or toe rings."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Do RICE therapy"/>
+            	</Span>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text=":"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Rest the ankle. Use crutches if necessary."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Ice the ankle for 20 to 30 minutes several times a day for the first 2 days."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Compress by wrapping the ankle lightly -- not tightly -- with an Ace bandage or elastic ankle brace."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Elevate the ankle above heart level for the first 48 hours."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Manage Pain and Inflammation"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Take ibuprofen (Advil, Motrin), acetaminophen (Tylenol), or aspirin for pain. "/>
+            	<LineBreak/>
+            	<Run Text="But check with your doctor first if you have any medical conditions or take any other medicines."/>
+            	<Span Foreground="#FF222222">
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3. See a Health Care Provider"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Make an appointment as soon as possible for any ankle sprain, mild or severe."/>
+            	<LineBreak/>
+            	<Run Text=" Do not give aspirin to anyone younger than 18 unless told to do so by a doctor."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Anthrax Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Early symptoms depend on the type of exposure:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Coetaneous (skin) anthrax can show up immediately as an itchy bump that turns into a sore and then a painless ulcer with a black center.&#xA;•Digestive anthrax symptoms include nausea, loss of appetite, bloody diarrhea, and stomach pain.&#xA;•Inhaled anthrax symptoms are similar to flu and can include fever, muscle aches, headache, cough, and fatigue."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. See a Health Care Provider Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Foreground="#FFEADEDE" Text="Once you see a health care provider, the next steps depend on the particular case"/>
+            	<Run Foreground="#FF222222" Text="."/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•If the person has been exposed to anthrax but doesn't have symptoms,"/>
+            	<LineBreak/>
+            	<Run Text=" a health care provider will give an anthrax vaccine and prescribe antibiotics."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If the person has developed symptoms, the health care provider will prescribe antibiotics."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If the anthrax case is serious, the person will be hospitalized."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If you have any reason to believe that anthrax exposure is linked to foul play, contact local law enforcement immediately."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Aspirin Poisoning Treatment:"/>
+            	<LineBreak/>
+            	<Run Text="•Unconscious&#xA;•Having convulsions&#xA;•Not breathing"/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="1. Get Help Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="For an overdose of aspirin:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Call Poison Control for instructions, even if there are no signs of poisoning."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If possible, provide this information: all medications the person may have taken, how much the person may have taken, and when."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="2. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•For small amounts, you may need to watch the person carefully at home.&#xA;•For a larger amount, you may need to take the person to a hospital emergency department.&#xA;•Take the aspirin bottle to show the health care provider.&#xA;•At the hospital, health care providers will check the level of aspirin in the blood and will do testing to determine the aspirin's toxic effect on the body. They may give activated charcoal or other medication to slow or prevent toxicity."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Acute Asthma Attack Treatment for Adults:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Symptoms of acute attack include difficulty talking or walking because of shortness of breath or lips or fingernails turning blue."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Follow the Person's Asthma Plan, if Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Find out if the person has an individualized asthma action plan from a health care provider.&#xA;•If so, follow its directions for giving asthma medication and seeking medical help for acute asthma attack."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Give Asthma First Aid"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If the person doesn't have an asthma plan:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Sit the person upright comfortably and loosen tight clothing.&#xA;•If the person has asthma medication, such as an inhaler, assist in using it.&#xA;•If the person doesn't have an inhaler, use one from a first aid kit or borrow someone else's."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. Use Inhaler With a Spacer, if Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Remove cap and shake inhaler well.&#xA;•Insert inhaler into spacer.&#xA;•Have the person breathe out completely and put mouth tightly around spacer mouthpiece.&#xA;•Press inhaler once to deliver a puff.&#xA;•Have the person breathe in slowly through the mouth and then hold breath for 10 seconds.&#xA;•Give a total of four puffs, waiting about a minute between each puff."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="4. Use Inhaler Without a Spacer, if Necessary"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Remove the inhaler cap and shake well.&#xA;•Have the person breathe out all the way and seal lips tightly around inhaler mouthpiece.&#xA;•As the person starts to breathe in slowly, press down on inhaler one time.&#xA;•The person should keep breathing in as slowly and deeply as possible (about five to seven seconds) and then hold breath for 10 seconds.&#xA;•Give a total of four puffs, waiting about one minute between each puff."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="5. Continue Using Inhaler if Breathing Is Still a Problem"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•After four puffs, wait four minutes. If the person still has trouble breathing, give another set of four puffs.&#xA;•If there's still little or no improvement, give four puffs every four minutes until ambulance arrives. "/>
+            	<LineBreak/>
+            	<Run Text="If the person is having a severe attack, give up to six to eight puffs every five minutes."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="6. Monitor the Person Until Help Arrives"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Do not mistake drowsiness as a sign of improvement; it could mean asthma is worsening.&#xA;•Do not assume the person's asthma is improving if you no longer hear wheezing."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Foreground="#FF222222" Text="7. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•An emergency room doctor will check the severity of the attack and provide treatment, including medications.&#xA;•The person may be discharged home or hospitalized for further care, depending on response to treatment."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Acute Asthma Attack Treatment for Children:"/>
+            	<LineBreak/>
+            	<Run Text="•Having a hard time breathing&#xA;•Constantly coughing&#xA;•Unable to talk, eat, or play&#xA;•Vomiting&#xA;•Turning blue in the lips or fingers&#xA;•Convulsing while breathing (using stomach muscles excessively to breathe)"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If he does not have the above symptoms but is still complaining of trouble breathing or coughing, do the following:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Notify the Child's Health Care Provider Immediately"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Follow the Child's Asthma Plan, if Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Find out if the child has an individualized asthma action plan from a health care provider.&#xA;•If so, follow directions for giving asthma medication and seeking medical help for acute asthma attack.&#xA;•Bring a copy of the child's asthma action plan to show the ER staff."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="3. Give Quick-Relief Medicine"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If the child has no asthma action plan but has an inhaler:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Sit child upright comfortably and loosen tight clothing.&#xA;•Give one puff of quick-relief medicine from child's inhaler, always with a spacer.&#xA;•Ask child to take four breaths from spacer.&#xA;•Give three more puffs, with four breaths between each.&#xA;•Wait four minutes. If there's no improvement, give another four puffs."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If the child doesn't have an inhaler, use one from a first aid kit. If you are sure this is an asthma attack and the child has used quick-relief asthma medicine before (albuterol), you can borrow someone else's."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•An emergency room doctor will check the severity of the attack and provide treatment, including medication.&#xA;•The child may be discharged home or hospitalized for further care, depending on response to treatment."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" FontSize="22" Text="Acute Asthma Attack in Pregnancy Treatment:"/>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="1. Symptoms of an acute asthma attack in pregnancy include:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Difficulty talking, walking, or thinking because of shortness of breath&#xA;•Neck and ribs moving in during breathing&#xA;•Blue- or gray-looking skin&#xA;•Peak flow reading below 60% of personal best&#xA;•Decrease in fetal kick count if the baby is in distress"/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="2. Follow the Woman's Asthma Plan, if Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Find out if the woman has an individualized treatment plan for asthma attack in pregnancy from a health care provider.&#xA;•Follow the plan. It may say to call the woman's health care provider about when to give quick-relief medicine and "/>
+            	<LineBreak/>
+            	<Run Text="whether additional medicines are needed."/>
+            	<Span Foreground="#FF222222">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="3."/>
+            	</Span>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text=" Give Asthma First Aid"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222">
+            		<Run Text="If the woman doesn't have an asthma action plan:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Sit the woman upright comfortably and loosen tight clothing.&#xA;•If woman has asthma medication, such as an inhaler, help her use it.&#xA;•If woman doesn't have an inhaler, use one from a first aid kit or borrow someone else's."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="4. Use Inhaler With a Spacer, if Possible"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Remove cap and shake inhaler well.&#xA;•Insert inhaler into spacer.&#xA;•Have her breathe out completely and put mouth tightly around spacer mouthpiece.&#xA;•Press inhaler once to deliver a puff.&#xA;•Have her breathe in slowly through the mouth and then hold breath for 10 seconds.&#xA;•Give a total of four puffs, waiting about a minute between each puff."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="5. Use Inhaler Without a Spacer, if Necessary"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Remove cap and shake inhaler well.&#xA;•Have woman breathe out all the way and seal lips tightly around inhaler mouthpiece.&#xA;•As woman starts to breathe in slowly, press down on the inhaler one time.&#xA;•Have her keep breathing in as slowly and deeply as possible (about five to seven seconds) and then hold breath for 10 seconds.&#xA;•Give a total of four puffs, waiting about one minute between each puff."/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="6. Continue Using Inhaler if Breathing Is Still a Problem"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•After four puffs, wait four minutes. If the woman still has trouble breathing, give another set of four puffs.&#xA;•If there's still little or no improvement, continue giving four puffs every four minutes until ambulance arrives.&#xA;•If the woman is having a severe attack, give up to six to eight puffs every five minutes."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Foreground="#FF222222" FontWeight="Bold" Text="7. Monitor the Woman Until Help Arrives"/>
+            	<LineBreak/>
+            	<Run Text="•Do not mistake drowsiness as a sign of improvement; it could mean asthma is worsening.&#xA;•Do not assume her asthma is improving if you no longer hear wheezing."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Span Foreground="#FF222222" FontWeight="Bold">
+            		<Run Text="8. Follow Up"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•An emergency room doctor may give the woman oxygen, inhaled medications, and intravenous steroids."/>
+            	<LineBreak/>
+            	<Run Text=" All can be given without risk to the baby.&#xA;•The woman may be hospitalized so that she can be carefully monitored."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="57" Margin="0" Grid.RowSpan="3" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}" Click="Button_Click"/>
+        <FlipView Grid.Column="1" HorizontalAlignment="Left" Margin="416,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="264" Width="455">
+            <Image Source="Assets/abdominal_pain (1).png" Margin="1,10,1,-6" />
+            <Image Source="Assets/94683.png" />
+            <Image Source="Assets/acetaminophe.png" />
+            <Image Source="Assets/abdomenal.png" />
+            <Image Source="Assets/alcohol.png" />
+            <Image Source="Assets/altitude-sickness.png" />
+            <Image Source="Assets/sprained-ankle-bandage.png" />
+            <Image Source="Assets/19335.png" />
+            <Image Source="Assets/205199.png" />
+
+        </FlipView>
+        <Border BorderBrush="#FF550909" BorderThickness="1" HorizontalAlignment="Left" Height="4199" Margin="52,20,0,-3495" Grid.Row="2" VerticalAlignment="Top" Width="1276" RenderTransformOrigin="0.5,0.5" Grid.Column="1" Grid.ColumnSpan="2">
+            <Border.RenderTransform>
+                <CompositeTransform ScaleY="-1"/>
+            </Border.RenderTransform>
+        </Border>
+
+
+    </Grid>
+</Page>

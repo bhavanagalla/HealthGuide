@@ -1,0 +1,90 @@
+﻿<Page
+    x:Class="metroapp.First_Aid_Tipsm3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Opacity="0.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="21*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="339*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Height="52" Style="{StaticResource BackButtonStyle}" Click="Button_Click" Grid.Row="1"/>
+        <ScrollBar Grid.Column="3" HorizontalAlignment="Left" Margin="401,0,0,0" Grid.Row="2" VerticalAlignment="Top" Height="696" RenderTransformOrigin="0.5,0.5" Width="35" Grid.ColumnSpan="2">
+            <ScrollBar.RenderTransform>
+                <CompositeTransform ScaleX="-1"/>
+            </ScrollBar.RenderTransform>
+        </ScrollBar>
+        <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="638" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="404">
+            <Button Content="• Lightning Strike" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF490E0E" Click="Button_Click_2"/>
+            <Button Content="• Low Blood Sugar" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF400E0E" Click="Button_Click_3"/>
+            <Button Content="• Migraine Headache" Foreground="#FF4D1414" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_4"/>
+            <Button Content="• Migraine Headache in Children" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF440E0E" Click="Button_Click_5"/>
+            <Button Content="• Miscarriage" FontSize="22" Foreground="#FF471010" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_6"/>
+            <Button Content="• Muscle Strain" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF440C0C" Click="Button_Click_7"/>
+            <Button Content="• Nail Injuries" Foreground="#FF3C1010" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_8"/>
+            <Button Content="• Neck Strain" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF441010" Click="Button_Click_9"/>
+            <Button Content="• Nose Foreign Body" Foreground="#FF440F0F" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_10"/>
+            <Button Content="• Nosebleeds" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF4F1111" Click="Button_Click_11"/>
+            <Button Content="• Nursemaid Elbow" Foreground="#FF4B1414" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_12"/>
+            <Button Content="• Panic Attacks" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF401111" Click="Button_Click_13"/>
+            <Button Content="• Paronychia" Foreground="#FF3C0E0E" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_14"/>
+        </ListBox>
+        <ListBox Grid.Column="2" HorizontalAlignment="Left" Height="638" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="404">
+            <Button Content="• Poison Ivy, Oak, or Sumac" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF401313" Click="Button_Click_15"/>
+            <Button Content="• Poisoning" Foreground="#FF380F0F" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_16"/>
+            <Button Content="• Poisoning in Children" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Foreground="#FF4D0E0E" Click="Button_Click_17"/>
+            <Button Content="• Puncture Wound" Foreground="#FF471313" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_18"/>
+            <Button Content="• Rabies" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF3C0B0B" Click="Button_Click_19"/>
+            <Button Content="• Rashes" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF4D0B0B" Click="Button_Click_20"/>
+            <Button Content="• Rectal Bleeding" Foreground="#FF471111" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_21"/>
+            <Button Content="• Rectal Foreign Object" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Foreground="#FF400D0D" Click="Button_Click_22"/>
+            <Button Content="• Rectal Pain" Foreground="#FF471010" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_23"/>
+            <Button Content="• Reflux (GERD) in Children" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF470E0E" Click="Button_Click_24"/>
+            <Button Content="• Ricin Poisoning" Foreground="#FF461111" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_25"/>
+            <Button Content="• Ruptured Tendon" Foreground="#FF460D0D" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_26"/>
+            <Button Content="• Scratched Eye/Corneal Abrasion" FontSize="22" Foreground="#FF3E0909" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_27"/>
+        </ListBox>
+        <ListBox Grid.Column="3" HorizontalAlignment="Left" Height="638" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="404" FontSize="22">
+            <Button Content="• Seizure" Foreground="#FF460D0D" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_40"/>
+            <Button Content="• Seizure in Children" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF470E0E" Click="Button_Click_39"/>
+            <Button Content="• Severe Allergic Reaction" Foreground="#FF470E0E" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_38"/>
+            <Button Content="• Shark Bite" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF4D1010" Click="Button_Click_37"/>
+            <Button Content="• Shock" Foreground="#FF4F1111" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_36"/>
+            <Button Content="• Shock/Electrocution" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF460F0F" Click="Button_Click_35"/>
+            <Button Content="• Shoulder and Neck Pain" Foreground="#FF511010" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_34"/>
+            <Button Content="• Shoulder Dislocation" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Foreground="#FF400E0E" Click="Button_Click_33"/>
+            <Button Content="• Shoulder Separation" Foreground="#FF460F0F" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_32"/>
+            <Button Content="• Skier's Thumb" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Foreground="#FF400C0C" Click="Button_Click_31"/>
+            <Button Content="• Slipped Disk" Foreground="#FF4B1111" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_30"/>
+            <Button Content="• Smoke Inhalation" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF4F0F0F" Click="Button_Click_29"/>
+            <Button Content="• Snakebite" Foreground="#FF491010" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_28"/>
+        </ListBox>
+        <Button Content="Button" Grid.Column="3" HorizontalAlignment="Left" Margin="360.068,31.658,0,0" VerticalAlignment="Top" Height="52" Click="Button_Click_1" Style="{StaticResource BackButtonStyle}" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="181.191"/>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="81,33,0,0" TextWrapping="Wrap" Text="First Aid Tips" VerticalAlignment="Top" Height="48" Width="377" Style="{StaticResource GroupHeaderTextStyle}" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button x:Name="h3" Content="" Grid.Column="2" HorizontalAlignment="Left" Margin="161,0,0,668" VerticalAlignment="Bottom" BorderThickness="0" Height="80" Width="80" Grid.RowSpan="3" Click="Button_Click_h3">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/home.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

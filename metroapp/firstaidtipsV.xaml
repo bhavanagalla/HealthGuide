@@ -1,0 +1,368 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsV"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="648*"/>
+            <ColumnDefinition Width="18*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Height="5228" Width="1218" FontFamily="Segoe UI Light" FontSize="24">
+            	<Run Text="Vaginal Bleeding Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if you are NOT pregnant and have abnormal vaginal bleeding with:"/>
+            	<LineBreak/>
+            	<Run Text="Light-headedness"/>
+            	<LineBreak/>
+            	<Run Text="Fainting"/>
+            	<LineBreak/>
+            	<Run Text="Skin that appears unusually pale"/>
+            	<LineBreak/>
+            	<Run Text="1. See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="Call for an appointment with a health care provider. While many causes are minor, others can be serious."/>
+            	<LineBreak/>
+            	<Run Text="2. Monitor Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="Keep track of your menstrual cycle to report symptoms to a doctor. On a calendar, take note of the dates and length and amount of bleeding (light, medium, heavy, or spotting)."/>
+            	<LineBreak/>
+            	<Run Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The health care provider will ask about your menstrual cycle and health history and do an exam to find the cause of bleeding."/>
+            	<LineBreak/>
+            	<Run Text="The health care provider may also order blood tests, transvaginal ultrasound, or endometrial biopsy."/>
+            	<LineBreak/>
+            	<Run Text="Uterine fibroids, hormonal imbalances, medications, polycystic ovary syndrome, gynecological cancers, and sexually transmitted infections are some causes of abnormal vaginal bleeding."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Vaginal Foreign Body Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="The person shows signs of shock."/>
+            	<LineBreak/>
+            	<Run Text="See Shock Treatment."/>
+            	<LineBreak/>
+            	<Run Text="In an adult:"/>
+            	<LineBreak/>
+            	<Run Text="1. Remove Object, if Possible"/>
+            	<LineBreak/>
+            	<Run Text="A lost or forgotten tampon is the most common vaginal foreign body in women."/>
+            	<LineBreak/>
+            	<Run Text="If the person can do so easily, have her remove the tampon or other foreign body."/>
+            	<LineBreak/>
+            	<Run Text="2. When to See a Doctor"/>
+            	<LineBreak/>
+            	<Run Text="See a doctor immediately if:"/>
+            	<LineBreak/>
+            	<Run Text="The tampon or other foreign body cannot be removed easily."/>
+            	<LineBreak/>
+            	<Run Text="The person has symptoms of Toxic Shock Syndrome. See Toxic Shock Syndrome Treatment."/>
+            	<LineBreak/>
+            	<Run Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="If the person sees a doctor:"/>
+            	<LineBreak/>
+            	<Run Text="The doctor will remove the tampon or other foreign body by hand or using forceps."/>
+            	<LineBreak/>
+            	<Run Text="If toxic shock syndrome is diagnosed, the person will likely be hospitalized."/>
+            	<LineBreak/>
+            	<Run Text="In a child:"/>
+            	<LineBreak/>
+            	<Run Text="1. See a Doctor Immediately"/>
+            	<LineBreak/>
+            	<Run Text="Toilet paper is the most common vaginal foreign body in children."/>
+            	<LineBreak/>
+            	<Run Text="Do not try to remove object because you could push it farther inside."/>
+            	<LineBreak/>
+            	<Run Text="2. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The doctor will remove the object and may use a topical antiseptic rinse."/>
+            	<LineBreak/>
+            	<Run Text="Removal of a large or sharp foreign body may require sedation."/>
+            	<LineBreak/>
+            	<Run Text="If you suspect the child has been sexually abused, tell the doctor."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Benign Positional Vertigo Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person loses consciousness or has:"/>
+            	<LineBreak/>
+            	<Run Text="A head injury"/>
+            	<LineBreak/>
+            	<Run Text="Convulsions"/>
+            	<LineBreak/>
+            	<Run Text="Chest pain"/>
+            	<LineBreak/>
+            	<Run Text="Change in vision or speech"/>
+            	<LineBreak/>
+            	<Run Text="Fever over 101º F"/>
+            	<LineBreak/>
+            	<Run Text="Headache"/>
+            	<LineBreak/>
+            	<Run Text="Very stiff neck"/>
+            	<LineBreak/>
+            	<Run Text="Inability to move an arm or leg"/>
+            	<LineBreak/>
+            	<Run Text="1. Relieve or Prevent Dizziness"/>
+            	<LineBreak/>
+            	<Run Text="Have the person lie down and rest."/>
+            	<LineBreak/>
+            	<Run Text="The person should avoid sudden changes in body position."/>
+            	<LineBreak/>
+            	<Run Text="Help the person avoid abrupt head movements, especially looking up."/>
+            	<LineBreak/>
+            	<Run Text="2. Keep the Person Safe"/>
+            	<LineBreak/>
+            	<Run Text="Help the person avoid falls."/>
+            	<LineBreak/>
+            	<Run Text="The person should not drive or operate dangerous machinery."/>
+            	<LineBreak/>
+            	<Run Text="3. Call a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="Any new signs and symptoms of vertigo should be checked by a health care provider."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The health care provider may do a physical exam, hearing and balance tests, and possibly a CT or MRI scan."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Vomiting and Nausea Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has any of the following symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="Pain in the middle or lower right side of the abdomen"/>
+            	<LineBreak/>
+            	<Run Text="Headache or stiff neck and light hurts the eyes"/>
+            	<LineBreak/>
+            	<Run Text="Vomiting blood or black, tarry stools"/>
+            	<LineBreak/>
+            	<Run Text="Confusion or lethargy"/>
+            	<LineBreak/>
+            	<Run Text="1. See a Health Care Provider if Needed"/>
+            	<LineBreak/>
+            	<Run Text="Get medical care if the person has any of the following symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="Can't keep down liquids or foods for more than 24 hours"/>
+            	<LineBreak/>
+            	<Run Text="Fever with abdominal pain"/>
+            	<LineBreak/>
+            	<Run Text="Signs of dehydration (dizziness; decreased, dark urination; fatigue)"/>
+            	<LineBreak/>
+            	<Run Text="Unable to take medication the person normally takes"/>
+            	<LineBreak/>
+            	<Run Text="Nausea or vomiting is due to surgery, anticancer drugs, motion sickness, pregnancy, or vertigo."/>
+            	<LineBreak/>
+            	<Run Text="Medication may be a possible treatment."/>
+            	<LineBreak/>
+            	<Run Text="2. Self Care for Nausea"/>
+            	<LineBreak/>
+            	<Run Text="Have the person drink small amounts of water, sports drinks, or clear liquids."/>
+            	<LineBreak/>
+            	<Run Text="If the person can keep it down, give the person light, bland foods like bread and crackers."/>
+            	<LineBreak/>
+            	<Run Text="3. Self Care for Vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Have the person drink small amounts of water, sports drinks, or clear liquids."/>
+            	<LineBreak/>
+            	<Run Text="Don't give the person solid food until vomiting has stopped."/>
+            	<LineBreak/>
+            	<Run Text="When the person can tolerate food, try small amounts of the BRAT diet: bananas, rice, applesauce, and toast."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="If the person goes to a health care provider, he or she will do an exam and may run tests to determine the cause of nausea or vomiting. Tests may include blood work and X-rays."/>
+            	<LineBreak/>
+            	<Run Text="Depending on the cause, treatment may include IV fluids and medication."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Vomiting During Pregnancy Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Try Changing Eating Patterns"/>
+            	<LineBreak/>
+            	<Run Text="For morning nausea, eat toast, cereal, crackers, or other dry foods before getting out of bed."/>
+            	<LineBreak/>
+            	<Run Text="Eat cheese, lean meat, or other high-protein snack before bedtime."/>
+            	<LineBreak/>
+            	<Run Text="Sip fluids, such as clear fruit juices, throughout day. Don't drink lots of fluid at one time."/>
+            	<LineBreak/>
+            	<Run Text="Eat small meals or snacks every two to three hours instead of three large meals per day."/>
+            	<LineBreak/>
+            	<Run Text="Don't eat fried, greasy, or spicy foods."/>
+            	<LineBreak/>
+            	<Run Text="Avoid foods with strong odors that are bothersome. Or eat foods cold or at room temperature."/>
+            	<LineBreak/>
+            	<Run Text="2. When to Call a Doctor"/>
+            	<LineBreak/>
+            	<Run Text="Seek medical help if vomiting is so severe or constant that the person can't keep down fluids or food."/>
+            	<LineBreak/>
+            	<Run Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The doctor may need to treat the person for dehydration."/>
+            	<LineBreak/>
+            	<Run Text="The doctor may recommend medication to control vomiting during pregnancy."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Vomiting (Children)"/>
+            	<LineBreak/>
+            	<Run Text="When a child spits up or vomits it can be messy and worrying. But it's usually not a cause for alarm."/>
+            	<LineBreak/>
+            	<Run Text="Call Doctor If Your Child:"/>
+            	<LineBreak/>
+            	<Run Text="Is vomiting frequently"/>
+            	<LineBreak/>
+            	<Run Text="Spits up or vomits strongly"/>
+            	<LineBreak/>
+            	<Run Text="Spits up more than one or two tablespoons of milk"/>
+            	<LineBreak/>
+            	<Run Text="Spits up brown, red, or green liquid"/>
+            	<LineBreak/>
+            	<Run Text="Does not gain weight"/>
+            	<LineBreak/>
+            	<Run Text="Wets fewer diapers than usual"/>
+            	<LineBreak/>
+            	<Run Text="Is sluggish or very tired"/>
+            	<LineBreak/>
+            	<Run Text="Has a fever higher than 102 Fahrenheit"/>
+            	<LineBreak/>
+            	<Run Text="Has blood in vomit or stools"/>
+            	<LineBreak/>
+            	<Run Text="Is vomiting and crying without tears"/>
+            	<LineBreak/>
+            	<Run Text="Has diarrhea more than once a day"/>
+            	<LineBreak/>
+            	<Run Text="When Baby Spits Up"/>
+            	<LineBreak/>
+            	<Run Text="1. For Baby Spitting Up"/>
+            	<LineBreak/>
+            	<Run Text="Spitting up is common until babies start eating solid foods. It's not the same as vomiting."/>
+            	<LineBreak/>
+            	<Run Text="Spitting up usually happens when babies burp."/>
+            	<LineBreak/>
+            	<Run Text="2. Prevent Spitting Up"/>
+            	<LineBreak/>
+            	<Run Text="Feed the baby in an upright position."/>
+            	<LineBreak/>
+            	<Run Text="Feed smaller amounts more often, and burp the baby every 3 to 5 minutes."/>
+            	<LineBreak/>
+            	<Run Text="Avoid putting pressure on the baby's stomach when burping the baby over your shoulder."/>
+            	<LineBreak/>
+            	<Run Text="Avoid moving the baby a lot during and right after feeding."/>
+            	<LineBreak/>
+            	<Run Text="Hold your baby upright for about 45 to 60 minutes after feeding."/>
+            	<LineBreak/>
+            	<Run Text="Treating Your Child for Vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Vomiting is more forceful and painful than spitting up. Vomiting can cause a child to lose fluids, so it's important to watch for dehydration."/>
+            	<LineBreak/>
+            	<Run Text="1. Treat Symptoms of Vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Give fluids in small amounts. If the child vomits afterward, wait 20 to 30 minutes and give the fluids again. If a child has vomited two or more times, call your doctor."/>
+            	<LineBreak/>
+            	<Run Text="If your infant is breastfeeding, continue to nurse your baby."/>
+            	<LineBreak/>
+            	<Run Text="Your doctor may want you to give your baby small amounts of oral electrolyte solution. Check the amount with your doctor."/>
+            	<LineBreak/>
+            	<Run Text="Give toddlers about one tablespoon of oral electrolyte solution, ice chips, diluted juice, or clear broth every 15 minutes. If your child continues to vomit, call your doctor."/>
+            	<LineBreak/>
+            	<Run Text="2. Watch for Signs of Dehydration"/>
+            	<LineBreak/>
+            	<Run Text="Call your doctor if you see any of these signs: dry mouth, crying without tears, dry diapers, urine that is very dark, sunken soft spot on the top of the head."/>
+            	<LineBreak/>
+            	<Run Text="3. After 3 to 4 Hours Without Vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Give your child larger amounts of fluid."/>
+            	<LineBreak/>
+            	<Run Text="4. After 8 Hours Without Vomiting:"/>
+            	<LineBreak/>
+            	<Run Text="Breastfeed babies as usual and slowly start giving formula."/>
+            	<LineBreak/>
+            	<Run Text="Feed toddlers mild foods in their regular diet; avoid spicy foods and fried foods."/>
+            	<LineBreak/>
+            	<Run Text="5. After 24 Hours Without Vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Serve your child's normal diet."/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

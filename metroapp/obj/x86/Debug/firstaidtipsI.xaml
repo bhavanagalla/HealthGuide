@@ -1,0 +1,347 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsI"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="647*"/>
+            <ColumnDefinition Width="18*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" Height="1138" Width="1228" FontFamily="Segoe UI Light" FontSize="24">
+            	<Run Text="Inability to Urinate Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Get Medical Help Immediately"/>
+            	<LineBreak/>
+            	<Run Text="Go to a hospital emergency room or call 911."/>
+            	<LineBreak/>
+            	<Run Text="2. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="Emergency personnel will insert a catheter, or narrow tube, into the urethra to drain the bladder."/>
+            	<LineBreak/>
+            	<Run Text="Doctors may perform several tests to determine the cause and treatment."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Insect Sting Allergy Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has:"/>
+            	<LineBreak/>
+            	<Run Text="Trouble breathing"/>
+            	<LineBreak/>
+            	<Run Text="Feelings of faintness or dizziness"/>
+            	<LineBreak/>
+            	<Run Text="Hives"/>
+            	<LineBreak/>
+            	<Run Text="A swollen tongue"/>
+            	<LineBreak/>
+            	<Run Text="A history of severe allergy reaction to insect stings"/>
+            	<LineBreak/>
+            	<Run Text="Inject epinephrine if the person is unable to."/>
+            	<LineBreak/>
+            	<Run Text="If the person has a history of anaphylaxis, don't wait for signs of a severe reaction to inject epinephrine."/>
+            	<LineBreak/>
+            	<Run Text="Read and follow patient instructions carefully."/>
+            	<LineBreak/>
+            	<Run Text="Inject epinephrine into outer muscle of the thigh. Avoid injecting into a vein or buttock muscles."/>
+            	<LineBreak/>
+            	<Run Text="Do not inject medicine into hands or feet, which can cause tissue damage. If this happens, notify emergency room staff."/>
+            	<LineBreak/>
+            	<Run Text="The person may need more than one injection if there's no improvement after the first. For an adult, inject again after 10 to 20 minutes. For a child, inject again after 5 to 30 minutes."/>
+            	<LineBreak/>
+            	<Run Text="A person should always go to the ER after an epinephrine injection, even if the symptoms subside."/>
+            	<LineBreak/>
+            	<Run Text="If the person does not have severe allergy symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="1. Remove the Stinger"/>
+            	<LineBreak/>
+            	<Run Text="Scrape the area with a fingernail or use tweezers to remove it."/>
+            	<LineBreak/>
+            	<Run Text="Don't pinch the stinger -- that can inject more venom."/>
+            	<LineBreak/>
+            	<Run Text="2. Control Swelling"/>
+            	<LineBreak/>
+            	<Run Text="Ice the area."/>
+            	<LineBreak/>
+            	<Run Text="If you were stung on your arm or leg, elevate it."/>
+            	<LineBreak/>
+            	<Run Text="Remove any tight-fitting jewelry from the area of the sting. As it swells, rings or bracelets might be difficult to remove."/>
+            	<LineBreak/>
+            	<Run Text="3. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="For pain, take an over-the-counter painkiller like acetaminophen or ibuprofen. Do not give aspirin to anyone under age 18."/>
+            	<LineBreak/>
+            	<Run Text="For itchiness, take an antihistamine. You can also apply a mixture of baking soda and water or calamine lotion."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow-Up"/>
+            	<LineBreak/>
+            	<Run Text="It might take 2-5 days for the area to heal. Keep it clean to prevent infection."/>
+            	<LineBreak/>
+            	<Run Text="If the person does have severe allergy symptoms (anaphylaxis):"/>
+            	<LineBreak/>
+            	<Run Text="1. Call ambulance"/>
+            	<LineBreak/>
+            	<Run Text="Seek emergency care if the person has any of these symptoms or a history of severe allergic reactions (anaphylaxis), even if there are no symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="Difficulty breathing or wheezing"/>
+            	<LineBreak/>
+            	<Run Text="Tightness in the throat or a feeling that the airways are closing"/>
+            	<LineBreak/>
+            	<Run Text="Hoarseness or trouble speaking"/>
+            	<LineBreak/>
+            	<Run Text="Nausea, abdominal pain, or vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Fast heartbeat or pulse"/>
+            	<LineBreak/>
+            	<Run Text="Skin that severely itches, tingles, swells, or turns red"/>
+            	<LineBreak/>
+            	<Run Text="Anxiety or dizziness"/>
+            	<LineBreak/>
+            	<Run Text="Loss of consciousness"/>
+            	<LineBreak/>
+            	<Run Text="2. Inject Epinephrine Immediately"/>
+            	<LineBreak/>
+            	<Run Text="If the person has an anaphylaxis action plan from a doctor for injecting epinephrine and other emergency measures, follow it. Otherwise, if the person carries an epinephrine shot (it's a good idea to always carry two) or one is available:"/>
+            	<LineBreak/>
+            	<Run Text="Inject epinephrine if the person is unable to."/>
+            	<LineBreak/>
+            	<Run Text="If the person has a history of anaphylaxis, don't wait for signs of a severe reaction to inject epinephrine."/>
+            	<LineBreak/>
+            	<Run Text="Read and follow patient instructions carefully."/>
+            	<LineBreak/>
+            	<Run Text="Inject epinephrine into outer muscle of the thigh. Avoid injecting into a vein or buttock muscles."/>
+            	<LineBreak/>
+            	<Run Text="Do not inject medicine into hands or feet, which can cause tissue damage. If this happens, notify emergency room staff."/>
+            	<LineBreak/>
+            	<Run Text="The person may need more than one injection if there's no improvement after the first. For an adult, inject again after 10 to 20 minutes. For a child, inject again after 5 to 30 minutes."/>
+            	<LineBreak/>
+            	<Run Text="A person should always go to the ER after an epinephrine injection, even if the symptoms subside."/>
+            	<LineBreak/>
+            	<Run Text="3. Do CPR if the Person Stops Breathing"/>
+            	<LineBreak/>
+            	<Run Text="For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run Text="For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow-Up"/>
+            	<LineBreak/>
+            	<Run Text="Make sure that someone stays with the person for 24 hours after anaphylaxis in case of another attack."/>
+            	<LineBreak/>
+            	<Run Text="Report the reaction to the person's doctor."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Insect Bites and Stings (Children)"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if your child:"/>
+            	<LineBreak/>
+            	<Run Text="Has been bitten or stung and has sudden hives, swelling in the face, difficulty breathing, dizziness, or fainting"/>
+            	<LineBreak/>
+            	<Run Text="Had a serious allergic reaction to an insect bite or sting before."/>
+            	<LineBreak/>
+            	<Run Text="Has been bitten or stung and has sudden hives, swelling in the face, difficulty breathing, dizziness, or fainting"/>
+            	<LineBreak/>
+            	<Run Text="Had a serious allergic reaction to an insect bite or sting before"/>
+            	<LineBreak/>
+            	<Run Text="Insect stings and bites in young children may be painful, frightening, or irritating, but they're rarely a cause for concern unless your child has an allergic reaction."/>
+            	<LineBreak/>
+            	<Run Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="Your child has been bitten or stung near the mouth"/>
+            	<LineBreak/>
+            	<Run Text="The area seems to be getting larger or redder or is oozing, which are signs of infection."/>
+            	<LineBreak/>
+            	<Run Text="1. Remove the Stinger (for Honeybee Stings)"/>
+            	<LineBreak/>
+            	<Run Text="Honeybees are the only insects that leave a stinger in the skin. Scrape the area with a fingernail or credit card to remove it."/>
+            	<LineBreak/>
+            	<Run Text="Don't pinch the stinger with your fingers or tweezers -- that can inject more venom."/>
+            	<LineBreak/>
+            	<Run Text="2. Clean the Area"/>
+            	<LineBreak/>
+            	<Run Text="Wash the bite or sting with mild soap and water."/>
+            	<LineBreak/>
+            	<Run Text="3. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="Remove any tight jewelry from the area of the bite or sting. It could be hard to get off once the area swells."/>
+            	<LineBreak/>
+            	<Run Text="Ice the area for 10 minutes and then remove the ice for 10 minutes. Then repeat."/>
+            	<LineBreak/>
+            	<Run Text="If the sting was on an arm or leg, elevate the area."/>
+            	<LineBreak/>
+            	<Run Text="Pain relievers that are formulated for babies or children, such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help. Be sure to follow the dosing instructions on the bottle. If your child is under the recommended age, call a pediatrician."/>
+            	<LineBreak/>
+            	<Run Text="An antihistamine formulated for children may help with swelling and itch. Call a pediatrician before using an antihistamine in infants or toddlers."/>
+            	<LineBreak/>
+            	<Run Text="Apply a mixture of baking soda and water or calamine lotion for itch."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Insulin Reaction Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if the person has:"/>
+            	<LineBreak/>
+            	<Run Text="* A severe reaction"/>
+            	<LineBreak/>
+            	<Run Text="*  seizure"/>
+            	<LineBreak/>
+            	<Run Text="* A loss of consciousness"/>
+            	<LineBreak/>
+            	<Run Text="For a severe reaction:"/>
+            	<LineBreak/>
+            	<Run Text="While waiting for emergency help, inject glucagon if you are trained to do so."/>
+            	<LineBreak/>
+            	<Run Text="For moderate to mild symptoms:"/>
+            	<LineBreak/>
+            	<Run Text="1. Raise Blood Sugar"/>
+            	<LineBreak/>
+            	<Run Text="Give the person a high-sugar food such as:"/>
+            	<LineBreak/>
+            	<Run Text="3 to 4 glucose tablets"/>
+            	<LineBreak/>
+            	<Run Text="1/3 to 1/2 tube of glucose in gel form"/>
+            	<LineBreak/>
+            	<Run Text="1/2 cup orange juice"/>
+            	<LineBreak/>
+            	<Run Text="1/3 cup apple juice"/>
+            	<LineBreak/>
+            	<Run Text="1/4 to 1/3 cup raisins"/>
+            	<LineBreak/>
+            	<Run Text="2 large or 6 small sugar cubes in water"/>
+            	<LineBreak/>
+            	<Run Text="4 oz. to 6 oz. of regular soda, not diet"/>
+            	<LineBreak/>
+            	<Run Text="1 tablespoon of molasses, honey, or corn syrup"/>
+            	<LineBreak/>
+            	<Run Text="5 hard candies"/>
+            	<LineBreak/>
+            	<Run Text="2. Repeat Treatment, if Necessary"/>
+            	<LineBreak/>
+            	<Run Text="After 15 minutes, test blood sugar, if possible."/>
+            	<LineBreak/>
+            	<Run Text="If symptoms persist or blood sugar reading is below 70 mg/dL, give another high-sugar food."/>
+            	<LineBreak/>
+            	<Run Text="If the person's next meal is more than 30 minutes away, give the person a small snack, such as 1/2 sandwich, 1 oz. cheese with 4 to 6 crackers, or 1 tablespoon peanut butter with 4 to 6 crackers."/>
+            	<LineBreak/>
+            	<Run Text="3. When to Get Medical Help Immediately"/>
+            	<LineBreak/>
+            	<Run Text="If the person still doesn't feel better, go to a hospital emergency room or call 911."/>
+            	<LineBreak/>
+            	<Run Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="If you go to the hospital, doctors may give sugar intravenously."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Iron Poisoning Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="The child is unconscious."/>
+            	<LineBreak/>
+            	<Run Text="Symptoms of iron poisoning include vomiting, diarrhea, pain in the abdomen, and lethargy. But at the outset, there might not be any symptoms. If you suspect your child might have swallowed iron tablets, treat it as an emergency."/>
+            	<LineBreak/>
+            	<Run Text="1. Remove the Iron Supplements"/>
+            	<LineBreak/>
+            	<Run Text="Check the child's hands and mouth, as well as the surrounding area, for any remaining iron tablets."/>
+            	<LineBreak/>
+            	<Run Text="Do not try to make the child vomit with ipecac or salt water or gagging."/>
+            	<LineBreak/>
+            	<Run Text="2. Get Help"/>
+            	<LineBreak/>
+            	<Run Text="Call the National Poison Control Hotline and follow their recommendations: 1-800-222-1222."/>
+            	<LineBreak/>
+            	<Run Text="Go to the Emergency Room."/>
+            	<LineBreak/>
+            	<Run Text="Bring the bottle of iron supplements with you for the doctor to see."/>
+            	<LineBreak/>
+            	<Run Text="Follow-Up"/>
+            	<LineBreak/>
+            	<Run Text="Once your child is at the hospital, the next steps depend on the particular case."/>
+            	<LineBreak/>
+            	<Run Text="The doctor will test iron levels in the body."/>
+            	<LineBreak/>
+            	<Run Text="Pumping the stomach might help, but only within an hour of swallowing the pills."/>
+            	<LineBreak/>
+            	<Run Text="Chelation is treatment with intravenous chemicals that draw iron out of the body."/>
+            	<LineBreak/>
+            	<Run Text="Laxatives can help clear out the iron from the intestines."/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

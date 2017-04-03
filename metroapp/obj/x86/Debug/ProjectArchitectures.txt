@@ -1,0 +1,1 @@
+E:\HealthGuideApp\hg\metroapp\metroapp.csproj;x86

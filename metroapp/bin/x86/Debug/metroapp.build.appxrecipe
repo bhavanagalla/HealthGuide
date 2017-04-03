@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>D</Machine>
+    <WindowsUser>DELL</WindowsUser>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\metroapp.exe">
+      <PackagePath>metroapp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\metroapp.pdb">
+      <PackagePath>metroapp.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.8.6\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\SQLite.WinRT\3.8.6\Redist\Debug\x86\sqlite3.pdb">
+      <PackagePath>sqlite3.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\19335.png">
+      <PackagePath>Assets\19335.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\205199.png">
+      <PackagePath>Assets\205199.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\39639_image.png">
+      <PackagePath>Assets\39639_image.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\620300.png">
+      <PackagePath>Assets\620300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\655721.png">
+      <PackagePath>Assets\655721.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\713295-tn_blood700.png">
+      <PackagePath>Assets\713295-tn_blood700.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\94683.png">
+      <PackagePath>Assets\94683.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\abdomenal.png">
+      <PackagePath>Assets\abdomenal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\abdominal_pain %281%29.png">
+      <PackagePath>Assets\abdominal_pain %281%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\acetaminophe.png">
+      <PackagePath>Assets\acetaminophe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\alcohol.png">
+      <PackagePath>Assets\alcohol.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\altitude-sickness.png">
+      <PackagePath>Assets\altitude-sickness.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Banana.png">
+      <PackagePath>Assets\Banana.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\black.png">
+      <PackagePath>Assets\black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\blackberry.png">
+      <PackagePath>Assets\blackberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\bottle.png">
+      <PackagePath>Assets\bottle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\bottle1.png">
+      <PackagePath>Assets\bottle1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\broccoli.png">
+      <PackagePath>Assets\broccoli.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Capture.PNG">
+      <PackagePath>Assets\Capture.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Capture11.PNG">
+      <PackagePath>Assets\Capture11.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\carb.png">
+      <PackagePath>Assets\carb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\choking-10.png">
+      <PackagePath>Assets\choking-10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\choking_2.png">
+      <PackagePath>Assets\choking_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\clavibrace_3a.png">
+      <PackagePath>Assets\clavibrace_3a.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\cranberry.png">
+      <PackagePath>Assets\cranberry.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.PNG">
+      <PackagePath>Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.PNG</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.scale-100.png">
+      <PackagePath>Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\diabetes_diet.png">
+      <PackagePath>Assets\diabetes_diet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\dite chat.png">
+      <PackagePath>Assets\dite chat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\fennel.png">
+      <PackagePath>Assets\fennel.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\first-aid-kit-icon.png">
+      <PackagePath>Assets\first-aid-kit-icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\fish.png">
+      <PackagePath>Assets\fish.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Fresh_Fruits_by_Eres_Graph.png">
+      <PackagePath>Assets\Fresh_Fruits_by_Eres_Graph.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\get-kids-tol.png">
+      <PackagePath>Assets\get-kids-tol.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\getty_rf_photo_of_hand_under_running_water.png">
+      <PackagePath>Assets\getty_rf_photo_of_hand_under_running_water.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\ginger.png">
+      <PackagePath>Assets\ginger.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Green_Tea.png">
+      <PackagePath>Assets\Green_Tea.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\hand.png">
+      <PackagePath>Assets\hand.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\head-injury_illustration_0.png">
+      <PackagePath>Assets\head-injury_illustration_0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\health tips.png">
+      <PackagePath>Assets\health tips.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\herbs.png">
+      <PackagePath>Assets\herbs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\home.png">
+      <PackagePath>Assets\home.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\honey.png">
+      <PackagePath>Assets\honey.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\image2.png">
+      <PackagePath>Assets\image2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\imgres.png">
+      <PackagePath>Assets\imgres.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\kidsssss.png">
+      <PackagePath>Assets\kidsssss.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\lavender.png">
+      <PackagePath>Assets\lavender.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\meditation.png">
+      <PackagePath>Assets\meditation.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\mineral-rich-food.png">
+      <PackagePath>Assets\mineral-rich-food.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\mint_tea.png">
+      <PackagePath>Assets\mint_tea.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\pepper.png">
+      <PackagePath>Assets\pepper.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\peppermintoil.png">
+      <PackagePath>Assets\peppermintoil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\pregnant.png">
+      <PackagePath>Assets\pregnant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\shoes.png">
+      <PackagePath>Assets\shoes.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\skinned-knee.png">
+      <PackagePath>Assets\skinned-knee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\slide1_Layer_2.png">
+      <PackagePath>Assets\slide1_Layer_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\soap.png">
+      <PackagePath>Assets\soap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\splint-and-wrap-bite-area_converted.png">
+      <PackagePath>Assets\splint-and-wrap-bite-area_converted.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\sprained-ankle-bandage.png">
+      <PackagePath>Assets\sprained-ankle-bandage.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\stomach.png">
+      <PackagePath>Assets\stomach.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\tooth_paste.png">
+      <PackagePath>Assets\tooth_paste.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\tulasi.png">
+      <PackagePath>Assets\tulasi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\vitaminD.png">
+      <PackagePath>Assets\vitaminD.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\washon.PNG">
+      <PackagePath>Assets\washon.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\Weight-Loss-11.png">
+      <PackagePath>Assets\Weight-Loss-11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\WideLogo.scale-180.png">
+      <PackagePath>Assets\WideLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\bones.jpg">
+      <PackagePath>Assets\bones.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\first aidkit.jpg">
+      <PackagePath>Assets\first aidkit.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\fri.jpg">
+      <PackagePath>Assets\fri.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\fruits.jpg">
+      <PackagePath>Assets\fruits.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\height.jpg">
+      <PackagePath>Assets\height.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\mob.jpg">
+      <PackagePath>Assets\mob.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\sat.jpg">
+      <PackagePath>Assets\sat.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\sun.jpg">
+      <PackagePath>Assets\sun.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\thu.jpg">
+      <PackagePath>Assets\thu.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\tue.jpg">
+      <PackagePath>Assets\tue.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Assets\wed.jpg">
+      <PackagePath>Assets\wed.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\ChestPaintreatment.xaml">
+      <PackagePath>ChestPaintreatment.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Dietchartforbabies1.xaml">
+      <PackagePath>Dietchartforbabies1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Dietchartforbabies3.xaml">
+      <PackagePath>Dietchartforbabies3.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Dietchartforheight.xaml">
+      <PackagePath>Dietchartforheight.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\DietChartforPregnants.xaml">
+      <PackagePath>DietChartforPregnants.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Calorie Intake.xaml">
+      <PackagePath>Calorie Intake.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\DietchartforkidsandTeens.xaml">
+      <PackagePath>DietchartforkidsandTeens.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\DietchartforSyndromes.xaml">
+      <PackagePath>DietchartforSyndromes.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Dietchartforweightloss.xaml">
+      <PackagePath>Dietchartforweightloss.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Dite Chat.xaml">
+      <PackagePath>Dite Chat.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\DiteChartforbabies2.xaml">
+      <PackagePath>DiteChartforbabies2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\DiteChartweight2.xaml">
+      <PackagePath>DiteChartweight2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Ditechartweight3.xaml">
+      <PackagePath>Ditechartweight3.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tips 4.xaml">
+      <PackagePath>First Aid Tips 4.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tips2.xaml">
+      <PackagePath>First Aid Tips2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tips3.xaml">
+      <PackagePath>First Aid Tips3.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tipsa1.xaml">
+      <PackagePath>First Aid Tipsa1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tipsm2.xaml">
+      <PackagePath>First Aid Tipsm2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tipsm3.xaml">
+      <PackagePath>First Aid Tipsm3.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\First Aid Tipsm4.xaml">
+      <PackagePath>First Aid Tipsm4.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsC.xaml">
+      <PackagePath>firstaidtipsC.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Firstaidtipsc2.xaml">
+      <PackagePath>Firstaidtipsc2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\FirstaidtipsD.xaml">
+      <PackagePath>FirstaidtipsD.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsE.xaml">
+      <PackagePath>firstaidtipsE.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsF.xaml">
+      <PackagePath>firstaidtipsF.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsG1.xaml">
+      <PackagePath>firstaidtipsG1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsH.xaml">
+      <PackagePath>firstaidtipsH.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsI.xaml">
+      <PackagePath>firstaidtipsI.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsJ.xaml">
+      <PackagePath>firstaidtipsJ.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsK.xaml">
+      <PackagePath>firstaidtipsK.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsL.xaml">
+      <PackagePath>firstaidtipsL.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsM.xaml">
+      <PackagePath>firstaidtipsM.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\FirstAidTipsm5.xaml">
+      <PackagePath>FirstAidTipsm5.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsN.xaml">
+      <PackagePath>firstaidtipsN.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsP.xaml">
+      <PackagePath>firstaidtipsP.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsR.xaml">
+      <PackagePath>firstaidtipsR.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsS1.xaml">
+      <PackagePath>firstaidtipsS1.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsS2.xaml">
+      <PackagePath>firstaidtipsS2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsT.xaml">
+      <PackagePath>firstaidtipsT.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsV.xaml">
+      <PackagePath>firstaidtipsV.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\firstaidtipsW.xaml">
+      <PackagePath>firstaidtipsW.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Health Tips.xaml">
+      <PackagePath>Health Tips.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Health Tips2.xaml">
+      <PackagePath>Health Tips2.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\Health Tips3.xaml">
+      <PackagePath>Health Tips3.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.00.Debug</Name>
+      <Version>11.0.51106.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.00.Debug, MinVersion = 11.0.51106.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.11.00.appx</AppxLocation>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.00.Debug</Name>
+      <Version>11.0.51106.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.00.Debug, MinVersion = 11.0.51106.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.11.00.appx</AppxLocation>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\">
+      <Name>Microsoft.VCLibs.110.00.Debug</Name>
+      <Version>11.0.51106.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.110.00.Debug, MinVersion = 11.0.51106.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.11.00.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

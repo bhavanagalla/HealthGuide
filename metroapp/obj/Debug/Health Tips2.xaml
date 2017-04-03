@@ -1,0 +1,91 @@
+﻿<Page
+    x:Class="metroapp.Health_Tips2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Margin="0,-10,0,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="175*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="305*"/>
+            <ColumnDefinition Width="327*"/>
+            <ColumnDefinition Width="19*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/images.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="166" Margin="3,11,0,0" VerticalAlignment="Top" Width="140" Source="Assets/blackberry.png" Stretch="Fill" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="145,12,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="160" Width="443" Foreground="Black" FontSize="22" TextAlignment="Justify" Grid.Column="1" Style="{StaticResource BodyTextStyle}" Grid.Row="2">
+    		<Run Text="Try a Tincture"/>
+    		<LineBreak/>
+    		<Run Foreground="#FFFFFDFD" FontSize="20" Text="For that most unpleasant of stomach upsets, diarrhea, blackberry root tincture can help. This herb contains tannins, substances that have astringent effects on the intestinal lining. Look for the tincture at health-food stores  and take 1 teaspoon of it in water every two to four hours until symptoms subside."/>
+        </TextBlock>
+        <Rectangle Fill="WhiteSmoke" HorizontalAlignment="Left" Height="166" Margin="0,11,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="597" Opacity="0.3" Grid.Column="1" Grid.Row="2"/>
+        <Button x:ConnectionId='1' x:Name="b13" Content="Button" HorizontalAlignment="Left" Margin="0,6,0,0" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}"                   Grid.Column="1" Grid.Row="1" Grid.RowSpan="2"/>
+        <Rectangle Fill="WhiteSmoke" HorizontalAlignment="Left" Height="156" Margin="3,182,0,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="597" Opacity="0.3" Grid.Row="2" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="156" Margin="0,182,0,0" VerticalAlignment="Top" Width="143" Source="Assets/vitaminD.png" Stretch="Fill" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="148,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="142" Width="447" FontSize="22" Foreground="Black" TextAlignment="Justify" Grid.Row="2" Style="{StaticResource BodyTextStyle}" Grid.Column="1">
+        	<Run Text="Get Your Daily D"/>
+        	<LineBreak/>
+        	<Run Foreground="#FFFDFBFB" FontSize="20" Text="Get your vitamin D level checked with a simple blood test. D is at least as important as calcium for strong bones, and most Americans don't get enough. Get a minimum of 1,000 IU a day through supplements and food."/>
+        	<LineBreak/>
+        </TextBlock>
+        <Rectangle Fill="WhiteSmoke" HorizontalAlignment="Left" Height="150" Margin="0,343,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="603" Opacity="0.3" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="150" Margin="3,343,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Source="Assets/cranberry.png" Stretch="Fill" Grid.Column="1"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="145,346,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="144" Width="451" FontSize="22" Foreground="#FF661B1B" TextAlignment="Justify" Style="{StaticResource BodyTextStyle}">
+        	<Run Foreground="#FF060000" Text="Drink Cranberry Juice"/>
+        	<LineBreak/>
+        	<Run Foreground="#FFF7F1F1" FontSize="18" Text="Cranberries contain a substance that appears to keep bacteria from sticking to the walls of the urinary tract and has been shown to help prevent UTIs. Because cranberry cocktail is high in sugar, drink unsweetened juice diluted with water or take capsules of powdered cranberry extract."/>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="166" Margin="10,10,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="634" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="166" Margin="10,11,0,0" Grid.Row="2" VerticalAlignment="Top" Width="140" Source="Assets/tooth_paste.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="154,10,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="158" Width="482" Foreground="Black" FontSize="22" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Text="Try a Tongue Scraper"/>
+        	<LineBreak/>
+        	<Run Foreground="White" FontSize="20" FontFamily="Segoe UI, Tahoma, Arial, Arial Unicode MS, Microsoft Sans Serif, Lucida Sans Unicode" Text="To combat bad breath, consider investing in this inexpensive plastic or metal device to remove bacteria from the back of your tongue. Some studies suggest that adding tongue scraping to your regimen may be slightly more effective at eliminating breath odor than just brushing your teeth."/>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="156" Margin="10,182,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="634" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="156" Margin="10,182,0,0" Grid.Row="2" VerticalAlignment="Top" Width="140" Source="Assets/mint_tea.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="156,184,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="142" Width="482" Foreground="Black" FontSize="22" TextAlignment="Justify" Style="{StaticResource BodyTextStyle}">
+        	<Run Text="Drink Mint Tea"/>
+        	<LineBreak/>
+        	<Run Foreground="White" FontSize="20" FontFamily="Segoe UI, Tahoma, Arial, Arial Unicode MS, Microsoft Sans Serif, Lucida Sans Unicode" Text="Ease occasional indigestion by sipping a cup of peppermint tea after your meal. Peppermint improves the flow of bile, which moves food through the digestive tract more quickly. Use peppermint with caution if you have acid reflux; it can make that problem worse."/>
+        </TextBlock>
+        <Rectangle Grid.Column="2" Fill="WhiteSmoke" HorizontalAlignment="Left" Height="150" Margin="10,343,0,0" Grid.Row="2" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="634" Opacity="0.3"/>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="150" Margin="10,343,0,0" Grid.Row="2" VerticalAlignment="Top" Width="140" Source="Assets/fish.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="154,346,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="146" Width="484" Foreground="Black" FontSize="20" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Text="Go Fish&#xD;&#xA;"/>
+        	<Run Foreground="#FFF9F3F3" Text="If you suffer from dry eyes, up your seafood intake. Salmon, sardines, and mackerel contain omega-3 fatty acids, which the body uses to produce tears, among other things. Research suggests that people who consume higher amounts of these fats are less likely to have dry eyes"/>
+        </TextBlock>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="516,2,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Health Tips" VerticalAlignment="Top" Height="44" Width="197" FontSize="36" Style="{StaticResource GroupHeaderTextStyle}" Grid.ColumnSpan="2"/>
+        <Button x:ConnectionId='2' x:Name="b22" Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="589.947,0.016,0,0" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}" RenderTransformOrigin="0.5,0.5" Height="69.984" Grid.RowSpan="3" UseLayoutRounding="False" d:LayoutRounding="Auto"                  >
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="179.566"/>
+            </Button.RenderTransform>
+        </Button>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="142" Margin="3,498,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="600" Opacity="0.3"/>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="142" Margin="10,498,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="634" Opacity="0.3"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="142" Margin="3,498,0,0" Grid.Row="2" VerticalAlignment="Top" Width="137" Source="Assets/lavender.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="145,498,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="124" Width="452" Foreground="Black" FontSize="22" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Text="Love Lavender"/>
+        	<LineBreak/>
+        	<Run Foreground="#FFFDF9F9" FontSize="20" Text="To ease stress and prepare for bed, soak in a hot bath spiked with a few drops of lavender essential oil. Play soothing music while you bathe to unwind further."/>
+        </TextBlock>
+        <Image Grid.Column="2" HorizontalAlignment="Left" Height="142" Margin="10,498,0,0" Grid.Row="2" VerticalAlignment="Top" Width="140" Source="Assets/bottle1.png" Stretch="Fill"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Left" Margin="155,498,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="142" Width="489" FontSize="20" Foreground="Black" Style="{StaticResource BodyTextStyle}" TextAlignment="Justify">
+        	<Run Text="Befriend a Bottle"/>
+        	<LineBreak/>
+        	<Run Foreground="White" Text="For heel and arch pain, try stretching your foot by rolling it over a rolling pin or a bottle."/>
+        </TextBlock>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,67 @@
+﻿<Page
+    x:Class="metroapp.FirstAidTipsm5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Opacity="0.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="36*"/>
+            <ColumnDefinition Width="436*"/>
+            <ColumnDefinition Width="434*"/>
+            <ColumnDefinition Width="435*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="339*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,2,0,0" VerticalAlignment="Top" Height="55" Grid.RowSpan="2" Style="{StaticResource BackButtonStyle}" Click="Button_Click" Grid.Row="1"/>
+        <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="647" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="416">
+            <Button Content="• Splinters" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF440F0F" Click="Button_Click_27"/>
+            <Button Content="• Sprains and Strains" Foreground="#FF4B1212" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_26"/>
+            <Button Content="• Stingray Injury" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Foreground="#FF3E0909" Click="Button_Click_25"/>
+            <Button Content="• Stomach Ache/Nausea" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF420D0D" Click="Button_Click_24"/>
+            <Button Content="• Stroke" Foreground="#FF5B1111" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Click="Button_Click_23"/>
+            <Button Content="• Stroke/TIA" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF550D0D" Click="Button_Click_22"/>
+            <Button Content="• Sty" Foreground="#FF470E0E" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_21"/>
+            <Button Content="• Suicidal Thoughts" Style="{StaticResource TextButtonStyle}" FontSize="22" Foreground="#FF420E0E" Click="Button_Click_20"/>
+            <Button Content="• Sunburn" Foreground="#FF491010" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_19"/>
+            <Button Content="• Swallowed Object" FontSize="22" Foreground="#FF4D0E0E" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_18"/>
+            <Button Content="• Swollen Testicles/Orchitis" FontSize="22" Style="{StaticResource TextButtonStyle}" Foreground="#FF4F1111" Click="Button_Click_17"/>
+            <Button Content="• Tailbone Injury" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF4D1111" Click="Button_Click_1"/>
+            <Button Content="• Teething Pain" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF4F1111" Click="Button_Click_2"/>
+        </ListBox>
+        <ListBox Grid.Column="2" HorizontalAlignment="Left" Height="647" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="414">
+            <Button Content="• Testicle Pain" Foreground="#FF491313" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_3"/>
+            <Button Content="• Tetanus" FontSize="22" Foreground="#FF4F1010" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_4"/>
+            <Button Content="• Tick Removal" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF3C0E0E" Click="Button_Click_5"/>
+            <Button Content="• Toothache" Foreground="#FF400C0C" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_6"/>
+            <Button Content="• Toxic Shock Syndrome" FontSize="22" Foreground="#FF4F0E0E" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_7"/>
+            <Button Content="• Traveler's Diarrhea" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF531313" Click="Button_Click_8"/>
+            <Button Content="• Vaginal Bleeding" Foreground="#FF571313" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_9"/>
+            <Button Content="• Vaginal Foreign Body" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Foreground="#FF441212" Click="Button_Click_10"/>
+            <Button Content="• Vertigo" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF591111" Click="Button_Click_11"/>
+            <Button Content="• Vomiting and Nausea" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF551010" Click="Button_Click_12"/>
+            <Button Content="• Vomiting During Pregnancy" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF510D0D" Click="Button_Click_13"/>
+            <Button Content="• Vomiting/Spitting Up in Children" Foreground="#FF531515" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Button_Click_14"/>
+            <Button Content="• Whiplash" Foreground="#FF4F0D0D" BorderThickness="0" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}"/>
+        </ListBox>
+        <TextBlock HorizontalAlignment="Left" Margin="99,8,0,0" TextWrapping="Wrap" Text="First Aid Tips" VerticalAlignment="Top" Height="33" Width="377" Style="{StaticResource GroupHeaderTextStyle}" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1"/>
+        <Button x:Name="h5" Content="" Grid.Column="3" HorizontalAlignment="Left" Margin="345,577,0,0" VerticalAlignment="Top" BorderThickness="0" Height="80" Width="80" Click="Button_Click_h5" Grid.Row="2">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/home.png"/>
+            </Button.Background>
+        </Button>
+        <ListBox Grid.Column="3" HorizontalAlignment="Left" Height="52" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="415">
+            <Button Content="• Wrist Injury" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF630F0F" Click="Button_Click_16"/>
+        </ListBox>
+    </Grid>
+</Page>

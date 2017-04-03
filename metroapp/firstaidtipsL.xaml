@@ -1,0 +1,222 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.firstaidtipsL"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="644*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="24" Height="2405" Width="1222">
+            	<Run Text="An Overview of Labor Signs"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if: "/>
+            	<LineBreak/>
+            	<Run Text="The woman has heavy vaginal bleeding."/>
+            	<LineBreak/>
+            	<Run Text="The woman has severe stomach or pelvic pain."/>
+            	<LineBreak/>
+            	<Run Text="The woman has a seizure."/>
+            	<LineBreak/>
+            	<Run Text="The woman loses consciousness."/>
+            	<LineBreak/>
+            	<Run Text="The umbilical cord is bulging into the vagina with gushing or leaking fluid."/>
+            	<LineBreak/>
+            	<Run Text="1. Look for Signs of Labor"/>
+            	<LineBreak/>
+            	<Run Text="Signs that labor has begun include:"/>
+            	<LineBreak/>
+            	<Run Text="Contractions that come at regular intervals, increase in frequency, do not stop when the woman changes position or relaxes, and may cause pelvic pressure and discomfort or dull ache in the back or lower abdomen"/>
+            	<LineBreak/>
+            	<Run Text="A sudden gush or a steady trickle of fluid when the amniotic membrane ruptures (&quot;water breaks&quot;)"/>
+            	<LineBreak/>
+            	<Run Text="Pink or slightly bloody mucus discharged into the vagina"/>
+            	<LineBreak/>
+            	<Run Text="The fetus lowers into the pelvis, which may cause more frequent urination"/>
+            	<LineBreak/>
+            	<Run Text="2. When to Call a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run Text="Call the health care provider right away if:"/>
+            	<LineBreak/>
+            	<Run Text="In first pregnancy, contractions are very uncomfortable and coming every 5 minutes for 1 hour. This timing, however, may vary. Ask your health care provider what they recommend.  "/>
+            	<LineBreak/>
+            	<Run Text="In subsequent pregnancies, contractions are coming every 7 to 10 minutes for an hour. This timing, however, may vary. Ask your health care provider what they recommend."/>
+            	<LineBreak/>
+            	<Run Text="The woman's &quot;water breaks,&quot; even without contractions. She should avoid baths, douching, tampons, or sexual intercourse."/>
+            	<LineBreak/>
+            	<Run Text="The woman has vaginal bleeding (more than spotting)."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Lice Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. Remove the Lice and Eggs"/>
+            	<LineBreak/>
+            	<Run Text="Use an anti-lice shampoo available over the counter or by prescription. Follow packaging directions. Repeat seven to 10 days later."/>
+            	<LineBreak/>
+            	<Run Text="The shampoo may not kill all the nits, or eggs. While hair is wet, use a fine-tooth comb to remove the tiny white eggs. Start with small sections of hair and work out from the scalp."/>
+            	<LineBreak/>
+            	<Run Text="Wet combing is also an option for parents who don't want to use an anti-lice shampoo."/>
+            	<LineBreak/>
+            	<Run Text="Wet combing takes time. A bright light and a magnifying glass will help."/>
+            	<LineBreak/>
+            	<Run Text="Don't use oils or gasoline to remove lice, because they can be dangerous."/>
+            	<LineBreak/>
+            	<Run Text="If you don't want to use a lice shampoo, there are several topical medications a doctor can prescribe for getting rid of lice and nits."/>
+            	<LineBreak/>
+            	<Run Text="Ovide (malathion lotion). When used as directed, this is a safe way to kill live lice and to partially remove lice eggs in adults and children 6 and over. The lotion needs to be applied to dry scalp and hair and left on for 8 to 12 hours while the hair dries naturally. After 8 to 12 hours, shampoo the hair and use a fine tooth comb to remove dead lice and eggs. Malathion lotion is flammable, so avoid any source of heat, such as hair dryers, curling irons, cigarettes, or open flame, while the lotion is on the head."/>
+            	<LineBreak/>
+            	<Run Text="Natroba(spinosad). This is intended for use on dry scalp and hair by adults and children who are at least 4 years old. Natroba should never be used on infants because the benzyl alcohol it contains can cause serious side effects, including death, in infants. The medication should be applied to the hair and scalp and left on for 10 minutes before being thoroughly rinsed out with warm water. Then, while the hair is still slightly damp, a nit comb can be used to remove lice eggs from the scalp and hair."/>
+            	<LineBreak/>
+            	<Run Text="Sklice (ivemectin). This lotion is safe for adults and children at least 6 months old. In most cases it requires only a single 10-minute application and rinse with no combing to remove lice and eggs. If you might be pregnant or are breastfeeding, let your doctor know and do not use Sklice without your doctor's approval."/>
+            	<LineBreak/>
+            	<Run Text="2. Stop the Spread"/>
+            	<LineBreak/>
+            	<Run Text="Check other family members for lice. Anyone who sleeps in the same bed as the affected person should be treated for head lice, even if none is found."/>
+            	<LineBreak/>
+            	<Run Text="Vacuum floors and furniture. Throw out the vacuum bag."/>
+            	<LineBreak/>
+            	<Run Text="Wash all sheets, towels, and clothing that you've used in the last two days. Use hot water."/>
+            	<LineBreak/>
+            	<Run Text="Objects that can't be washed, like stuffed animals, should be placed in a plastic bag for two weeks."/>
+            	<LineBreak/>
+            	<Run Text="3. Follow-up"/>
+            	<LineBreak/>
+            	<Run Text="Getting rid of lice for good takes a few weeks."/>
+            	<LineBreak/>
+            	<Run Text="Comb your hair for nits every 2-3 days."/>
+            	<LineBreak/>
+            	<Run Text="7-10 days later, use the anti-lice shampoo to kill any newly hatched lice."/>
+            	<LineBreak/>
+            	<Run Text="If you still find lice after that, see your doctor."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Lightning Strike Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1.Call ambulance"/>
+            	<LineBreak/>
+            	<Run Text="People struck by lightning may suffer cardiac arrest, so immediate and aggressive resuscitation greatly improves survival. "/>
+            	<LineBreak/>
+            	<Run Text="2. Help the Person When It Is Safe"/>
+            	<LineBreak/>
+            	<Run Text="If you are at risk from ongoing lightning, wait until danger has passed or move to a safer place if possible."/>
+            	<LineBreak/>
+            	<Run Text="3. Begin CPR"/>
+            	<LineBreak/>
+            	<Run Text="It is safe to touch the person. The body does not retain an electrical charge. "/>
+            	<LineBreak/>
+            	<Run Text="If the person is not conscious and does not appear to be breathing normally, use an automated external defibrillator (AED), if one is on hand, or:"/>
+            	<LineBreak/>
+            	<Run Text="For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run Text="For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run Text="Do not remove burned clothing unless necessary."/>
+            	<LineBreak/>
+            	<Run Text="4. Treat for Shock, if Necessary"/>
+            	<LineBreak/>
+            	<Run Text="Lay the victim down with head slightly lower than torso and legs."/>
+            	<LineBreak/>
+            	<Run Text="5. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="The emergency medical team will assess the person's condition."/>
+            	<LineBreak/>
+            	<Run Text="At the hospital, the person will be examined for internal or neurological injuries and burns."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Low Blood Sugar (Hypoglycemia) Treatment"/>
+            	<LineBreak/>
+            	<Run Text="Call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="A person who has low blood sugar not related to diabetes loses consciousness."/>
+            	<LineBreak/>
+            	<Run Text="1. Raise Blood Sugar Level"/>
+            	<LineBreak/>
+            	<Run Text="Give the person a high-sugar food such as:"/>
+            	<LineBreak/>
+            	<Run Text="½ cup fruit juice"/>
+            	<LineBreak/>
+            	<Run Text="5 hard candies"/>
+            	<LineBreak/>
+            	<Run Text="3 glucose tablets"/>
+            	<LineBreak/>
+            	<Run Text="Then follow with a more substantial food like a sandwich that offers protein, fat, and complex carbohydrates."/>
+            	<LineBreak/>
+            	<Run Text="2. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="If non-diabetic hypoglycemia is recurrent, see a health care provider. The health care provider will do tests to help determine the cause."/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

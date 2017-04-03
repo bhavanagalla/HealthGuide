@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C317C1A7-B885-4D14-9FD2-BE81E8410DFF}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>metroapp</RootNamespace>
+    <AssemblyName>metroapp</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>metroapp_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChestPaintreatment.xaml.cs">
+      <DependentUpon>ChestPaintreatment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dietchartforbabies1.xaml.cs">
+      <DependentUpon>Dietchartforbabies1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dietchartforbabies3.xaml.cs">
+      <DependentUpon>Dietchartforbabies3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dietchartforheight.xaml.cs">
+      <DependentUpon>Dietchartforheight.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DietChartforPregnants.xaml.cs">
+      <DependentUpon>DietChartforPregnants.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Calorie Intake.xaml.cs">
+      <DependentUpon>Calorie Intake.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CalorieProperties.cs" />
+    <Compile Include="Common\BindableBase.cs" />
+    <Compile Include="Common\BooleanNegationConverter.cs" />
+    <Compile Include="Common\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Common\LayoutAwarePage.cs" />
+    <Compile Include="Common\RichTextColumns.cs" />
+    <Compile Include="Common\SuspensionManager.cs" />
+    <Compile Include="DietchartforkidsandTeens.xaml.cs">
+      <DependentUpon>DietchartforkidsandTeens.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DietchartforSyndromes.xaml.cs">
+      <DependentUpon>DietchartforSyndromes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dietchartforweightloss.xaml.cs">
+      <DependentUpon>Dietchartforweightloss.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dite Chat.xaml.cs">
+      <DependentUpon>Dite Chat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DiteChartforbabies2.xaml.cs">
+      <DependentUpon>DiteChartforbabies2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DiteChartweight2.xaml.cs">
+      <DependentUpon>DiteChartweight2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ditechartweight3.xaml.cs">
+      <DependentUpon>Ditechartweight3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tips 4.xaml.cs">
+      <DependentUpon>First Aid Tips 4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tips2.xaml.cs">
+      <DependentUpon>First Aid Tips2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tips3.xaml.cs">
+      <DependentUpon>First Aid Tips3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tipsa1.xaml.cs">
+      <DependentUpon>First Aid Tipsa1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tipsm2.xaml.cs">
+      <DependentUpon>First Aid Tipsm2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tipsm3.xaml.cs">
+      <DependentUpon>First Aid Tipsm3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="First Aid Tipsm4.xaml.cs">
+      <DependentUpon>First Aid Tipsm4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsC.xaml.cs">
+      <DependentUpon>firstaidtipsC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Firstaidtipsc2.xaml.cs">
+      <DependentUpon>Firstaidtipsc2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FirstaidtipsD.xaml.cs">
+      <DependentUpon>FirstaidtipsD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsE.xaml.cs">
+      <DependentUpon>firstaidtipsE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsF.xaml.cs">
+      <DependentUpon>firstaidtipsF.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsG1.xaml.cs">
+      <DependentUpon>firstaidtipsG1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsH.xaml.cs">
+      <DependentUpon>firstaidtipsH.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsI.xaml.cs">
+      <DependentUpon>firstaidtipsI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsJ.xaml.cs">
+      <DependentUpon>firstaidtipsJ.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsK.xaml.cs">
+      <DependentUpon>firstaidtipsK.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsL.xaml.cs">
+      <DependentUpon>firstaidtipsL.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsM.xaml.cs">
+      <DependentUpon>firstaidtipsM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FirstAidTipsm5.xaml.cs">
+      <DependentUpon>FirstAidTipsm5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsN.xaml.cs">
+      <DependentUpon>firstaidtipsN.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsP.xaml.cs">
+      <DependentUpon>firstaidtipsP.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsR.xaml.cs">
+      <DependentUpon>firstaidtipsR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsS1.xaml.cs">
+      <DependentUpon>firstaidtipsS1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsS2.xaml.cs">
+      <DependentUpon>firstaidtipsS2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsT.xaml.cs">
+      <DependentUpon>firstaidtipsT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsV.xaml.cs">
+      <DependentUpon>firstaidtipsV.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="firstaidtipsW.xaml.cs">
+      <DependentUpon>firstaidtipsW.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Health Tips.xaml.cs">
+      <DependentUpon>Health Tips.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Health Tips2.xaml.cs">
+      <DependentUpon>Health Tips2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Health Tips3.xaml.cs">
+      <DependentUpon>Health Tips3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\MyHealthCheckService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="metroapp_TemporaryKey.pfx" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
+    <None Include="Service References\MyHealthCheckService\HealthMonitor.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MyHealthCheckService\HealthMonitor1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MyHealthCheckService\HealthMonitor2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MyHealthCheckService\metroapp.MyHealthCheckService.Category.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MyHealthCheckService\metroapp.MyHealthCheckService.Items.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MyHealthCheckService\Service1.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\19335.png" />
+    <Content Include="Assets\205199.png" />
+    <Content Include="Assets\39639_image.png" />
+    <Content Include="Assets\620300.png" />
+    <Content Include="Assets\655721.png" />
+    <Content Include="Assets\713295-tn_blood700.png" />
+    <Content Include="Assets\94683.png" />
+    <Content Include="Assets\abdomenal.png" />
+    <Content Include="Assets\abdominal_pain %281%29.png" />
+    <Content Include="Assets\acetaminophe.png" />
+    <Content Include="Assets\alcohol.png" />
+    <Content Include="Assets\altitude-sickness.png" />
+    <Content Include="Assets\Banana.png" />
+    <Content Include="Assets\black.png" />
+    <Content Include="Assets\blackberry.png" />
+    <Content Include="Assets\bones.jpg" />
+    <Content Include="Assets\bottle.png" />
+    <Content Include="Assets\bottle1.png" />
+    <Content Include="Assets\broccoli.png" />
+    <Content Include="Assets\Capture.PNG" />
+    <Content Include="Assets\Capture11.PNG" />
+    <Content Include="Assets\carb.png" />
+    <Content Include="Assets\choking-10.png" />
+    <Content Include="Assets\choking_2.png" />
+    <Content Include="Assets\clavibrace_3a.png" />
+    <Content Include="Assets\cranberry.png" />
+    <Content Include="Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.PNG" />
+    <Content Include="Assets\d0ffe373-7e60-47e4-a67c-3b2eb477faff_zps15765aa0.scale-100.png" />
+    <Content Include="Assets\diabetes_diet.png" />
+    <Content Include="Assets\dite chat.png" />
+    <Content Include="Assets\fennel.png" />
+    <Content Include="Assets\first aidkit.jpg" />
+    <Content Include="Assets\first-aid-kit-icon.png" />
+    <Content Include="Assets\fish.png" />
+    <Content Include="Assets\Fresh_Fruits_by_Eres_Graph.png" />
+    <Content Include="Assets\fri.jpg" />
+    <Content Include="Assets\fruits.jpg" />
+    <Content Include="Assets\get-kids-tol.png" />
+    <Content Include="Assets\getty_rf_photo_of_hand_under_running_water.png" />
+    <Content Include="Assets\ginger.png" />
+    <Content Include="Assets\Green_Tea.png" />
+    <Content Include="Assets\hand.png" />
+    <Content Include="Assets\head-injury_illustration_0.png" />
+    <Content Include="Assets\health tips.png" />
+    <Content Include="Assets\height.jpg" />
+    <Content Include="Assets\herbs.png" />
+    <Content Include="Assets\home.png" />
+    <Content Include="Assets\honey.png" />
+    <Content Include="Assets\image2.png" />
+    <Content Include="Assets\images.png" />
+    <Content Include="Assets\imgres.png" />
+    <Content Include="Assets\kidsssss.png" />
+    <Content Include="Assets\lavender.png" />
+    <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-180.png" />
+    <Content Include="Assets\meditation.png" />
+    <Content Include="Assets\mineral-rich-food.png" />
+    <Content Include="Assets\mint_tea.png" />
+    <Content Include="Assets\mob.jpg" />
+    <Content Include="Assets\pepper.png" />
+    <Content Include="Assets\peppermintoil.png" />
+    <Content Include="Assets\pregnant.png" />
+    <Content Include="Assets\sat.jpg" />
+    <Content Include="Assets\shoes.png" />
+    <Content Include="Assets\skinned-knee.png" />
+    <Content Include="Assets\slide1_Layer_2.png" />
+    <Content Include="Assets\SmallLogo.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\soap.png" />
+    <Content Include="Assets\SplashScreen.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\splint-and-wrap-bite-area_converted.png" />
+    <Content Include="Assets\sprained-ankle-bandage.png" />
+    <Content Include="Assets\stomach.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\sun.jpg" />
+    <Content Include="Assets\thu.jpg" />
+    <Content Include="Assets\tooth_paste.png" />
+    <Content Include="Assets\tue.jpg" />
+    <Content Include="Assets\tulasi.png" />
+    <Content Include="Assets\vitaminD.png" />
+    <Content Include="Assets\washon.PNG" />
+    <Content Include="Assets\wed.jpg" />
+    <Content Include="Assets\Weight-Loss-11.png" />
+    <Content Include="Assets\WideLogo.scale-180.png" />
+    <Content Include="Common\ReadMe.txt" />
+    <None Include="Service References\MyHealthCheckService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\MyHealthCheckService\configuration.svcinfo" />
+    <None Include="Service References\MyHealthCheckService\configuration91.svcinfo" />
+    <None Include="Service References\MyHealthCheckService\HealthMonitor.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="ChestPaintreatment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dietchartforbabies1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dietchartforbabies3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dietchartforheight.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DietChartforPregnants.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Calorie Intake.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Common\StandardStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DietchartforkidsandTeens.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DietchartforSyndromes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dietchartforweightloss.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dite Chat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DiteChartforbabies2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DiteChartweight2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ditechartweight3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tips 4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tips2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tips3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tipsa1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tipsm2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tipsm3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="First Aid Tipsm4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Firstaidtipsc2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FirstaidtipsD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsE.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsF.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsG1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsH.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsJ.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsK.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsL.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FirstAidTipsm5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsN.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsS1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsS2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsV.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="firstaidtipsW.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Health Tips.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Health Tips2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Health Tips3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.VCLibs, Version=11.0">
+      <Name>Microsoft Visual C++ Runtime Package</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WinRT, Version=3.8.6">
+      <Name>SQLite for Windows Runtime</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MyHealthCheckService\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

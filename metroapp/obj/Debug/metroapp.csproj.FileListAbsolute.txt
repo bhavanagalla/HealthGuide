@@ -1,0 +1,112 @@
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\bin\Debug\metroapp.exe
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\bin\Debug\metroapp.pdb
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\bin\Debug\resources.pri
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\bin\Debug\AppxManifest.xml
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\bin\Debug\metroapp.build.appxrecipe
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\App.g.i.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\App.g.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\Common\StandardStyles.g.i.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\Common\StandardStyles.g.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\MainPage.g.i.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\MainPage.g.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\XamlTypeInfo.g.cs
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\App.xaml
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\Common\StandardStyles.xaml
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\MainPage.xaml
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\metroapp.exe
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\metroapp.pdb
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\priconfig.xml
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\layout.resfiles
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\resources.resfiles
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\pri.resfiles
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\LanguageQualifiers.txt
+c:\users\dell\documents\visual studio 2012\Projects\metroapp\metroapp\obj\Debug\ProjectArchitectures.txt
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Calorie Intake.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Calorie Intake.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Dite Chat.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Dite Chat.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\First Aid Tips.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\First Aid Tips.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Health Tips.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Health Tips.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Calorie Intake.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Dite Chat.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\First Aid Tips.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Health Tips.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\priconfig.xml.intermediate
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\layout.resfiles.intermediate
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\resources.resfiles.intermediate
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\pri.resfiles.intermediate
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\BlankPage1.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\BlankPage1.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\ItemsPage1.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\ItemsPage1.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\BlankPage1.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\ItemsPage1.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Health Tips2.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Health Tips2.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\Health Tips2.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\First Aid Tips2.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\First Aid Tips2.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\First Aid Tips2.xaml
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\CalorieIntake.g.i.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\CalorieIntake.g.cs
+C:\Users\DELL\Documents\Visual Studio 2012\Projects\metroapp\metroapp\obj\Debug\CalorieIntake.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\App.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\App.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\BlankPage1.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\BlankPage1.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Calorie Intake.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Calorie Intake.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\CalorieIntake.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\CalorieIntake.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Common\StandardStyles.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Dite Chat.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Dite Chat.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\First Aid Tips.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\First Aid Tips.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\First Aid Tips2.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\First Aid Tips2.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips2.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips2.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\ItemsPage1.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\ItemsPage1.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\MainPage.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\MainPage.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\App.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\BlankPage1.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Calorie Intake.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\CalorieIntake.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Common\StandardStyles.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Dite Chat.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\First Aid Tips.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\First Aid Tips2.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips2.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\ItemsPage1.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\MainPage.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\metroapp.exe
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\metroapp.pdb
+C:\Users\DELL\Desktop\hg\metroapp\bin\Debug\metroapp.exe
+C:\Users\DELL\Desktop\hg\metroapp\bin\Debug\metroapp.pdb
+C:\Users\DELL\Desktop\hg\metroapp\bin\Debug\resources.pri
+C:\Users\DELL\Desktop\hg\metroapp\bin\Debug\AppxManifest.xml
+C:\Users\DELL\Desktop\hg\metroapp\bin\Debug\metroapp.build.appxrecipe
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\priconfig.xml.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\layout.resfiles.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\resources.resfiles.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\pri.resfiles.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\priconfig.xml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\layout.resfiles
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\resources.resfiles
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\pri.resfiles
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\LanguageQualifiers.txt
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\ProjectArchitectures.txt
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips3.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips3.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\Health Tips3.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\Debug\metroapp.csproj.GenerateResource.Cache

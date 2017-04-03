@@ -1,0 +1,636 @@
+﻿<Page
+    x:Class="metroapp.firstaidtipsC"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="353*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="1296*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}" Click="Button_Click" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="706" Grid.Row="3" Stroke="Black" VerticalAlignment="Top" Width="1296" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" HorizontalAlignment="Left" Height="696" Grid.Row="3" VerticalAlignment="Top" Width="1296" Margin="0,10,0,0">
+            <TextBlock TextWrapping="Wrap" FontSize="22" FontFamily="Segoe UI Semilight" Height="8631" Width="1221">
+            	<Run Foreground="#FF0A0202" FontSize="36" Text="Carbon Monoxide Poisoning Treatment"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1. "/>
+            	<Run Foreground="#FF570F0F" Text="Get the Person to Fresh Air"/>
+            	<LineBreak/>
+            	<Run Text="•Move the person away from carbon monoxide area."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If the person is unconscious, check for injuries before moving."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Turn off carbon monoxide source if you can do so safely."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="2. "/>
+            	<Run Foreground="#FF550D0D" Text="Call ambulance"/>
+            	<LineBreak/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF510B0B" Text="Begin CPR, if Necessary"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="If the person is not breathing normally:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Perform CPR for one minute before calling ambulance if you are alone. Otherwise, have someone else call and begin CPR."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Continue CPR until the person begins breathing or emergency help arrives."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="4. "/>
+            	<Run Foreground="#FF6A1414" Text="Follow Up"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Once at the hospital, treatment depends on the severity of the carbon monoxide exposure."/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Mild exposure is treated with oxygen and monitoring of carbon monoxide levels."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Severe carbon monoxide poisoning may require high doses of oxygen therapy."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF110505" FontSize="36" Text="Catfish Sting Treatment"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance if"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•&#x9;The person is having trouble breathing."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1."/>
+            	<Run Foreground="#FF631010" Text=" Get the Person Out of the Water"/>
+            	<LineBreak/>
+            	<Run Text="2. "/>
+            	<Run Foreground="#FF6A0B0B" Text="Do CPR if the Person Is Not Breathing"/>
+            	<LineBreak/>
+            	<Run Text="•For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="3"/>
+            	<Run Foreground="#FF5F0C0C" Text=". Clean Wound"/>
+            	<LineBreak/>
+            	<Run Text="•Use tweezers to remove all catfish spines."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Scrub wound with soap and water."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Rinse extensively with fresh or salt water."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="4. "/>
+            	<Run Foreground="#FF631414" Text="Submerge Wound in Hot Water"/>
+            	<LineBreak/>
+            	<Run Text="•Soak for at least 30 minutes in water as hot as the person can tolerate."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="5. "/>
+            	<Run Foreground="#FF510C0C" Text="Do Not Cover Wound"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="6. Treat Pain"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Give over-the-counter medication such as acetaminophen (Tylenol) or ibuprofen (Advil, Motrin)."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="7"/>
+            	<Run Foreground="#FF6E0D0D" Text=". See a Doctor As Soon As Possible"/>
+            	<LineBreak/>
+            	<Run Text="8. "/>
+            	<Run Foreground="#FF701717" Text="Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="•The doctor will clean and treat the wound and may give a tetanus shot, if needed."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•The person may receive pain medication and antibiotics to prevent infection."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF0C0303" FontSize="36" Text="Chemical Burn Treatment"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1. "/>
+            	<Run Foreground="#FF630A0A" Text="Protect Yourself"/>
+            	<LineBreak/>
+            	<Run Text="•Put on gloves or apron, if possible."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Avoid exposing yourself to chemicals."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="2. "/>
+            	<Run Foreground="#FF700C0C" Text="Rinse and Clear Burn Area"/>
+            	<LineBreak/>
+            	<Run Text="•Flood area with cool water for at least 20 minutes or until help arrives."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Make sure water doesn't flow onto another part of the person's body or onto you."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Don't use a strong stream of water, if possible."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•As you flush the burn (not before), remove jewelry or articles of clothing with chemical on them, unless they're stuck to the person's body."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•After flushing the burn, follow instructions on the label of the chemical product, if available."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Don't try to neutralize the burn with acid or alkali. This could cause a chemical reaction that worsens the burn."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•Don't put antibiotic ointment on the burn."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="3."/>
+            	<Run Foreground="#FF701313" Text=" Cover a Small Burn Area"/>
+            	<LineBreak/>
+            	<Run Text="•You can wrap a small burn with dry, sterile gauze or clean cloth."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF0A0303" FontSize="36" Text="Chemical Eye Burn Treatment"/>
+            	<LineBreak/>
+            	<Run Text="1. "/>
+            	<Run Foreground="#FF6A0E0E" Text="Flush the Eye"/>
+            	<LineBreak/>
+            	<Run Text="•Have the person immediately rinse the eye or eyes under a faucet, in a gentle shower, or with a clean container of water. Keep the person's face so that the injured eye is down and to the side. Avoid spraying a high-pressure water stream into the eye or eyes.&#xD;&#xA;•Flush with lukewarm water for 15 to 30 minutes. For severe burns, continue flushing until you see a doctor or you arrive in an emergency room. The person should keep the eye open as wide as possible. Wash the person's hands thoroughly to make sure no chemical is still on them.&#xD;&#xA;•Flush the eye to remove contact lenses. If they do not come out, try to gently remove them AFTER flushing.&#xD;&#xA;•Do not rub the eye or place a bandage over the eye.&#xD;&#xA;•While waiting for medical care, have the person wear sunglasses to decrease light sensitivity."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="2."/>
+            	<Run Foreground="#FF680E0E" Text=" Get Help Immediately"/>
+            	<LineBreak/>
+            	<Run Text="•Call ambulance for severe burns, otherwise see a doctor as soon as possible. Be aware that alkali chemicals (such as ammonia and oven cleaner) might not be painful but they can cause the most serious injuries.&#xD;&#xA;•Make sure you know what chemical got into the eye so the medical team can give the right treatment.&#xD;&#xA;•While waiting for medical care, call Poison Control or the emergency number on the container if you have it for further advice."/>
+            	<Span>
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF660E0E" Text="Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="•The health care provider may continue flushing the eye with saline solution, checking periodically until pH is normal."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•The health care provider may place anesthetic drugs in the eye to decrease discomfort with flushing."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF0C0202" FontSize="36" Text="Chest Injury Treatment"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Emergency medical assistance is critical for any serious wound to the chest.&#xD;&#xA;•Even if there are no external wounds, there may be internal damage."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1."/>
+            	<Run Foreground="#FF891111" Text=" Begin CPR, if Necessary"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="If the person's breathing has stopped or seems dangerously weak:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•For a child, start CPR for children."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•For an adult, start adult CPR."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="2. "/>
+            	<Run Foreground="#FF660D0D" Text="Cover an Open Wound"/>
+            	<LineBreak/>
+            	<Run Text="•Use a cloth, pad, piece of clothing, plastic, aluminum, or whatever is at hand."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If possible, cover two inches beyond the edge of the wound."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•If blood bubbles up from the wound or you hear air passing through the chest cavity, tape cover down on three sides to prevent air from building up in the chest."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Do not remove any objects that have penetrated the chest."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="3."/>
+            	<Run Foreground="#FF6A0A0A" Text=" Stop Bleeding, if Necessary"/>
+            	<LineBreak/>
+            	<Run Text="•Apply pressure over dressing to control bleeding."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•If blood soaks through the dressing, apply additional dressing on top of old one."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="4."/>
+            	<Run Foreground="#FF7C0E0E" Text=" Position Person to Make Breathing Easier"/>
+            	<LineBreak/>
+            	<Run Text="•If possible, place the person on the injured side or sitting up."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="5. "/>
+            	<Run Foreground="#FF6E0F0F" Text="Monitor Breathing"/>
+            	<LineBreak/>
+            	<Run Text="•If breathing becomes weak, apply CPR as instructed above."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="6. "/>
+            	<Run Foreground="#FF760D0D" Text="Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="•The medical team will assess the injury and stabilize the person."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="•A blood transfusion may be necessary if there is significant blood loss."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="•Surgery is likely for a serious chest injury."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF130505" FontSize="36" Text="Choking Treatment"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•The person is choking.&#xD;&#xA;•The person is unconscious."/>
+            	<Span>
+            		<Run Text=" For infants 12 months of age and younger, see"/>
+            	</Span>
+            	<Span FontFamily="Times New Roman">
+            		<Run Text=" "/>
+            	</Span>
+            	<Span>
+            		<Run Text="Choking in Children"/>
+            	</Span>
+            	<Span>
+            		<Run Text="."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span FontWeight="Bold">
+            		<Run Text="While Waiting for ambulance"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span FontWeight="Bold">
+            		<Run Text="If the Person Is Conscious but Not Able to Breathe or Talk:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run FontWeight="Bold" Text="1. "/>
+            	<Run Foreground="#FF780C0C" FontWeight="Bold" Text="Give Back Blows"/>
+            	<LineBreak/>
+            	<Run Text="•Give up to 5 blows between the shoulder blades with the heel of your hand."/>
+            	<Span FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run FontWeight="Bold" Text="2. "/>
+            	<Run Foreground="#FF660B0B" FontWeight="Bold" Text="If Person Is Still Choking, Do Thrusts"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="If the person is not pregnant or too obese, do abdominal thrusts:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Stand behind the person and wrap your arms around the waist.&#xD;&#xA;•Place your clenched fist just above the person's navel. Grab your fist with your other hand.&#xD;&#xA;•Quickly pull inward and upward.&#xD;&#xA;•Continue cycles of 5 back blows and 5 abdominal thrusts until the object is coughed up or the person starts to breathe or cough.&#xD;&#xA;•Take the object out of his mouth only if you can see it. Never do a finger sweep unless you can see the object in the person's mouth. "/>
+            	<Span FontWeight="Bold">
+            		<Run Text="If the person is obese or pregnant, do high abdominal thrusts:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Stand behind the person, wrap your arms them, and position your hands at the base of the breast bone.&#xD;&#xA;•Quickly pull inward and upward.&#xD;&#xA;•Repeat until the object is dislodged."/>
+            	<Span FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run FontWeight="Bold" Text="3. "/>
+            	<Run Foreground="#FF510808" FontWeight="Bold" Text="Give CPR, if Necessary"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="If the obstruction comes out, but the person is not breathing or if the person becomes unconscious:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•For a child, start CPR for children.&#xD;&#xA;•For an adult, start CPR for adults."/>
+            	<Span FontWeight="Bold">
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run FontWeight="Bold" Text="4. "/>
+            	<Run Foreground="#FF5D0606" FontWeight="Bold" Text="Follow Up"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="When emergency medical personnel arrive, they will take over and may do CPR or take the person to the hospital, if needed."/>
+            	</Span>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF0F0303" FontSize="36" Text="Choking in Children"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance if the child is:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Unconscious&#xD;&#xA;•Not able to breathe because something is blocking the airway or has caused it to close off&#xD;&#xA;•Wheezing or gasping&#xD;&#xA;•Not able to cry, talk, or make noise&#xD;&#xA;•Turning blue in the face&#xD;&#xA;•Grabbing at the throat&#xD;&#xA;•Looking panicked"/>
+            	<Span>
+            		<Run Text=" Young children are prone to choking. If the child is coughing and gagging but can breathe and talk, don't do anything. But if he can't breathe, you must act quickly to stop a life-threatening situation."/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="While Waiting for ambulance"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="If the Child Is Unconscious:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1. "/>
+            	<Run Foreground="#FF681111" Text="Start CPR"/>
+            	<LineBreak/>
+            	<Run Text="•Move the child to the floor and start CPR. Take the object out of his mouth only if you can see it."/>
+            	<Span>
+            		<Run Text=" For a Child Younger Than 1 Year Who Is Conscious but Not Breathing:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1. "/>
+            	<Run Foreground="#FF640A0A" Text="Get the Child Into Position"/>
+            	<LineBreak/>
+            	<Run Text="•Hold the child face down on your forearm, supported by your thigh.&#xD;&#xA;•Keep the child's torso higher than the head."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="2."/>
+            	<Run Foreground="#FF5B0D0D" Text=" Give Forceful Blows"/>
+            	<LineBreak/>
+            	<Run Text="•Use the heel of your free hand to thump the child in between the shoulder blades up to five times."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF660D0D" Text="Turn the Child Over"/>
+            	<LineBreak/>
+            	<Run Text="•Turn the child face up, and keep supporting the head and neck. If the object is not out yet, go to step 4."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="4."/>
+            	<Run Foreground="#FF700D0D" Text=" Press the Chest"/>
+            	<LineBreak/>
+            	<Run Text="•Place the child on a firm surface, which may still be your forearm.&#xD;&#xA;•Put two or three fingers in the center of the child's breastbone and push quickly up to five times.&#xD;&#xA;•Repeat the back thumping and chest pushes until the object comes out or the child loses consciousness.&#xD;&#xA;•If the child is still not breathing, open the airway by putting your thumb in the child's mouth and grasping the lower incisors or gums. The jaw should lift up so you can look for the object.&#xD;&#xA;•Do not try to pull the object out unless you see it clearly. You could accidentally push the object deeper in the child's throat."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="5."/>
+            	<Run Foreground="#FF570B0B" Text=" Start CPR, If Needed"/>
+            	<LineBreak/>
+            	<Run Text="•If the child loses consciousness, perform CPR and take the object out of his mouth only if you can see it. Never do a finger sweep unless you can see the object in the child's mouth."/>
+            	<Span>
+            		<Run Text=" For a Child Older Than 1 Year Who Is Conscious:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="1. Get the Child Into Position"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Stand behind the child and wrap your arms around his waist.&#xD;&#xA;•Place a fist just above the child's belly button."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="2."/>
+            	<Run Foreground="#FF460B0B" Text=" Try to Dislodge the Object"/>
+            	<LineBreak/>
+            	<Run Text="•Hold the fist with your free hand and quickly push in and up.&#xD;&#xA;•Repeat until the object comes out or the child loses consciousness."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF6A0A0A" Text="Start CPR, If Needed"/>
+            	<LineBreak/>
+            	<Run Text="•If the child loses consciousness, move the child to the floor and start CPR. Take the object out of his mouth only if you can see it. Never do a finger sweep unless you can see the object in the child's mouth."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Foreground="#FF0C0202" FontSize="36" Text="Treating Colds in Children"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance if: "/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Your child has difficulty breathing."/>
+            	<Span>
+            		<Run Text=" There's no way to cure your child's cold, but you can help relieve the symptoms that make your baby or toddler uncomfortable."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call Doctor If:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Your child has a cold and is 3 months or younger.&#xD;&#xA;•Your child has a severe cough.&#xD;&#xA;•Your child has ear pain.&#xD;&#xA;•Symptoms don't get better after 10 to 14 days."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1"/>
+            	<Run Foreground="#FF6E1010" Text=". Clear Out Mucus"/>
+            	<LineBreak/>
+            	<Run Text="•Use an infant nasal bulb, or aspirator, to suck mucus from your baby's nose.&#xD;&#xA;•If your child is able, have her blow her nose regularly."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="2. "/>
+            	<Run Foreground="#FF510808" Text="Add Moisture"/>
+            	<LineBreak/>
+            	<Run Text="•Use a saline spray to moisten the nasal passages.&#xD;&#xA;•Use a cool-mist humidifier if the air is dry.&#xD;&#xA;•Sit in the bathroom with the hot shower running and have your child breathe in the steam."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF4F0A0A" Text="Give Fluids"/>
+            	<LineBreak/>
+            	<Run Text="•If your child is over 3 months, offer apple juice or water. Hydration helps to loosen mucus.&#xD;&#xA;•Older children can have warm soups and other drinks."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="4. "/>
+            	<Run Foreground="#FF5D0D0D" Text="Treat Fever and Pain"/>
+            	<LineBreak/>
+            	<Run Text="•You don't need to treat a fever unless it is making your child uncomfortable.&#xD;&#xA;•If your child is older than 6 months, you can give children's-formula acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) for fever. Don't give aspirin to children younger than 16 years old.&#xD;&#xA;•Follow the dosing instructions on the medication. Use a formula that's made for children, not adults.&#xD;&#xA;•Never use a cold or cough medicine in kids under age 6 unless a pediatrician suggests it."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="5. "/>
+            	<Run Foreground="#FF510B0B" Text="Treat Other Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="•If your child is over age 1, try 1/2 to 1 teaspoon of honey for cough.&#xD;&#xA;•Raising the head of your child's bed may help relieve congestion.&#xD;&#xA;•Rub petroleum jelly under the nose to prevent chapping.&#xD;&#xA;•Avoid irritants, such as cigarette smoke.&#xD;&#xA;•Be patient. Colds usually last one to two weeks and clear on their own."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Foreground="#FF110303" FontSize="36" Text="Concussion Treatment"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance if the person:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Is vomiting repeatedly&#xD;&#xA;•Has unequal pupils&#xD;&#xA;•Is confused or agitated&#xD;&#xA;•Has weakness on one side of the body&#xD;&#xA;•Passes out or is unconscious &#xD;&#xA;•Is very drowsy or unable to wake up&#xD;&#xA;•Has neck pain after a fall&#xD;&#xA;•Has slurred speech&#xD;&#xA;•Has a seizure"/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="1. "/>
+            	<Run Foreground="#FF7A1717" Text="Prevent Swelling and Further Injury"/>
+            	<LineBreak/>
+            	<Run Text="•Have the person stop activity and rest.&#xD;&#xA;•Apply ice wrapped in a washcloth."/>
+            	<LineBreak/>
+            	<Run/>
+            	<Run Text="2"/>
+            	<Run Foreground="#FF641111" Text=". Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="•For pain, take over-the-counter acetaminophen (Tylenol). Aspirin or ibuprofen (Advil, Motrin) may make bruising worse."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF510808" Text="Monitor Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="•If possible, stay with the person for 24 hours."/>
+            	<Span>
+            		<Run Text=" "/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="4. "/>
+            	<Run Foreground="#FF4F0D0D" Text="When to Call a Doctor"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Anyone with a suspected concussion should be seen by a doctor. Once discharged, seek immediate medical care again if any of these symptoms develop:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•A headache that seems to be getting worse&#xD;&#xA;•Continued vomiting&#xD;&#xA;•Increased drowsiness or dizziness&#xD;&#xA;•Increased confusion "/>
+            	<Span>
+            		<Run Text="Young children may not have the same symptoms as adults. Seek immediate medical help if your child will not nurse or eat after a head injury or if you cannot get them to stop crying. "/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="5"/>
+            	</Span>
+            	<Span FontWeight="Bold">
+            		<Run Text=". "/>
+            	</Span>
+            	<Run Foreground="#FF460707" FontFamily="Segoe UI Semibold" Text="Follow-Up"/>
+            	<LineBreak/>
+            	<Run Text="•Symptoms will likely improve in 7 to 10 days. Call your doctor if symptoms persist or worsen."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run Foreground="#FF0C0404" FontSize="36" Text="Treating a Child's Congestion or Stuffy Nose"/>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call ambulance if your child: "/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Has difficulty breathing or is unable to breathe&#xD;&#xA;•Suddenly starts coughing or choking after being fed&#xD;&#xA;•Has a cough associated with any skin color change such as turning blue&#xD;&#xA;•Seems out of breath&#xD;&#xA;•Is unable to talk or eat "/>
+            	<Span>
+            		<Run Text="Colds, flu, and allergies cause congestion in babies and toddlers. Colds and flu are most commonly caused by viruses, so antibiotics won't help. Supportive treatments can help with symptoms, however there is no cure and the body needs to fight off the virus."/>
+            	</Span>
+            	<LineBreak/>
+            	<Span>
+            		<Run Text="Call Doctor If:"/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="•Symptoms last longer than two weeks&#xD;&#xA;•Your child is congested and is three months or younger.&#xD;&#xA;•Your child has a severe cough or a cough that sounds like a bark.&#xD;&#xA;•Your child is breathing fast and has a fever with a cough.&#xD;&#xA;•Your child has ear pain."/>
+            	<Run Foreground="#FFEEDFDF"/>
+            	<LineBreak/>
+            	<Run Foreground="#FFEEDFDF" Text="1. "/>
+            	<Run Foreground="#FF660C0C" Text="Clear Out Mucus"/>
+            	<LineBreak/>
+            	<Run Text="•Use an infant nasal bulb, or aspirator, to suck mucus from your baby's nose.&#xD;&#xA;•If your child is able, have her blow her nose regularly.&#xD;&#xA;•Never use a cold or cough medicine in kids under age 6 unless a pediatrician suggests it."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="2. "/>
+            	<Run Foreground="#FF641818" Text="Give Fluids"/>
+            	<LineBreak/>
+            	<Run Text="•If your child is over 3 months, offer Pedialyte, apple juice, or water.&#xD;&#xA;•Older children can have warm soups and other drinks."/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="3. "/>
+            	<Run Foreground="#FF640B0B" Text="Add Moisture"/>
+            	<LineBreak/>
+            	<Run Text="•Use a cool-mist humidifier if the air is dry.&#xD;&#xA;•Use saline nose drops to moisten the nasal passages.&#xD;&#xA;•Sit in the bathroom with the hot shower running and have your child breathe in the steam."/>
+            	<Span>
+            		<Run/>
+            	</Span>
+            	<LineBreak/>
+            	<Run Text="4."/>
+            	<Run Foreground="#FF870F0F" Text=" Treat Other Symptoms"/>
+            	<LineBreak/>
+            	<Run Text="•If your child is older than age 1, try 1/2 to 1 teaspoon of honey for cough.&#xD;&#xA;•Avoid irritants, such as cigarette smoke.&#xD;&#xA;•Rub petroleum jelly under the nose to prevent chapping.&#xD;&#xA;•If your child has allergies, talk to your pediatrician about treatment."/>
+            </TextBlock>
+        </ScrollViewer>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+
+    </Grid>
+</Page>

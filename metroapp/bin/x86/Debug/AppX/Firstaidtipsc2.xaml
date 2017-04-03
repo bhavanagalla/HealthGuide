@@ -1,0 +1,514 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.Firstaidtipsc2"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}" Opacity="0.8">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="648*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='1' x:Name="backButton"                IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontSize="24" Height="9163" Width="1206">
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="Treating Constipation in Children"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call ambulance if your child is constipated and: "/>
+            	<LineBreak/>
+            	<Run Text="Has severe abdominal pain"/>
+            	<LineBreak/>
+            	<Run Text="Has fever"/>
+            	<LineBreak/>
+            	<Run Text="Is vomiting"/>
+            	<LineBreak/>
+            	<Run Text="Has a swollen abdomen"/>
+            	<LineBreak/>
+            	<Run Text="Is listless"/>
+            	<LineBreak/>
+            	<Run Text="Constipation, or passing hard, painful stools, is a common problem in young children. Mild cases can be treated at home."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="Your child has ongoing signs of constipation."/>
+            	<LineBreak/>
+            	<Run Text="1. Increase Fluids"/>
+            	<LineBreak/>
+            	<Run Text="For infants 4 months or older: add small amounts of fruit juice, such as prune, pear, or apple juices."/>
+            	<LineBreak/>
+            	<Run Text="For children 1 year or older: offer fruit juices and more water."/>
+            	<LineBreak/>
+            	<Run Text="2. Increase Fiber"/>
+            	<LineBreak/>
+            	<Run Text="For infants 4 months or older: add baby foods such as peas, beans, prunes, peaches, plums, and apricots."/>
+            	<LineBreak/>
+            	<Run Text="For children 1 year or older: add fruits, vegetables such as peas, beans, and broccoli, and whole-grain foods such as brown rice, whole wheat bread, graham crackers. Four to five prunes a day is also a very good source of fiber."/>
+            	<LineBreak/>
+            	<Run Text="Cut down on candies and sweets. Limit milk and cheese to 16-20 ounces."/>
+            	<LineBreak/>
+            	<Run Text="3. Encourage Good Habits"/>
+            	<LineBreak/>
+            	<Run Text="Get your toddler to sit on the potty or toilet after meals."/>
+            	<LineBreak/>
+            	<Run Text="Have your toddler stay on the potty or toilet for 10 minutes each time."/>
+            	<LineBreak/>
+            	<Run Text="Have your toddler keep her feet on the floor when she's on the potty. Use a foot stool if she is on the toilet."/>
+            	<LineBreak/>
+            	<Run Text="Reward your child for having a bowel movement."/>
+            	<LineBreak/>
+            	<Run Text="If anxiety about toilet training is playing a role in constipation, switch back to diapers temporarily."/>
+            	<LineBreak/>
+            	<Run Text="4. See Your Pediatrician"/>
+            	<LineBreak/>
+            	<Run Text="If symptoms continue, there is blood in the stool, or continued abdominal pain even after a bowel movement, call your pediatrician."/>
+            	<LineBreak/>
+            	<Run Text="Never give a laxative to an infant or child without talking to a pediatrician first."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="Convulsions in Children"/>
+            	<LineBreak/>
+            	<Run FontWeight="Bold" FontSize="36" FontFamily="Segoe UI Light" Text="Call ambulance if the child:"/>
+            	<LineBreak/>
+            	<Run Text="*Appears to have a seizure with uncontrolled, rapid shaking"/>
+            	<LineBreak/>
+            	<Run Text="*Has trouble breathing"/>
+            	<LineBreak/>
+            	<Run Text="*Turns blue"/>
+            	<LineBreak/>
+            	<Run Text="*Hits his head before or during a convulsion"/>
+            	<LineBreak/>
+            	<Run Text="*Is unconscious for several minutes"/>
+            	<LineBreak/>
+            	<Run Text="*Might have ingested something poisonous"/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run Text="Convulsions, also known as seizures, in babies and young children can be terrifying for parents, and to be safe you should seek emergency help. However, convulsions often don't cause serious health problems. In toddlers, fevers can often trigger convulsions."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run Text="Even if your child has had a convulsion before and your pediatrician has told you what to do, you should still call your pediatrician."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="While You're Waiting for Medical Help"/>
+            	<LineBreak/>
+            	<Run Text="If your child is breathing normally, keep your child safe:"/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run Text="Place your child on the floor on his or her side and clear away objects that are in close proximity."/>
+            	<LineBreak/>
+            	<Run Text="Loosen tight clothing surrounding the head or neck."/>
+            	<LineBreak/>
+            	<Run Text="Don't put anything in your child's mouth or try to stop the convulsion unless your pediatrician has told you what to do."/>
+            	<LineBreak/>
+            	<Run Text="If your child vomits, move him onto his side and clear out his mouth."/>
+            	<LineBreak/>
+            	<Run Text="Don't try to hold your child down or restrain his movements."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="Coughs"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call ambulance if your child:"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Is unconscious or not breathing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Is gasping for breath"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Can't cry or talk because of breathing trouble"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Grunts when breathing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Has blue lips"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*May have a small object caught in her throat"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Is breathing very fast (this is also a symptom of fever)"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Looks very sick"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Coughs in young children can be due to a number of illnesses. Most often, a cough gets better on its own and doesn't need to be a cause for concern."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Your child is younger than 1 year old and still has trouble breathing after you cleaned out her nose"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="May have a  lung infection or a reactive airways disease episode"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Has trouble breathing or is breathing very fast when not coughing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Has severe coughing attacks or continuous coughing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Is wheezing or making a high-pitched whistle sound when breathing out or in"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Can't take a deep breath because of chest pain or coughed-up blood"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Has a fever that lasts"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="1. Prevent Dehydration"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Give babies plenty of breast milk or formula."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Give older children water or juice mixed with water."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="2. Relieve Congestion"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Thin mucus in a stuffy nose with saline nose drops."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Remove mucus from a baby's nose with a suction bulb."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="3. Ease Breathing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Use a cool-mist humidifier to add moisture to the air."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Sit in the bathroom with a hot shower running and have your child breathe in the steam."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="4. Make the Child Comfortable"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Let the child rest."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Avoid irritants, such as cigarette smoke."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Don't give cough medicine to a child under age 6 unless your pediatrician suggests it."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="Hands-Only CPR for Adults"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call ambulance if a person:"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="*"/>
+            	<Run FontFamily="Segoe UI Light" Text="Collapses"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Becomes unresponsive"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="1."/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text=" Check Responsiveness"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Tap the person's shoulder and shout, &quot;Are you OK?&quot;"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Look for normal breathing. Call 911 if there is no response."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Start Hands-Only CPR."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Hands-Only CPR should not be used for adults whose cardiac arrest is due to drug overdose, near-drowning, or an unwitnessed cardiac arrest. In these cases, do a conventional CPR combination of chest compressions and rescue breathing."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Note: For hands-only CPR instructions, watch this video from the American Heart Association."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="2. "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Do Chest Compressions"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Place the heel of your hand on the center of the person's chest."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Place the heel of your other hand on top of your first hand, lacing fingers together."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Keep arms straight and your shoulders directly over your hands."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Push hard and fast, compressing chest at least 2 inches."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Let chest rise completely before pushing down again."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Compress at least 100 times per minute."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="3. "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Stop Only if:"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="The person starts breathing normally"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="A trained responder or emergency help takes over"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="You are too exhausted to continue"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="There is an automated external defibrillator (AED) to use"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="4. Use an AED as Soon as One Is Available"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Turn on the AED. It will give you step-by-step instructions."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Wipe chest dry."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Attach the pads."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Plug in connector, if needed."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Make sure no one is touching the person. Say &quot;Clear&quot; so that people know to stay back and not touch the person."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Push the &quot;Analyze&quot; button if necessary."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="If a shock is advised, push the &quot;Shock&quot; button."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Resume compressions and follow AED prompts."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="CPR for Children"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call ambulance"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="If you're alone with a child or baby who is unresponsive and not breathing (or only gasping), call 911 after you've done 2 minutes of cardiopulmonary resuscitation (CPR)."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="If someone else is present, shout for the person to call ambulance and then have him locate an AED (a defibrillator) right away while you begin CPR."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="If a child or baby is unconscious but you see regular breathing, call ambulance and wait for help. A breathing child or baby does not need CPR, but one that is not breathing or gasping does."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="For adult CPR, see Hands-Only CPR for Adults."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="This article is a guideline. It is important to learn CPR to know how to do it correctly. For more information about a CPR course, go to redcross.org or heart.org."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="1. "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Check to see if the child is conscious"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Make sure you and the child are in safe surroundings."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Tap the child gently."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Look quickly to see if the child has any injuries, bleeding, or medical problems."/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="2. "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Check breathing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Place your ear near the child's mouth and nose. Is there breath on your cheek? Is the child's chest moving?"/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="3. "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Begin chest compressions"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="If the child doesn't respond and "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="isn't breathing"/>
+            	<Run FontFamily="Segoe UI Light" Text=":"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Carefully place the child on his/her back. For a baby, be careful not to tilt the head back too far. If you suspect a neck or head injury, roll the baby over, moving his/her entire body at once."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*For a baby, place two fingers on breastbone. For a child, place heel of one hand on center of chest at nipple line. You also can push with one hand on top of the other."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*For a child, press down about 2 inches. Make sure not to press on ribs, as they are fragile and prone to fracture."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*For a baby, press down about 1 1/2 inches, about 1/3 to 1/2 the depth of chest. Make sure not to press on the end of the breastbone."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Do 30 chest compressions, at the rate of 100 per minute. Let the chest rise completely between pushes."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Check to see if the child has started breathing"/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Continue CPR until emergency help arrives."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="4. Do rescue breathing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="To open the airway, lift the child's chin up with one hand. At the same time, tilt the head back by pushing down on the forehead with the other hand. Do not tilt the head back if the child is suspected of having a neck or head injury."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="For a child, cover his mouth tightly with yours. Pinch the nose closed and give breaths."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="For a baby, cover the mouth and nose with your mouth and give breaths."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Give the child two breaths, watching for the chest to rise each time. Each breath should take one second."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text=" "/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="5. Repeat compressions and rescue breathing if the child is still not breathing"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Two breaths can be given after every 30 chest compressions. If someone else is helping you, you should give 15 compressions, then 2 breaths."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Continue this cycle of 30 compressions and 2 breaths until the child starts breathing or emergency help arrives."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="If you are alone with the child and have done 2 minutes of CPR (about 5 cycles of compressions and breathing), call ambulance and find an AED."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="6. "/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Use an AED as soon as one is available"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="For children age 9 and under, use a pediatric automated external defibrillator (AED), if available. If a pediatric AED is not available, or for children age 1 and older, use a standard AED."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Turn on the AED."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Wipe the chest dry and attach the pads."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="The AED will give you step-by-step instructions."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Continue compressions and follow AED prompts until emergency help arrives or the child starts breathing."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light"/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="Cuts or Lacerations Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="call ambulance if:"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*A cut is bleeding severely"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Blood is spurting out"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="*Bleeding can't be stopped after 10 minutes of firm and steady pressure"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="In general, a cut that needs stitches should be repaired within 6 hours of the injury. The exception is cuts to the face and scalp, which generally can be repaired up to 24 hours after the injury."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Take the following steps for minor cuts."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="1. Stop the Bleeding"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Apply direct pressure on the area."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="2. Clean and Protect"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Clean the area with warm water and gentle soap."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Apply an antibiotic ointment to reduce chance of infection."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="Put a sterile bandage on the area. In some people, antibiotic ointments may cause a rash. If this happens, stop using the ointment."/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="3. Call a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="Call a health care provider if:"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="The cut is deep or over a joint"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="You cannot get the cut or laceration clean"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="The injury is a deep puncture wound or the person has not had a recent (within the last 5 to 10 years) tetanus shot or booster"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="The cut is from a human or animal bite"/>
+            	<LineBreak/>
+            	<Run FontSize="36" FontFamily="Segoe UI Light" Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="For a minor cut or laceration, remove bandage after a couple of days to promote healing."/>
+            	<LineBreak/>
+            	<Run FontFamily="Segoe UI Light" Text="See a health care provider if the cut doesn't heal or shows signs of infection, including redness, swelling, pus, or excessive pain."/>
+            	<LineBreak/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run FontSize="48" FontFamily="Segoe UI Light" Text="Cyanide Poisoning Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="call ambulance if:"/>
+            	<LineBreak/>
+            	<Run Text="You are sure the person was exposed to cyanide."/>
+            	<LineBreak/>
+            	<Run Text="If you are not sure it is cyanide, call Poison Control."/>
+            	<LineBreak/>
+            	<Run Text="Treat the person as follows, depending on whether cyanide was inhaled, ingested, or absorbed through the skin:"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Treat Inhalation or Ingestion"/>
+            	<LineBreak/>
+            	<Run Text="Get the person to fresh air immediately."/>
+            	<LineBreak/>
+            	<Run Text="If you can't get away from the area where cyanide gas is, stay low to the ground."/>
+            	<LineBreak/>
+            	<Run Text="If the person has difficulty breathing or has stopped breathing, do hands-only CPR:"/>
+            	<LineBreak/>
+            	<Run Text="For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run Text="For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run Text="Do not do mouth-to-mouth resuscitation."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Treat Skin Exposure"/>
+            	<LineBreak/>
+            	<Run Text="Avoid touching a person whose skin has been exposed to cyanide; only emergency personnel with special protective clothing should have direct contact with the victim, as secondary contamination is possible."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Treat Eye Exposure"/>
+            	<LineBreak/>
+            	<Run Text="Remove the person's contact lenses or glasses."/>
+            	<LineBreak/>
+            	<Run Text="Immediately irrigate eyes with plain water for at least 10 minutes."/>
+            	<LineBreak/>
+            	<Run Text="Put contact lenses in a plastic bag for emergency personnel to dispose of."/>
+            	<LineBreak/>
+            	<Run Text="Glasses may be used after washing with soap and water."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run Text="At the hospital, the person will be treated with antidotes and oxygen."/>
+            	<LineBreak/>
+            	<Run/>
+            	<LineBreak/>
+            	<Run/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>
+

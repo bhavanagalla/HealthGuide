@@ -1,0 +1,679 @@
+﻿<common:LayoutAwarePage
+    x:Name="pageRoot"
+    x:Class="metroapp.FirstaidtipsD"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:common="using:metroapp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Style="{StaticResource LayoutRootStyle}" Opacity="0.8">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="18*"/>
+            <ColumnDefinition Width="648*"/>
+            <ColumnDefinition Width="17*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Grid.ColumnSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="First Aid Tips" Style="{StaticResource PageHeaderTextStyle}"/>
+        </Grid>
+        <Rectangle Grid.Column="1" Fill="#FFF4F4F5" Grid.Row="1" Stroke="Black" Opacity="0.3"/>
+        <ScrollViewer Grid.Column="1" Grid.Row="1">
+            <TextBlock TextWrapping="Wrap" FontFamily="Segoe UI Light" FontSize="48" Height="11189" Width="1218">
+            	<Run Text="Treating Dehydration in Adults and Children Over 12"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if person has:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Extreme thirst"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Dry skin, mouth, and mucous membranes"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Little or no urination for 12 hours or more"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Increased heart rate and breathing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Lethargy or fatigue"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Light-headedness, dizziness, or confusion"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Dehydration due to heat stroke; NOTE: Follow this link to see what to do about heat stroke."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text=" "/>
+            	<Run FontSize="36" Text="1. Replace Fluids"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For mild dehydration or while waiting for medical care for an adult with severe dehydration that is not due to heat stroke:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person should try to drink 2 quarts of fluid, such as water, juice, or sports drinks, in 2 to 4 hours. But it is better to drink small amounts of fluid often, because drinking too much fluid at once can bring on vomiting."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person should drink at least 10 glasses of liquid a day to replace lost fluids."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is elderly, fluid replacement may need to be done slowly. Consult a doctor."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is vomiting, try ice chips, popsicles, and small sips of fluid."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is recovering from diarrhea, consider that some sports drinks contain a lot of sugar, which can worsen diarrhea."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text=" "/>
+            	<Run FontSize="36" Text="2. When to Call a Doctor for Mild Dehydration"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Seek medical help if:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person's symptoms get worse or don't improve within 24 hours."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person is elderly."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="You think a prescription medication such as a diuretic caused the dehydration."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For mild dehydration, the person should rest for 24 hours and keep drinking fluids, even if symptoms improve. Fluid replacement may take up to a day and a half."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If dehydration is moderate to severe, fluids may need to be replaced intravenously (IV) in the hospital."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Treating Dehydration in Children Under 12 Years Old"/>
+            	<LineBreak/>
+            	<Run Text="call ambulance if child has:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Has extremely dry mouth or no tears  "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is lethargic"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is older and does not urinate in 12 or more hours"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Isn't alert or able to think clearly"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Passes out"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is too weak or dizzy to stand"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Call a Doctor"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="In young children, mild to moderate dehydration can happen very easily, particularly if the child has diarrhea or is vomiting. "/>
+            	<Run FontSize="36" Text="Contact your child's pediatrician if your child:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Is not drinking enough or eating enough"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Looks tired"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Has dark yellow urine or decreased urination"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Has dry mouth and eyes"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Is cranky or irritable"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Vomits more than once"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Is under 1 year old"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Replace Fluids"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For dehydration in an infant up to 1 year old:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you breast-feed, nurse more often."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you bottle feed, give your baby the usual amount of fluid, unless the baby is vomiting. If your baby is vomiting, give smaller amounts more frequently. For example, instead of 6 ounces every 4 hours, give 3 ounces every 2 hours. If she vomits more than once, call your doctor."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If your baby eats solid food, cereal, strained bananas, and mashed potatoes, also provide fluids."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give an oral rehydration solution such as Pedialyte, if possible. It replaces salt, sugar, potassium, and other nutrients. Ask your doctor what type and quantity to use."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="For mild dehydration in a child age 1 to 11:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give extra fluids in frequent, small sips, especially if the child is vomiting."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Choose clear soup, clear soda, or Pedialyte, if possible."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give popsicles, ice chips, and cereal mixed with milk for added water or fluid."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Continue a regular diet."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For mild dehydration, have your child rest for 24 hours and keep drinking fluids, even if symptoms get better. Fluid replacement may take up to a day and a half. Continue on your child's regular diet as well."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For severe dehydration, the child may need IV fluids in the hospital. If you feel that your child is not improving or is getting worse, see your doctor right away."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Diarrhea Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if the person or child: "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="*Is very dehydrated"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="*Has severe abdominal pain"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Treating Dehydration"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Ask your doctor what fluids are best for you or your child. Here are some basic tips:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  1. Give an adult plenty of clear fluid, like fruit juices, soda, sports drinks and clear broth. "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  Avoid milk or milk-based products,  alcohol, apple juice, and caffeine"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  while you have diarrhea and for 3-5 days after you get better. "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  They may make diarrhea worse."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  2. Give a child or infant frequent sips of a rehydration solution such as Pedialyte, Ceralyte, or Infalyte. "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  Do not add salt tablets to a  baby's bottle."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  3. Make sure the person drinks more fluids than they are losing through diarrhea. "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="  If they are unable to keep up with their losses, call a doctor."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Rest"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Have the person rest as needed and avoid strenuous exercise. Keep a sick child home from school or day care."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Ease Into Eating"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Feed an infant or child easily digested foods; the BRAT diet (bananas, rice, applesauce, and toast) is a good choice as soon as they can tolerate food."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For an adult, add semisolid and low-fiber foods gradually as diarrhea stops. Avoid spicy, greasy, or fatty foods."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4. When to Call a Doctor"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call right away if you suspect that you or your child is dehydrated."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call right away if an infant 3 months old or younger has vomiting or diarrhea."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you think the person needs over-the-counter diarrhea medication; some kinds of diarrhea can get worse with anti-diarrheal medications."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you think the person has traveler's diarrhea or drank contaminated water"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is taking an antibiotic that may be causing the diarrhea"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If there is blood or mucus in the stool, or the stool is black."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For any stomach pain that is not relieved by having a bowel movement"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If there is any fever."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is losing more fluid in his stool than he can replace by drinking fluids"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="5. Follow-Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Also seek medical attention if:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="You or your child has any other medical problems and has diarrhea"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Diarrhea in an adult worsens or doesn't clear up after 2 or 3 days"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="A child doesn't feel better after 24 hours"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Diarrhea Treatment in Children"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if your child: "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is not responding to touch or sounds"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Has skin that doesn't bounce back when pinched"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is breathing fast"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is confused"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Diarrhea -- frequent watery stools most often caused by a virus -- in babies and toddlers usually goes away on its own. It's important to watch your child for signs of dehydration and make sure he or she gets enough fluids."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call Doctor If:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Your baby has diarrhea and is less than 3 months old"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="You are worried that your child may be dehydrated or your child has had diarrhea for more than 24 hours."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The diarrhea contains blood, mucous, or pus."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Give Fluids"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If your child is breastfeeding, continue nursing as usual."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Your doctor may want you to give your baby small amounts of oral electrolyte solution. Check the amount with your doctor."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give toddlers oral electrolyte solution, ice chips, or clear broth. Encourage your child to take small frequent sips instead of drinking too much at once."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Offer your toddler popsicles made with oral electrolyte solution."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Don't give your child any anti-diarrhea medication unless your pediatrician tells you to."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Go Slowly"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Feed toddlers mild foods in their regular diet. Avoid spicy or fried foods."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Once the diarrhea stops, gradually return to a normal diet."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Observe Your Child"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call your pediatrician if your child's symptoms don't seem to be getting better or your child has signs of dehydration, such as crying without tears, fewer wet diapers than usual, urine that is darker than usual, or a sunken soft spot on the top of the head."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Diving Ear Pain Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Symptoms of diving ear pain (also known as barotrauma) include:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Ear pressure"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Mild to severe ear pain"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Nausea"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Reduced hearing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Ringing ear"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Vertigo"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Vomiting"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Stop the Descent"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Help the person ascend until symptoms disappear. Do not go up faster than is safe."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If ear still hurts as the person goes up or if there are other symptoms, end the dive."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For pain, give ibuprofen (Advil, Motrin) or acetaminophen (Tylenol). Avoid ibuprofen and other NSAIDs if the person has heart failure or kidney failure."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. When to See a Health Care Provider"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Seek immediate medical care if:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Pain, a feeling like there is water in the ears, or muffled hearing continues after the dive is over"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="There are symptoms of inner ear damage, such as deafness, ear ringing, or vertigo"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person has experienced ear pain when diving before"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If possible, see an ear, nose, and throat specialist with experience in treating diving-related ear problems."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="To avoid serious hearing loss or other problems, the person should not go on another dive until the pain goes away or the person sees a doctor."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Dizziness Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if the person has:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* A change in vision or speech"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Chest pain"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Shortness of breath"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Rapid, irregular, or very slow heartbeat"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Convulsions or ongoing vomiting"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Dizziness that comes after a head injury"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Double vision"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Fainting or loss of consciousness"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Fever and stiff neck"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Inability to move an arm or leg"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="*Slurred speech"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Numbness or tingling"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Treat Symptoms"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person should sit down or lie still."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person gets light-headed when standing up, the person should stand up slowly."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Avoid sudden changes in position."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is thirsty, have him or her drink fluids."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Avoid bright lights."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Call a Health Care Professional"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call a health care professional if:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="This is the first time the person has been dizzy."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The dizziness is different than before or doesn't go away quickly."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="At the health care provider's office or hospital, the next steps depend on the particular case."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The person may get oxygen or IV fluids to treat dehydration."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If blood tests reveal abnormal blood chemistry (electrolyte levels), this will be corrected."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Health care providers may start emergency treatment for heart attack or stroke, blood transfusion, or surgery."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Drowning Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if: "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Someone is drowning"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Get Help"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Notify a lifeguard, if one is close. If not, ask someone to call ambulance."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you are alone, follow the steps below."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Move the Person"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Take the person out of the water."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Check for Breathing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Place your ear next to the person's mouth and nose. Do you feel air on your cheek?"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Look to see if the person's chest is moving."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4. If the Person is Not Breathing, Check Pulse"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Check the person's pulse for 10 seconds."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="5. If There is No Pulse, Start CPR"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Carefully place person on back."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For an adult or child, place the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other. For an infant, place two fingers on the breastbone."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For an adult or child, press down about 2 inches. Make sure not to press on ribs. For an infant, press down about 1 and 1/2 inches. Make sure not to press on the end of the breastbone."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Do 30 chest compressions, at the rate of 100 per minute or more. Let the chest rise completely between pushes."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Check to see if the person has started breathing."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Note that these instructions are not meant to replace CPR training. Classes are available through the American Red Cross, local hospitals, and other organizations. "/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="6. Repeat if Person Is Still Not Breathing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you've been trained in CPR, you can now open the airway by tilting the head back and lifting the chin."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Pinch the nose of the victim closed. Take a normal breath, cover the victim's mouth with yours to create an airtight seal, and then give 2 one-second breaths as you watch for the chest to rise."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give 2 breaths followed by 30 chest compressions."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Continue this cycle of 30 compressions and 2 breaths until the person starts breathing or emergency help arrives."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Drowning in Children"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if your child:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Is having problems breathing or has stopped breathing as a result of being immersed or submerged in liquid. (Remember, children can drown in as little as one inch of water.)"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Has had a near-drowning episode"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Place two fingers on the breastbone."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Begin rapidly pressing down on the chest about 11/2 inches deep and then releasing the pressure. Make sure you're not pressing on the end of the breastbone."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Do 30 chest compressions, at the rate of 100 per minute. Let the chest rise completely between pushes."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Check to see if the baby has started breathing. (Watch to see if the chest rises and falls on its own.)"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Take the Child Out of the Water"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Get Help, if You Are Not Alone"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Starting CPR immediately is the most important thing you can do to prevent a child from dying."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you are alone, follow the steps below before stopping to call ambulance."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you are not alone, while you start the steps below, ask someone to call 911 and to notify a lifeguard, if one is close."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Check for Breathing and Responsiveness"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="See whether the child is breathing. Place your ear near the child's mouth and nose. Do you feel air on your cheek? Is the child's chest moving? (Gasping is not breathing.) While checking for breathing, you can also call the child's name to see if the child responds."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4.  If the Child Is Not Breathing, Start Rescue Breathing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="You do not need to remove water from the child's throat to start CPR."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Carefully place the child on his or her back on a firm surface."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If you suspect a neck or head injury, roll the child over by moving the entire body (head, neck, spine, and hips) together, keeping them all aligned."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Tilt the child's head back and lift the chin. If you suspect a neck injury, do not tilt the head, just open the jaw. For a baby, be careful not to tilt the head back too far."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="With an infant, place your mouth over the baby's nose and mouth to form a tight seal."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="With an older child, pinch the nose closed and put your mouth over the child's mouth, forming a tight seal."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Blow into the child's mouth for 1 second. The child's chest should rise when you do this."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Repeat the breath a second time."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="5. Begin Chest Compressions"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="For a baby"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Place two fingers on the breastbone."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Begin rapidly pressing down on the chest about 11/2 inches deep and then releasing the pressure. Make sure you're not pressing on the end of the breastbone."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Do 30 chest compressions, at the rate of 100 per minute. Let the chest rise completely between pushes."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Check to see if the baby has started breathing. (Watch to see if the chest rises and falls on its own.)"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="For a child"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Place the heel of one hand on the center of the chest in line with the nipples. You can put your other hand on top of that hand to help push."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Begin rapidly pressing down on the chest about 2 inches deep and then releasing the pressure. Make sure you're not pressing down on the child's ribs."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Do 30 chest compressions, at the rate of 100 per minute. Let the chest rise completely between pushes."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Check to see if the child has started breathing. (Watch to see if the chest rises and falls on its own.)"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="6. Repeat the Process"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give 2 breaths, followed by 30 chest compressions."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Continue this cycle of 2 breaths and 30 compressions until the child starts breathing or until emergency help arrives."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Drug Allergy Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if the person has:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Difficulty breathing or wheezing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Tightness in the throat or a feeling that the airways are closing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Hoarseness or trouble speaking"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Swollen lips, tongue, or throat"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Nausea, abdominal pain, or vomiting"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Fast heartbeat or pulse"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Anxiety or dizziness"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Loss of consciousness"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Hives and trouble breathing"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Other symptoms of a severe allergic reaction (anaphylaxis)"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Had severe reactions in the past"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. When to See a Doctor"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="See a doctor immediately for these symptoms:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="A fast-spreading painful red or blistered area on the skin"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Top layer of skin peels off in sheets without blistering"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Scalded-looking raw areas of flesh"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Discomfort"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Fever"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Condition spreading to eyes, mouth, and genitals"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call the doctor as soon as possible if the person has:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Swollen face, tongue, or lips, even without breathing difficulty or increase in swelling"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Skin rash, itching, a feeling of warmth, or hives"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="See Severe Allergic Reaction Treatment."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Stop Taking the Drug that Triggered the Reaction"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Control Itching"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For a mild reaction:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give an adult an over-the-counter antihistamine. Check with a doctor before giving an antihistamine to a child."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Use cool compresses on the area or have the person take cool showers."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Avoid strong soaps, detergents, and other chemicals."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Stay in a cool room. Have the person wear loose-fitting, lightweight clothes."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For a rash, apply calamine lotion."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call or see a doctor if home treatment doesn't help or symptoms get worse."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Talk to the doctor about an alternative medicine and what drug(s) to avoid in the future."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Serious symptoms may require a hospital stay."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run Text="Drug Overdose Treatment"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="Call ambulance if the person has: "/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Collapsed"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="* Stopped breathing"/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="1. Begin CPR, if Necessary"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="If the person is not breathing or breathing is dangerously weak:"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For a child, start CPR for children."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="For an adult, start adult CPR."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="The FDA has approved a prescription treatment that can be used by family members or caregivers to treat a person known or suspected to have had an opioid overdose. Opioids include various prescription pain medications and illicit street drugs. An overdose is characterized by slowed breathing and heart rate and a loss of consciousness. Evzio (naloxone hydrochloride injection) rapidly delivers a single dose of the drug naloxone via a hand-held auto-injector that can be carried in a pocket or stored in a medicine cabinet. Although Evzio can counter overdose effects within minutes, professional medical help is still needed. "/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="2. Contact Poison Control"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Call Poison Control even if the person has no symptoms."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Poison Control experts will advise you how to proceed."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Do not try to make the person vomit or give the person anything to eat or drink."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="3. Collect Drug or Pills"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Give drug or pills the person may have taken to the emergency team, or take them to the emergency room or doctor's office."/>
+            	<LineBreak/>
+            	<Run FontSize="36" Text="4. Follow Up"/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="At the hospital, the person's stomach may be pumped."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="Activated charcoal may be given by mouth to absorb the drug."/>
+            	<LineBreak/>
+            	<Run FontSize="24" Text="A psychiatric evaluation will be ordered if the overdose was intentional."/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            	<LineBreak/>
+            	<Run FontSize="24"/>
+            </TextBlock>
+        </ScrollViewer>
+
+        <VisualStateManager.VisualStateGroups>
+
+            <!-- Visual states reflect the application's view state -->
+            <VisualStateGroup x:Name="ApplicationViewStates">
+                <VisualState x:Name="FullScreenLandscape"/>
+                <VisualState x:Name="Filled"/>
+
+                <!-- The entire page respects the narrower 100-pixel margin convention for portrait -->
+                <VisualState x:Name="FullScreenPortrait">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource PortraitBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+
+                <!-- The back button and title have different styles when snapped -->
+                <VisualState x:Name="Snapped">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="backButton" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedBackButtonStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="pageTitle" Storyboard.TargetProperty="Style">
+                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource SnappedPageHeaderTextStyle}"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</common:LayoutAwarePage>

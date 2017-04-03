@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="metroapp.First_Aid_Tipsm2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Opacity="0.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="212*"/>
+            <ColumnDefinition Width="25*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="339*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Button Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Height="56" Style="{StaticResource BackButtonStyle}" Click="Button_Click" Grid.RowSpan="2" Grid.Row="1"/>
+        <ListBox Grid.Column="1" HorizontalAlignment="Left" Height="642" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="404">
+            <Button x:Name="Burns_Scalds_in_Children" Content="• Burns/Scalds in Children" Width="336" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF551919" Click="Burns_Scalds_in_Children_Click"/>
+            <Button x:Name="Carbon_Monoxide_Poisoning" Content="• Carbon Monoxide Poisoning" Width="336" Foreground="#FF551A1A" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Carbon_Monoxide_Poisoning_Click"/>
+            <Button x:Name="Catfish_Sting" Content="• Catfish Sting" Width="336" FontSize="22" Foreground="#FF762323" Style="{StaticResource TextPrimaryButtonStyle}" Click="Catfish_Sting_Click"/>
+            <Button x:Name="Chemical_Burns" Content="• Chemical Burns" Width="336" FontSize="22" Foreground="#FF6C1F1F" Style="{StaticResource TextPrimaryButtonStyle}" Click="Chemical_Burns_Click"/>
+            <Button x:Name="Chemical_Eye_Burn" Content="• Chemical Eye Burn" Width="336" FontSize="22" Foreground="#FF6A1D1D" Style="{StaticResource TextPrimaryButtonStyle}" Click="Chemical_Eye_Burn_Click"/>
+            <Button x:Name="Chest_Injury" Content="• Chest Injury" Width="336" Foreground="#FF5D1A1A" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Chest_Injury_Click"/>
+            <Button x:Name="___Chest_Pain" Content="• Chest Pain" Width="336" FontSize="22" Foreground="#FF702929" Style="{StaticResource TextPrimaryButtonStyle}" Click="___Chest_Pain_Click"/>
+            <Button x:Name="Chest_Pain__Angina_" Content="• Chest Pain (Angina)" Width="336" Foreground="#FF6E2121" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Chest_Pain__Angina__Click"/>
+            <Button x:Name="Choking" Content="• Choking" Width="336" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF681B1B" Click="Choking_Click"/>
+            <Button x:Name="Choking_in_Children" Content="• Choking in Children" Width="336" Foreground="#FF591E1E" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Click="Choking_in_Children_Click"/>
+            <Button x:Name="Colds_in_Children" Content="• Colds in Children" Width="336" Foreground="#FF5B2020" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Colds_in_Children_Click"/>
+            <Button x:Name="Concussion" Content="• Concussion" Width="336" Foreground="#FF662424" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Concussion_Click"/>
+            <Button x:Name="Congestion_in_Children" Content="• Congestion in Children" Width="336" FontSize="22" Foreground="#FF722828" Style="{StaticResource TextPrimaryButtonStyle}" Click="Congestion_in_Children_Click"/>
+        </ListBox>
+        <ListBox Grid.Column="2" HorizontalAlignment="Left" Height="642" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="404">
+            <Button x:Name="Constipation" Content="• Constipation" Width="338" Foreground="#FF632121" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Constipation_Click"/>
+            <Button x:Name="Convulsions_in_Children" Content="• Convulsions in Children" FontSize="22" Foreground="#FF631E1E" Style="{StaticResource TextPrimaryButtonStyle}" Click="Convulsions_in_Children_Click"/>
+            <Button x:Name="Coughs" Content="• Coughs" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF5F1E1E" Width="93" Click="Coughs_Click"/>
+            <Button x:Name="CPR_for_Adults" Content="• CPR for Adults" Foreground="#FF4F1D1D" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Width="335" Click="CPR_for_Adults_Click"/>
+            <Button x:Name="CPR_for_Children" Content="• CPR for Children" Foreground="#FF5B1616" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="CPR_for_Children_Click"/>
+            <Button x:Name="Cuts_and_Bleeding" Content="• Cuts and Bleeding" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF5B1818" Click="Cuts_and_Bleeding_Click"/>
+            <Button x:Name="Cyanide_Poisoning" Content="• Cyanide Poisoning" Foreground="#FF743131" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Click="Cyanide_Poisoning_Click"/>
+            <Button x:Name="Dehydration" Content="• Dehydration" Foreground="#FF591B1B" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Dehydration_Click"/>
+            <Button x:Name="Dehydration_in_Children" Content="• Dehydration in Children" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF762424" Click="Dehydration_in_Children_Click"/>
+            <Button x:Name="Diarrhea" Content="• Diarrhea" Foreground="#FF642424" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Diarrhea_Click"/>
+            <Button x:Name="Diving_Ear_Pain" Content="• Diving Ear Pain" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF551414" Click="Diving_Ear_Pain_Click"/>
+            <Button x:Name="Dizziness" Content="• Dizziness" Foreground="#FF6A2020" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Dizziness_Click"/>
+            <Button x:Name="Drowning" Content="• Drowning" FontSize="22" Foreground="#FF611E1E" Style="{StaticResource TextPrimaryButtonStyle}" Click="Drowning_Click"/>
+        </ListBox>
+        <ListBox Grid.Column="3" HorizontalAlignment="Left" Height="642" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="404">
+            <Button x:Name="Drug_Allergy" Content="• Drug Allergy" Foreground="#FF5B2020" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Drug_Allergy_Click"/>
+            <Button x:Name="Drug_Overdose" Content="• Drug Overdose" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF5B1F1F" Click="Drug_Overdose_Click"/>
+            <Button x:Name="Ear_Infections" Content="• Ear Infections" Foreground="#FF571B1B" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Ear_Infections_Click"/>
+            <Button x:Name="Eczema" Content="• Eczema" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF702525" Click="Eczema_Click"/>
+            <Button x:Name="Elbow_Dislocation" Content="• Elbow Dislocation" Foreground="#FF511919" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Elbow_Dislocation_Click"/>
+            <Button x:Name="Electric_Shock" Content="• Electric Shock" FontSize="22" Foreground="#FF6C2626" Style="{StaticResource TextPrimaryButtonStyle}" Click="Electric_Shock_Click"/>
+            <Button x:Name="Eye_Bleeding__Hyphema_" Content="• Eye Bleeding (Hyphema)" Foreground="#FF511414" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Eye_Bleeding__Hyphema__Click"/>
+            <Button x:Name="Eye_Burns_Corneal_Burns" Content="• Eye Burns/Corneal Burns" FontSize="22" Foreground="#FF5F2121" Style="{StaticResource TextPrimaryButtonStyle}" Click="Eye_Burns_Corneal_Burns_Click"/>
+            <Button x:Name="Eye_Injuries" Content="• Eye Injuries" Foreground="#FF632A2A" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Eye_Injuries_Click"/>
+            <Button x:Name="Eye_Sores_Corneal_Ulcers" Content="• Eye Sores/Corneal Ulcers" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF531515" Click="Eye_Sores_Corneal_Ulcers_Click"/>
+            <Button x:Name="Eyelid_Inflammation" Content="• Eyelid Inflammation" Foreground="#FF591414" Style="{StaticResource TextPrimaryButtonStyle}" FontSize="22" Click="Eyelid_Inflammation_Click"/>
+            <Button x:Name="Facial_Fracture" Content="• Facial Fracture" Foreground="#FF4D1616" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Click="Facial_Fracture_Click"/>
+            <Button x:Name="Fainting" Content="• Fainting" FontSize="22" Style="{StaticResource TextPrimaryButtonStyle}" Foreground="#FF531616" Click="Fainting_Click"/>
+        </ListBox>
+        <Button Content="Button" Grid.Column="3" HorizontalAlignment="Left" Margin="357.633,37.697,0,0" VerticalAlignment="Top" Click="Button_Click_2" Style="{StaticResource BackButtonStyle}" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="179.662"/>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="88,1,0,0" TextWrapping="Wrap" Text="First Aid Tips" VerticalAlignment="Top" Height="48" Width="377" Style="{StaticResource GroupHeaderTextStyle}" FontSize="36" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Grid.RowSpan="2"/>
+        <Button x:Name="h2" Content="" Grid.Column="2" HorizontalAlignment="Left" Margin="179,0,0,668" VerticalAlignment="Bottom" BorderThickness="0" Height="80" Width="80" Grid.RowSpan="3" Click="Button_Click_h2" RenderTransformOrigin="0.257,0.102">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/home.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="metroapp.First_Aid_Tips2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:metroapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Opacity="0.8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="315*"/>
+            <ColumnDefinition Width="315*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="339*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/image2.png"/>
+        </Grid.Background>
+        <Button x:ConnectionId='1' x:Name="b15" Content="Button" HorizontalAlignment="Left" Margin="10,4,0,0" VerticalAlignment="Top" Width="84" Style="{StaticResource BackButtonStyle}" Grid.Row="1" Grid.Column="1"                  />
+        <TextBlock HorizontalAlignment="Left" Margin="96,2,0,0" TextWrapping="Wrap" Text="First Aid Tips" VerticalAlignment="Top" Height="48" Width="377" Style="{StaticResource GroupHeaderTextStyle}" FontSize="36" Grid.Row="1" Grid.Column="1"/>
+        <Rectangle x:Name="fb1" Grid.Column="1" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="600" Margin="10,10,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="610" Opacity="0.3"/>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="600" Margin="10,10,0,0" Grid.Row="2" Stroke="Black" VerticalAlignment="Top" Width="610" Opacity="0.3"/>
+        <Button x:Name="fb2" Content="First aid for someone who's unconscious and not breathing" Grid.Column="1" HorizontalAlignment="Left" Margin="28,40,0,0" Grid.Row="2" VerticalAlignment="Top" FontSize="20" Style="{StaticResource TextButtonStyle}"/>
+        <Button x:Name="fb3" Content="First aid for a head injury" Grid.Column="1" HorizontalAlignment="Left" Margin="28,92,0,0" Grid.Row="2" VerticalAlignment="Top" Height="32" Width="540" FontSize="20" Style="{StaticResource TextButtonStyle}"/>
+        <Button x:Name="fb5" Content="First aid for poisoning and harmful substances" Grid.Column="1" HorizontalAlignment="Left" Margin="28,147,0,0" Grid.Row="2" VerticalAlignment="Top" Width="522" FontSize="20" Style="{StaticResource TextButtonStyle}" RenderTransformOrigin="0.487,-0.037"/>
+        <Button x:Name="fb4" Content="First aid for an asthma attack" HorizontalAlignment="Left" Margin="28,197,0,0" Grid.Row="2" VerticalAlignment="Top" Width="535" Grid.Column="1" FontSize="20" Style="{StaticResource TextButtonStyle}" Height="29"/>
+        <Button x:Name="fb6" Content="First aid for a diabetic emergency" Grid.Column="1" HorizontalAlignment="Left" Margin="28,248,0,0" Grid.Row="2" VerticalAlignment="Top" Width="522" Style="{StaticResource TextButtonStyle}" FontSize="20"/>
+        <Button Content="Button" Grid.Column="2" HorizontalAlignment="Left" Margin="484,615,0,0" Grid.Row="2" VerticalAlignment="Top" Style="{StaticResource TextButtonStyle}" Height="32" Width="100"/>
+
+    </Grid>
+</Page>
+

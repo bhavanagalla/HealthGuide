@@ -1,0 +1,408 @@
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\App.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\App.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Calorie Intake.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Calorie Intake.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Common\StandardStyles.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Common\StandardStyles.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dite Chat.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dite Chat.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips2.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips2.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips2.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips2.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips3.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips3.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\MainPage.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\App.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Calorie Intake.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Common\StandardStyles.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dite Chat.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips2.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips2.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Health Tips3.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\MainPage.xaml
+C:\Users\DELL\Desktop\hg\metroapp\bin\x86\Debug\metroapp.exe
+C:\Users\DELL\Desktop\hg\metroapp\bin\x86\Debug\metroapp.pdb
+C:\Users\DELL\Desktop\hg\metroapp\bin\x86\Debug\resources.pri
+C:\Users\DELL\Desktop\hg\metroapp\bin\x86\Debug\AppxManifest.xml
+C:\Users\DELL\Desktop\hg\metroapp\bin\x86\Debug\metroapp.build.appxrecipe
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\metroapp.exe
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\metroapp.pdb
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\metroapp.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\priconfig.xml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\layout.resfiles
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\resources.resfiles
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\pri.resfiles
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\LanguageQualifiers.txt
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips3.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips3.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips3.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips 4.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips 4.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\First Aid Tips 4.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforbabies.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforbabies.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforbabies.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforheight.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforheight.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietChartforPregnants.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietChartforPregnants.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DiteChartweight2.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DiteChartweight2.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Ditechartweight3.g.i.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Ditechartweight3.g.cs
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforheight.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DiteChartweight2.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\Ditechartweight3.xaml
+C:\Users\DELL\Desktop\hg\metroapp\obj\x86\Debug\DietChartforPregnants.xaml
+E:\hg\metroapp\bin\x86\Debug\metroapp.exe
+E:\hg\metroapp\bin\x86\Debug\metroapp.pdb
+E:\hg\metroapp\bin\x86\Debug\resources.pri
+E:\hg\metroapp\bin\x86\Debug\AppxManifest.xml
+E:\hg\metroapp\bin\x86\Debug\metroapp.build.appxrecipe
+E:\hg\metroapp\obj\x86\Debug\App.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\App.g.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforheight.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforheight.g.cs
+E:\hg\metroapp\obj\x86\Debug\DietChartforPregnants.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\DietChartforPregnants.g.cs
+E:\hg\metroapp\obj\x86\Debug\Calorie Intake.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Calorie Intake.g.cs
+E:\hg\metroapp\obj\x86\Debug\Common\StandardStyles.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Common\StandardStyles.g.cs
+E:\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.g.cs
+E:\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.g.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.g.cs
+E:\hg\metroapp\obj\x86\Debug\Dite Chat.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Dite Chat.g.cs
+E:\hg\metroapp\obj\x86\Debug\DiteChartweight2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\DiteChartweight2.g.cs
+E:\hg\metroapp\obj\x86\Debug\Ditechartweight3.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Ditechartweight3.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips 4.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips 4.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips2.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips3.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips3.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.g.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.g.cs
+E:\hg\metroapp\obj\x86\Debug\FirstAidTipsm5.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\FirstAidTipsm5.g.cs
+E:\hg\metroapp\obj\x86\Debug\Health Tips.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Health Tips.g.cs
+E:\hg\metroapp\obj\x86\Debug\Health Tips2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Health Tips2.g.cs
+E:\hg\metroapp\obj\x86\Debug\Health Tips3.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Health Tips3.g.cs
+E:\hg\metroapp\obj\x86\Debug\MainPage.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\MainPage.g.cs
+E:\hg\metroapp\obj\x86\Debug\XamlTypeInfo.g.cs
+E:\hg\metroapp\obj\x86\Debug\App.xaml
+E:\hg\metroapp\obj\x86\Debug\Dietchartforheight.xaml
+E:\hg\metroapp\obj\x86\Debug\DietChartforPregnants.xaml
+E:\hg\metroapp\obj\x86\Debug\Calorie Intake.xaml
+E:\hg\metroapp\obj\x86\Debug\Common\StandardStyles.xaml
+E:\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.xaml
+E:\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.xaml
+E:\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.xaml
+E:\hg\metroapp\obj\x86\Debug\Dite Chat.xaml
+E:\hg\metroapp\obj\x86\Debug\DiteChartweight2.xaml
+E:\hg\metroapp\obj\x86\Debug\Ditechartweight3.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips 4.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips2.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tips3.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.xaml
+E:\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.xaml
+E:\hg\metroapp\obj\x86\Debug\Health Tips.xaml
+E:\hg\metroapp\obj\x86\Debug\Health Tips2.xaml
+E:\hg\metroapp\obj\x86\Debug\Health Tips3.xaml
+E:\hg\metroapp\obj\x86\Debug\MainPage.xaml
+E:\hg\metroapp\obj\x86\Debug\FirstAidTipsm5.xaml
+E:\hg\metroapp\obj\x86\Debug\metroapp.exe
+E:\hg\metroapp\obj\x86\Debug\metroapp.pdb
+E:\hg\metroapp\obj\x86\Debug\metroapp.csproj.GenerateResource.Cache
+E:\hg\metroapp\obj\x86\Debug\priconfig.xml.intermediate
+E:\hg\metroapp\obj\x86\Debug\layout.resfiles.intermediate
+E:\hg\metroapp\obj\x86\Debug\resources.resfiles.intermediate
+E:\hg\metroapp\obj\x86\Debug\pri.resfiles.intermediate
+E:\hg\metroapp\obj\x86\Debug\priconfig.xml
+E:\hg\metroapp\obj\x86\Debug\layout.resfiles
+E:\hg\metroapp\obj\x86\Debug\resources.resfiles
+E:\hg\metroapp\obj\x86\Debug\pri.resfiles
+E:\hg\metroapp\obj\x86\Debug\LanguageQualifiers.txt
+E:\hg\metroapp\obj\x86\Debug\ProjectArchitectures.txt
+E:\hg\metroapp\obj\x86\Debug\ChestPaintreatment.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\ChestPaintreatment.g.cs
+E:\hg\metroapp\obj\x86\Debug\ChestPaintreatment.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsC.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsC.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsC.xaml
+E:\hg\metroapp\obj\x86\Debug\DiteChartforbabies2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\DiteChartforbabies2.g.cs
+E:\hg\metroapp\obj\x86\Debug\DiteChartforbabies2.xaml
+E:\hg\metroapp\obj\x86\Debug\Dietchartforbabies1.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforbabies1.g.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforbabies1.xaml
+E:\hg\metroapp\obj\x86\Debug\Dietchartforbabies3.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforbabies3.g.cs
+E:\hg\metroapp\obj\x86\Debug\Dietchartforbabies3.xaml
+E:\hg\metroapp\obj\x86\Debug\Firstaidtipsc2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\Firstaidtipsc2.g.cs
+E:\hg\metroapp\obj\x86\Debug\Firstaidtipsc2.xaml
+E:\hg\metroapp\obj\x86\Debug\FirstaidtipsD.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\FirstaidtipsD.g.cs
+E:\hg\metroapp\obj\x86\Debug\FirstaidtipsD.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsE.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsE.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsE.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsF.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsF.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsF.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsG1.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsG1.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsG1.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsH.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsH.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsI.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsI.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsJ.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsJ.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsI.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsJ.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsH.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsK.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsK.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsL.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsL.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsM.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsM.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsN.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsN.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsP.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsP.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsR.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsR.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsS1.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsS1.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsS2.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsS2.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsT.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsT.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsV.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsV.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsW.g.i.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsW.g.cs
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsK.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsL.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsN.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsP.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsR.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsS1.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsS2.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsT.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsV.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsW.xaml
+E:\hg\metroapp\obj\x86\Debug\firstaidtipsM.xaml
+E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\metroapp.exe
+E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\metroapp.pdb
+E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\resources.pri
+E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\AppxManifest.xml
+E:\HealthGuideApp\hg\metroapp\bin\x86\Debug\metroapp.build.appxrecipe
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\App.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\App.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\ChestPaintreatment.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\ChestPaintreatment.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforbabies1.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforbabies1.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforbabies3.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforbabies3.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforheight.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforheight.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietChartforPregnants.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietChartforPregnants.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Calorie Intake.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Calorie Intake.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Common\StandardStyles.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Common\StandardStyles.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dite Chat.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dite Chat.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DiteChartforbabies2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DiteChartforbabies2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DiteChartweight2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DiteChartweight2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Ditechartweight3.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Ditechartweight3.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips 4.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips 4.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips3.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips3.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsC.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsC.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Firstaidtipsc2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Firstaidtipsc2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\FirstaidtipsD.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\FirstaidtipsD.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsE.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsE.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsF.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsF.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsG1.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsG1.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsH.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsH.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsI.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsI.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsJ.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsJ.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsK.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsK.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsL.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsL.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsM.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsM.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\FirstAidTipsm5.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\FirstAidTipsm5.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsN.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsN.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsP.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsP.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsR.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsR.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsS1.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsS1.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsS2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsS2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsT.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsT.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsV.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsV.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsW.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsW.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips2.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips2.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips3.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips3.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\MainPage.g.i.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\MainPage.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\XamlTypeInfo.g.cs
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\App.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\ChestPaintreatment.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforbabies1.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforbabies3.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforheight.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietChartforPregnants.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Calorie Intake.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Common\StandardStyles.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietchartforkidsandTeens.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DietchartforSyndromes.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dietchartforweightloss.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Dite Chat.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DiteChartforbabies2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\DiteChartweight2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Ditechartweight3.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips 4.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tips3.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsa1.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm3.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\First Aid Tipsm4.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsC.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Firstaidtipsc2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\FirstaidtipsD.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsE.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsF.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsG1.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsH.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsI.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsJ.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsK.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsL.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsM.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\FirstAidTipsm5.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsN.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsP.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsR.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsS1.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsS2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsT.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsV.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\firstaidtipsW.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips2.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\Health Tips3.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\MainPage.xaml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\metroapp.exe
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\metroapp.pdb
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\metroapp.csproj.GenerateResource.Cache
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\priconfig.xml.intermediate
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\layout.resfiles.intermediate
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\resources.resfiles.intermediate
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\pri.resfiles.intermediate
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\priconfig.xml
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\layout.resfiles
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\resources.resfiles
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\pri.resfiles
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\LanguageQualifiers.txt
+E:\HealthGuideApp\hg\metroapp\obj\x86\Debug\ProjectArchitectures.txt
